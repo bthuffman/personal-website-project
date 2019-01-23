@@ -13,7 +13,7 @@
 		<p>My target audience is potential employers and customers.</p>
 		<h2>3. Goal:</h2>
 		<p>To gain employment with a progressive company or to attract clientele.</p>
-		<h1>Persona</h1>
+		<h2>4. Persona:</h2>
 		<p>Maya Peterson, Human Resources Manager at Urban Sourcing. Maya is 35 years old with 10 years of experience
 			looking for front-end and back-end web developers with experience in the latest web languages including HTML 5,
 			CSS 3, JavaScript ES6, MySql 5.7, PHP 7.2, Bootstrap 4, and Angular 6. She is enthusiastic and driven to hire
