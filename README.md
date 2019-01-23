@@ -1,1 +1,1 @@
-# personal-website-project
+# personal-website-project created for employers, head hunters, and human resources departments as a means to better understand Brandon Huffman as an employable asset. 
