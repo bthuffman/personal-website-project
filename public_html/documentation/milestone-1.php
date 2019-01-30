@@ -28,7 +28,7 @@
 			corresponding languages including HTML 5, CSS 3, Bootstrap 4, jQuery, Javascript, UX & UI Design, and built in
 			securities for the site. After a thorough examination of the technical prowess, style, and quality of the site,
 			Maya will have a greater understanding of my capabilities as a web developer and my suitability for various
-			positions at Urban Sourcing. he gets fruSstrated when the website has a slow upload, a design that isn't
+			positions at Urban Sourcing. She gets frustrated when the website has a slow upload, a design that isn't
 			particularly user friendly, lacks visual appeal, isn't easy to read or demonstrates inconsistencies between
 			coding styles and frameworks. If I can pass through all these filters unscathed she'll likely want to
 			check out the other projects on my github to help her make a final evaluation. </p>
@@ -50,7 +50,7 @@
 			<li>Maya visits my cnm boot camp projects at <a href="https://bootcamp-coders.cnm.edu/~bhuffman1/">https://bootcamp-coders.cnm.edu/~bhuffman1/</a></li>
 			<li>Server returns the bootcamp-coders server's index "of/~bhuffman1" page.</li>
 			<li>Maya navigates to my "personal-website-project" folder and clicks it open.</li>
-			<li>Server returns the page containing the projects contents (index "of/~bhuffman1/personal-website-project".</li>
+			<li>Server returns the page containing the projects contents (i.e. index "of/~bhuffman1/personal-website-project").</li>
 			<li>Maya clicks on the public_html folder.</li>
 			<li>Server returns the contents of the public_html folder.</li>
 			<li>Maya clicks on the documentation folder.</li>
@@ -60,6 +60,6 @@
 			<li>Maya looks around the site and plays around with it's functionality to determine it's quality and completeness.</li>
 		</ul>
 		<h3>Frequency of use:</h3>
-		<p>Maybe one or two times a day.</p>
+		<p>Anywhere from one to a dozen times in a month.</p>
 	</body>
 </html>
