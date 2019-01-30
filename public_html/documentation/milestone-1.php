@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Personal Website Project</title>
+		<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
 		<h1>Professional Website</h1>
@@ -14,7 +15,7 @@
 		<h2>3. Goal:</h2>
 		<p>To gain employment at a local business that can put my new web development skills to good use. Ideally such a business would be a software specific firm that invests in their employees with fair pay, good benefits, and a decent amount of time off. One that promotes involvement in the local tech community would also be a big plus.</p>
 		<h2>4. Persona:</h2>
-		<img src="maya-peterson.jpeg">
+		<img src="maya-peterson.jpeg" alt="picture of Maya Peterson">
 		<p>Maya Peterson, Human Resources Manager at Urban Sourcing uses the chrome browser on both an I-phone 8 Plus and
 			an Intel Core i7-8550U laptop with 12 GB of ram
 			running windows on a 64-bit Operating System. Maya is 35 years old with 10 years of experience
