@@ -19,7 +19,7 @@
 		One of these skills will be coding languages.</p>
 		<p><strong>Experience:</strong> This section will detail the most pertinent job and educational experiences that
 		expand my abilities into the field of software development. This is meant to highlight only a few so I might attach
-		a link to my full resume here. I would like to have the logo of the companies I worked for here which when clicked
+		a link toa pdf of my resume here. I would like to have the logo of the companies I worked for here which when clicked
 		opens up a new tab with their homepage. </p>
 		<p><strong>Contact Me:</strong>This section will contain a standard and secure contact form followed by the footer
 			which will contain my email address, additional links to my github and linkedIn. </p>
