@@ -17,12 +17,12 @@
 		US lakes.</p>
 		<p><strong>About Me:</strong> This will contain a short heading like "Create. Augment. Repeat." followed by a
 		paragraph briefly showcasing my strengths, personality, and aspirations. </p>
-		<p><strong>Skills:</strong> an overview of a few of my top skills that highlight my ability to achieve in the software
+		<p><strong>Skills:</strong> an overview of a few of my top skills that highlight my ability to succeed in the software
 			development industry. Each skill will have a heading followed by short description detailing them.
 		One of these skills will be coding languages and I will rate my proficiencies with various languages in a format that is
 			easily readable at a glance.</p>
 		<p><strong>Experience:</strong> This section will detail the most pertinent job and educational experiences that
-		expand my abilities into the field of software development. This is meant to highlight only a few so I might attach
+		relate to software development. This is meant to highlight only a few so I might attach
 		a link to a pdf of my resume here. I would like to have the logo of the companies I worked for here which when clicked
 		opens up a new tab with their homepage. I am also considering making this field more like a cover flow. This means
 			that the user could click left and right arrows in order to scroll through the covers each of which would
@@ -30,7 +30,7 @@
 		<p><strong>Contact Me:</strong>This section will contain a standard and secure contact form followed by the footer
 			which will contain a link to my email address, github and linkedIn. </p>
 		<h2>Wireframes</h2>
-		<p>This site will be build following a mobile first strategy and will be fully responsive on both small and
+		<p>This site will be built following a mobile first strategy and will be fully responsive on both small and
 		large screens. The following wireframes were created on <a href="http://balsamiq.com">https:balsamiq.com</a>.</p>
 		<h3>Mobile Wireframe</h3>
 		<img src="mobile-wireframe.png" alt="mobile version of wireframe"/>
