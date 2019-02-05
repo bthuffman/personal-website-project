@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Personal Website Project</title>
-		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="milestone-1-style.css">
 	</head>
 	<body>
 		<h1>Professional Website</h1>
