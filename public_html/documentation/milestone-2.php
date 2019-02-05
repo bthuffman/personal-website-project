@@ -17,7 +17,7 @@
 		US lakes.</p>
 		<p><strong>About Me:</strong> This will contain a short heading like "Create. Augment. Repeat." followed by a
 		paragraph briefly showcasing my strengths, personality, and aspirations. </p>
-		<p><strong>Skills:</strong> an overview of a few of my top skills that highlight my ability to succeed in the software
+		<p><strong>Skills:</strong> An overview of a few of my top skills that highlight my ability to succeed in the software
 			development industry. Each skill will have a heading followed by short description detailing them.
 		One of these skills will be coding languages and I will rate my proficiencies with various languages in a format that is
 			easily readable at a glance.</p>
