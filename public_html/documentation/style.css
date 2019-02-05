@@ -2,3 +2,7 @@ img {
 	width: 20%;
 	height: 15%
 }
+body {
+	background-color: red;
+	font-family: "Times New Roman", "arial", "Courier New";
+}
