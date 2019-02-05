@@ -3,6 +3,7 @@
 	<head>
 	<meta charset="UTF-8">
 	<title>Personal Website Project: Milestone 2a</title>
+	<link rel="stylesheet" href="milestone-2-style.css">
 	</head>
 	<body>
 		<h1>Content Strategy</h1>
