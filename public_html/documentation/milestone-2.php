@@ -23,10 +23,10 @@
 		opens up a new tab with their homepage. </p>
 		<p><strong>Contact Me:</strong>This section will contain a standard and secure contact form followed by the footer
 			which will contain my email address, additional links to my github and linkedIn. </p>
-		<h1>Wireframes</h1>
-		<p>Desktop Wireframe</p>
+		<h2>Wireframes</h2>
+		<h3>Desktop Wireframe</h3>
 		<img src="desktop-wireframe.png" alt="desktop version of wireframe"/>
-		<p>Mobile Wireframe</p>
+		<h3>Mobile Wireframe</h3>
 		<img src="mobile-wireframe.png" alt="mobile version of wireframe"/>
 
 	</body>
