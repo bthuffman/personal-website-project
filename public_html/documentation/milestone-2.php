@@ -21,7 +21,7 @@
 			development industry. Each skill will have a heading followed by short description detailing them.
 		One of these skills will be coding languages and I will rate my proficiencies with various languages in a format that is
 			easily readable at a glance.</p>
-		<p><strong>Experience:</strong> This section will detail the most pertinent job and educational experiences that
+		<p><strong>Experience:</strong> This section will detail my most pertinent job and educational experiences that
 		relate to software development. This is meant to highlight only a few so I might attach
 		a link to a pdf of my resume here. I would like to have the logo of the companies I worked for here which when clicked
 		opens up a new tab with their homepage. I am also considering making this field more like a cover flow. This means
