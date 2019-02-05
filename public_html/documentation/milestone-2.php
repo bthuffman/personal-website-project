@@ -10,7 +10,7 @@
 		<p>My Professional Website Project will consist of one page with the following sections:</p>
 		<p><Strong>Navigation:</Strong> This bar will include my name and a nav selection to the other sections which
 		collapses into a hamburger button when the viewport shrinks. I would like this navigation bar to be fixed and
-		follow the user as they scroll down the page. </p>
+		follow the user as they scroll down the page on desktop sized viewports. </p>
 		<p><strong>Introduction:</strong>  This section will contain some stylized text including a short welcome, my name,
 			career goals (web developer | web designer), a link to my contact me section (see description below) and links
 		to my github and linked in. There will also be a large background image of Lake Tahoe or one of my other favorite
@@ -25,7 +25,7 @@
 		expand my abilities into the field of software development. This is meant to highlight only a few so I might attach
 		a link to a pdf of my resume here. I would like to have the logo of the companies I worked for here which when clicked
 		opens up a new tab with their homepage. I am also considering making this field more like a cover flow. This means
-			that hte user could click left and right arrows in order to scroll through the covers each of which would
+			that the user could click left and right arrows in order to scroll through the covers each of which would
 			detail one of my many previous jobs and educational experiences. </p>
 		<p><strong>Contact Me:</strong>This section will contain a standard and secure contact form followed by the footer
 			which will contain a link to my email address, github and linkedIn. </p>
