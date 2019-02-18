@@ -21,10 +21,10 @@
 </html>
 <body>
 	<!--------------------------------------------------------------------------------------------------Navigation Bar-->
-	<div class="container mt-3">
-		<nav class="navbar navbar-expand-md navbar-light bg-light">
+	<nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+		<div class="container-fluid mt-3">
 			<a class="navbar-brand">Brandon Huffman</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse_target" aria-controls="collapse_target" aria-expanded="false" aria-label="Toggle navigation">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse_target">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<!--<span class="navbar-text"></span>-->
@@ -50,6 +50,24 @@
 					</li>
 				</ul>
 			</div>
-		</nav>
+		</div>
+	</nav>
+	<!-------------------------------------------------------------------------------------------------------Jumbotron-->
+	<div class="container-fluid">
+		<div class="jumbotron mt-5 mb-5">
+			<div class="d-flex justify-content-center">
+				<h1>Brandon Huffman</h1>
+			</div>
+			<div class="d-flex justify-content-center">
+				<h2>Web Developer | Web Designer</h2>
+			</div>
+			<div class="d-flex justify-content-center">
+				<h2>Contact Me</h2>
+			</div>
+			<div class="d-flex justify-content-center">
+				<img alt="link to GitHub"/>
+				<img alt="link to Linkedin"/>
+			</div>
+		</div>
 	</div>
 </body>
