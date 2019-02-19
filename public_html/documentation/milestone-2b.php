@@ -6,15 +6,15 @@
 		<title>Who is Brandon Huffman</title>
 		<!-- Font Awesome -->
 <!--		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">-->
-		<!-- Bootstrap core CSS -->
+		<!-- Bootstrap core CSS-->
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet">
 		<!-- Material Design Bootstrap -->
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.3/css/mdb.min.css" rel="stylesheet">
-		<!--------------------------------------------------------------------------------------------My CSS------------->
+		<!--My CSS-->
 		  <link rel="stylesheet" href="milestone-2b-style.css">
-		<!--------------------------------------------------------------------------------------------Font Awesome CSS--->
+		<!--Font Awesome CSS-->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-		<!--------------------------------------------------------------------------------------------Bootstrap Scripts-->
+		<!--Bootstrap Scripts-->
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 				  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
 				  crossorigin="anonymous"></script>
@@ -35,8 +35,7 @@
 	</head>
 </html>
 <body>
-	<!--------------------------------------------------------------------------------------------------Navigation Bar-->
-<section>
+	<!--Navigation Bar-->
 	<div class="first-cover-background">
 	<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark transparent-navigation">
 		<div class="container-fluid mt-1 ">
@@ -67,9 +66,7 @@
 			</div>
 		</div>
 	</nav>
-</section>
-	<!-------------------------------------------------------------------------------------------------------Jumbotron-->
-	<section>
+	<!--Jumbotron-->
 	<div class="container-fluid">
 		<div class="jumbotron mt-5 mb-5">
 			<div class="empty col-12 mt-5 mb-5">This will be invisible</div>
@@ -90,9 +87,8 @@
 			<div class="empty col-12 mt-5 mb-3">This will be invisible</div>
 		</div>
 	</div>
-	</section>
-	<!-------------------------------------------------------------------------------------------------------Tag Line-->
-	<section>
+	</div>
+	<!--Tag Line-->
 	<div class="empty col-12 mt-4">This will be invisible</div>
 	<h2 class="mt-5 mb-4 text-center">Create. Augment. Repeat </h2>
 	<div class="card p-3">
@@ -100,10 +96,8 @@
 			<div class="col-8 mb-4">I'm Brandon Huffman, a Web Developer whose versatile background gives me the skills I need to hit the ground running in the software industry. I love solving problems with my team by constructing the infrastructure and software that helps people reach their goals and better their lives. Whether it be creating a non-profit organizations from the ground up, developing highly competitive athletes, preparing financials for small businesses or building unique websites and databases I was born to create opportunities and solutions.</div>
 			<div class="empty col-12 mt-4">This will be invisible</div>
 		</div>
-		</div>
-	</section>
-	<!-------------------------------------------------------------------------------------------------------Skills-->
-	<section>
+	</div>
+	<!--Skills-->
 		<h2 class="mt-3 mb-4 text-center">Skills </h2>
 		<div class="row mx-auto d-flex justify-content-center">
 			<div class="col-10 col-sm-6 col-md-5 col-lg-3">
@@ -139,11 +133,8 @@
 					</div>
 				</div>
 			</div>
-			<div class="empty col-12 mt-4">This will be invisible</div>
 		</div>
-	</section>
-	<!-------------------------------------------------------------------------------------------------------Portfolio-->
-	<section>
+	<!-Portfolio-->
 	<div class="card p-3 bg-primary">
 		<div class="row align-items-center">
 			<div class="mt-5 mb-5 text-center col-12">
@@ -167,14 +158,10 @@
 			<div class="col-0 col-md-1"></div>
 		</div>
 	</div>
-	</section>
-	<!-----------------------------------------------------------------------------------------------------Contact Me->
-	<section>
-	</section>
-	<!--------------------------------------------------------------------------------------------------------Footer----->
-	<section>
+	<!--Contact Me-->
+
+	<!--Footer-->
 	<div class="footer-copyright text-center py-3 bg-dark text-light">© 2019 Copyright:
 		<a href="https://bootcamp-coders/~bhuffman1/"> designb;.com</a>
 	</div>
-	</section>
 </body>

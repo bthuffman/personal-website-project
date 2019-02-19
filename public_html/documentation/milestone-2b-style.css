@@ -1,7 +1,7 @@
 /*GLOBAL STYLES
 ***********************************************************************/
-.card {
-	border: none;
+* {
+	box-shadow: none !important;
 }
 
 /*NAVIGATION BAR
@@ -37,8 +37,8 @@ a {
 }
 
 /*.fab {*/
-	/*font-size: 10rem;*/
-	/*margin-right: 3rem;*/
+/*font-size: 10rem;*/
+/*margin-right: 3rem;*/
 /*}*/
 
 .first-cover-background {
