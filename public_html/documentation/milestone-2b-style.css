@@ -1,8 +1,33 @@
-/*html {*/
-	/*font-size: 100px;*/
-	/*background-image: url(/desktop-wireframe.png);*/
-	/*background-size: 300px 100px, cover;*/
-/*}*/
+/*NAVIGATION BAR
+***********************************************************************/
+.transparent-navigation {
+	opacity: 0.5;
+}
+
+/*Cover Styles
+***********************************************************************/
+.nav-link,
+.navbar-brand
+{
+	color: aqua !important;
+}
+.nav-link:hover,
+.navbar-brand:hover
+{
+	color: #41fa53 !important;
+}
+
+
+.empty {
+	visibility: hidden;
+}
+
 .first-cover-background {
-	background: url(desktop-wireframe.png) no-repeat center center /cover;
+	background: url(lake-tahoe.jpg) no-repeat center center /cover;
+	display: flex;
+
+}
+
+.jumbotron {
+	background: none;
 }

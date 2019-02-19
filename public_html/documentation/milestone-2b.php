@@ -22,19 +22,18 @@
 </html>
 <body>
 	<!--------------------------------------------------------------------------------------------------Navigation Bar-->
-	<nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
-		<div class="container-fluid mt-3">
-			<a class="navbar-brand">Brandon Huffman</a>
+	<div class="first-cover-background">
+	<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark transparent-navigation">
+		<div class="container-fluid mt-3 ">
+			<a class="navbar-brand">Links to Social Media? Logo?</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse_target">
 				<span class="navbar-toggler-icon"></span>
 			</button>
-			<!--<span class="navbar-text"></span>-->
 			<div class="collapse navbar-collapse" id="collapse_target">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item active">
-						<a class="nav-link waves-effect waves-dark" href="#">About Me</a>
+					<li class="nav-item">
+						<a class="nav-link" href="#">About Me</a>
 					</li>
-				</ul>
 				<ul class="navbar-nav">
 					<li class="nav-item">
 						<a class="nav-link waves-effect waves-light" href="#">Skills</a>
@@ -42,12 +41,12 @@
 				</ul>
 				<ul class="navbar-nav">
 					<li class="nav-item">
-						<a class="nav-link waves-effect waves-light" href="#">Portfolio</a>
+						<a class="nav-link" href="#">Portfolio</a>
 					</li>
 				</ul>
 				<ul class="navbar-nav">
 					<li class="nav-item">
-						<a class="nav-link waves-effect waves-light" href="#">Contact Me</a>
+						<a class="nav-link" href="#">Contact Me</a>
 					</li>
 				</ul>
 			</div>
@@ -55,7 +54,8 @@
 	</nav>
 	<!-------------------------------------------------------------------------------------------------------Jumbotron-->
 	<div class="container-fluid">
-		<div class="jumbotron mt-5 mb-5 first-cover-background">
+		<div class="jumbotron mt-5 mb-5">
+			<div class="empty mt-5 mb-5">This will be invisible</div>
 			<div class="d-flex justify-content-center">
 				<h1>Brandon Huffman</h1>
 			</div>
@@ -66,9 +66,11 @@
 				<h2>Contact Me</h2>
 			</div>
 			<div class="d-flex justify-content-center">
-				<img alt="link to GitHub"/>
+				<img href=""alt="link to GitHub"/>
 				<img alt="link to Linkedin"/>
 			</div>
+			<div class="empty mt-5 mb-5">This will be invisible</div>
 		</div>
+	</div>
 	</div>
 </body>
