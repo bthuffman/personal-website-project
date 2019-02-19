@@ -69,11 +69,46 @@
 				<h2>Contact Me</h2>
 			</div>
 			<div class="d-flex justify-content-center">
-				<i class="fab fa-linkedin"></i>
-				<i class="fab fa-github"></i>
+				<i class="fab fa-linkedin mr-2 h1"></i>
+				<i class="fab fa-github h1 ml-2"></i>
 			</div>
 			<div class="empty mt-5 mb-5">This will be invisible</div>
 		</div>
 	</div>
+	</div>
+	<!-------------------------------------------------------------------------------------------------------Skills-->
+	<div class="container">
+		<div class="row mx-auto d-flex justify-content-center">
+			<div class="col-10 col-sm-6 col-md-5 col-lg-3">
+				<div class="card border-0">
+					<div class="card-block">
+						<img class="img-fluid rounded-circle m-3 d-flex justify-content-center" src="images/cup-of-tea.jpg" alt="this is image">
+						<div class="card-text m-3 text-center border">"Would you like a 'ot cup o' tea?" Squirrel beefeater conkers grub's up blighty full English breakast, down the local and thus Bad Wolf absolute scrumpy had a barney with the inlaws bossy britches done up like a kipper, the fuzz have a bash middle class upper class copped a bollocking posh nosh.</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-10 col-sm-6 col-md-5 col-lg-3">
+				<div class="card border-0">
+					<div class="card-block">
+						<img class="img-fluid rounded-circle m-3 d-flex justify-content-center" src="images/phone-box.jpg" alt="this is image">
+						<div class="card-text m-3 text-center border">"Need to tele ya folks?" Gallivanting around off t'shop easy peasy porky-pies throw a spanner in the works Sonic Screwdriver lost her marbles, accordingly whizz slappers Shakespeare it's nicked fork out, golly down the village green copped a bollocking snotty nosed brat I bid you good day. </div>
+					</div>
+				</div>
+			</div>
+			<div class="col-10 col-sm-6 col-md-5 col-lg-3 ">
+				<div class="card border-0">
+					<div class="card-block">
+						<img class="img-fluid rounded-circle m-3 d-flex justify-content-center" src="images/bus.jpg" alt="this is image">
+						<div class="card-text m-3 text-center border">"Wanna hitch a ride?" Chips air one's dirty linen drizzle a fiver what a mug anorak, terribly numpty The Hounds of Baskerville pikey. </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-------------------------------------------------------------------------------------------------------Experience and Education-->
+	<!-------------------------------------------------------------------------------------------------------Contact Me-->
+	<!-------------------------------------------------------------------------------------------------------Footer-->
+	<div class="footer-copyright text-center py-3 bg-dark text-light">© 2019 Copyright:
+		<a href="https://bootcamp-coders/~bhuffman1/"> WhatItMeansToBeBritish.com</a>
 	</div>
 </body>

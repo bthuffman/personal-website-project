@@ -1,11 +1,5 @@
 /*NAVIGATION BAR
 ***********************************************************************/
-.transparent-navigation {
-	opacity: 0.5;
-}
-
-/*Cover Styles
-***********************************************************************/
 .nav-link,
 .navbar-brand
 {
@@ -17,15 +11,24 @@
 	color: #41fa53 !important;
 }
 
+.transparent-navigation {
+	opacity: 0.5;
+}
 
+/*Cover Styles
+***********************************************************************/
 .empty {
 	visibility: hidden;
 }
 
+/*.fab {*/
+	/*font-size: 10rem;*/
+	/*margin-right: 3rem;*/
+/*}*/
+
 .first-cover-background {
 	background: url(lake-tahoe.jpg) no-repeat center center /cover;
 	display: flex;
-
 }
 
 .jumbotron {
