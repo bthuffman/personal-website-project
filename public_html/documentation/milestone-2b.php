@@ -93,7 +93,7 @@
 	<h2 class="mt-5 mb-4 text-center">Create. Augment. Repeat </h2>
 	<div class="card p-3">
 		<div class="row d-flex text-center justify-content-center">
-			<div class="col-8 mb-4">I'm Brandon Huffman, a Web Developer whose versatile background gives me the skills I need to hit the ground running in the software industry. I love solving problems with my team by constructing the infrastructure and software that helps people reach their goals and better their lives. Whether it be creating a non-profit organizations from the ground up, developing highly competitive athletes, preparing financials for small businesses or building unique websites and databases I was born to create opportunities and solutions.</div>
+			<div class="col-8 mb-4">I'm Brandon Huffman, a Web Developer whose versatile background gives me the skills I need to hit the ground running in the software industry. Whether it be from creating non-profit organizations from the ground up, developing highly competitive athletes, bookkeeping for small businesses or building unique websites and databases, my experience has become a tangible asset. I love solving problems with my team, constructing the solutions and software needed to help people reach their goals and better their lives.</div>
 			<div class="empty col-12 mt-4">This will be invisible</div>
 		</div>
 	</div>
