@@ -4,9 +4,12 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<title>Who is Brandon Huffman</title>
-		<!--------------------------------------------------------------------------------------------Bootstrap CSS------>
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-				integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+		<!-- Font Awesome -->
+<!--		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">-->
+		<!-- Bootstrap core CSS -->
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet">
+		<!-- Material Design Bootstrap -->
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.3/css/mdb.min.css" rel="stylesheet">
 		<!--------------------------------------------------------------------------------------------My CSS------------->
 		  <link rel="stylesheet" href="milestone-2b-style.css">
 		<!--------------------------------------------------------------------------------------------Font Awesome CSS--->
@@ -21,6 +24,14 @@
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
 				  integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
 				  crossorigin="anonymous"></script>
+		<!-- JQuery -->
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<!-- Bootstrap tooltips -->
+<!--		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>-->
+		<!-- Bootstrap core JavaScript -->
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.min.js"></script>
+		<!-- MDB core JavaScript -->
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.3/js/mdb.min.js"></script>
 	</head>
 </html>
 <body>
@@ -35,21 +46,21 @@
 			<div class="collapse navbar-collapse" id="collapse_target">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item">
-						<a class="nav-link" href="#">About Me</a>
+						<a type="button" class="btn btn-primary mx-1" href="#">About Me</a>
 					</li>
 				<ul class="navbar-nav">
 					<li class="nav-item">
-						<a class="nav-link waves-effect waves-light" href="#">Skills</a>
-					</li>
-				</ul>
-				<ul class="navbar-nav">
-					<li class="nav-item">
-						<a class="nav-link" href="#">Portfolio</a>
+						<a type="button" class="btn btn-primary mx-1" href="#">Skills</a>
 					</li>
 				</ul>
 				<ul class="navbar-nav">
 					<li class="nav-item">
-						<a class="nav-link" href="#">Contact Me</a>
+						<a type="button" class="btn btn-primary mx-1" href="#">Portfolio</a>
+					</li>
+				</ul>
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a type="button" class="btn btn-primary mx-1" href="#">Contact Me</a>
 					</li>
 				</ul>
 			</div>
@@ -105,7 +116,7 @@
 			</div>
 		</div>
 	</div>
-	<!-------------------------------------------------------------------------------------------------------Experience and Education-->
+	<!-------------------------------------------------------------------------------------------------------Portfolio-->
 	<!-------------------------------------------------------------------------------------------------------Contact Me-->
 	<!-------------------------------------------------------------------------------------------------------Footer-->
 	<div class="footer-copyright text-center py-3 bg-dark text-light">© 2019 Copyright:
