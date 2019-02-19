@@ -39,7 +39,7 @@
 	<div class="first-cover-background">
 	<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark transparent-navigation">
 		<div class="container-fluid mt-3 ">
-			<img class="image-fluid" src="design-b;-transparent.png" alt="this is my personal logo"/>
+			<img class="image-fluid logo-image" src="design-b;-transparent-2.png" alt="this is my personal logo"/>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse_target">
 				<span class="navbar-toggler-icon"></span>
 			</button>

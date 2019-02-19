@@ -1,5 +1,10 @@
 /*NAVIGATION BAR
 ***********************************************************************/
+.logo-image {
+	width: 12rem;
+	height: 6rem;
+}
+
 .nav-link,
 .navbar-brand
 {
@@ -12,7 +17,7 @@
 }
 
 .transparent-navigation {
-	opacity: 0.75;
+	opacity: 0.9;
 }
 
 /*Cover Styles
