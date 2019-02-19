@@ -36,6 +36,7 @@
 </html>
 <body>
 	<!--------------------------------------------------------------------------------------------------Navigation Bar-->
+<section>
 	<div class="first-cover-background">
 	<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark transparent-navigation">
 		<div class="container-fluid mt-1 ">
@@ -66,11 +67,13 @@
 			</div>
 		</div>
 	</nav>
+</section>
 	<!-------------------------------------------------------------------------------------------------------Jumbotron-->
+	<section>
 	<div class="container-fluid">
 		<div class="jumbotron mt-5 mb-5">
-			<div class="empty mt-5 mb-5">This will be invisible</div>
-			<div class="empty mt-4 mb-3">This will be invisible</div>
+			<div class="empty col-12 mt-5 mb-5">This will be invisible</div>
+			<div class="empty col-12 mt-4 mb-3">This will be invisible</div>
 			<div class="d-flex justify-content-center">
 				<h1>Brandon Huffman</h1>
 			</div>
@@ -84,26 +87,30 @@
 				<a type="link" href="https://www.linkedin.com/in/brandon-huffman-33686527/"><i class="fab fa-linkedin mr-2 h1"></i></a>
 				<a type="link" href="https://github.com/bthuffman"><i class="fab fa-github h1 ml-2"></i></a>
 			</div>
-			<div class="empty mt-5 mb-3">This will be invisible</div>
+			<div class="empty col-12 mt-5 mb-3">This will be invisible</div>
 		</div>
 	</div>
-	</div>
+	</section>
 	<!-------------------------------------------------------------------------------------------------------Tag Line-->
-	<h2 class="mt-5 mb-3 text-center">Create. Augment. Repeat </h2>
-	<div class="card p-3 bg-primary">
-		<div class="row align-items-center">
-			<div class="col-12 mb-5">I'm Brandon Huffman, a Web Developer whose versatile background gives me the skills I need to hit the ground running in the software industry. I love solving problems with my team by constructing the infrastructure and software that helps people reach their goals and better their lives. Whether it be creating a non-profit organizations from the ground up, developing highly competitive athletes, preparing financials for small businesses or building unique websites and databases I was born to create opportunities and solutions.</div>
-			<div class="col-0 col-md-1"></div>
+	<section>
+	<div class="empty col-12 mt-4">This will be invisible</div>
+	<h2 class="mt-5 mb-4 text-center">Create. Augment. Repeat </h2>
+	<div class="card p-3">
+		<div class="row d-flex text-center justify-content-center">
+			<div class="col-8 mb-4">I'm Brandon Huffman, a Web Developer whose versatile background gives me the skills I need to hit the ground running in the software industry. I love solving problems with my team by constructing the infrastructure and software that helps people reach their goals and better their lives. Whether it be creating a non-profit organizations from the ground up, developing highly competitive athletes, preparing financials for small businesses or building unique websites and databases I was born to create opportunities and solutions.</div>
+			<div class="empty col-12 mt-4">This will be invisible</div>
 		</div>
-	</div>
+		</div>
+	</section>
 	<!-------------------------------------------------------------------------------------------------------Skills-->
-		<h2 class="mt-5 mb-3 text-center">Skills </h2>
+	<section>
+		<h2 class="mt-3 mb-4 text-center">Skills </h2>
 		<div class="row mx-auto d-flex justify-content-center">
 			<div class="col-10 col-sm-6 col-md-5 col-lg-3">
-				<div class="card border-0">
-					<div class="card-block">
+				<div class="card">
+					<div class="card-block mb-5">
 						<img class="img-fluid rounded-circle m-3 d-flex justify-content-center" src="images/cup-of-tea.jpg" alt="this is image">
-						<div class="card-text m-3 text-center border">
+						<div class="card-text m-3 mb-5 text-center">
 							<h3>Detail Oriented</h3>
 							<p>Description of skills Description of skills Description of skills Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills.</p>
 						</div>
@@ -112,9 +119,9 @@
 			</div>
 			<div class="col-10 col-sm-6 col-md-5 col-lg-3">
 				<div class="card border-0">
-					<div class="card-block">
+					<div class="card-block mb-5">
 						<img class="img-fluid rounded-circle m-3 d-flex justify-content-center" src="images/phone-box.jpg" alt="this is image">
-						<div class="card-text m-3 text-center border">
+						<div class="card-text m-3 mb-5 text-center">
 							<h3>Analytical</h3>
 							<p>Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills.</p>
 						</div>
@@ -123,17 +130,20 @@
 			</div>
 			<div class="col-10 col-sm-6 col-md-5 col-lg-3 ">
 				<div class="card border-0">
-					<div class="card-block">
+					<div class="card-block mb-5">
 						<img class="img-fluid rounded-circle m-3 d-flex justify-content-center" src="images/bus.jpg" alt="this is image">
-						<div class="card-text m-3 text-center border">
+						<div class="card-text m-3 mb-5 text-center">
 							<h3>Web Development</h3>
 							<p>Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills.</p>
 						</div>
 					</div>
 				</div>
 			</div>
+			<div class="empty col-12 mt-4">This will be invisible</div>
 		</div>
+	</section>
 	<!-------------------------------------------------------------------------------------------------------Portfolio-->
+	<section>
 	<div class="card p-3 bg-primary">
 		<div class="row align-items-center">
 			<div class="mt-5 mb-5 text-center col-12">
@@ -157,9 +167,14 @@
 			<div class="col-0 col-md-1"></div>
 		</div>
 	</div>
-	<!-------------------------------------------------------------------------------------------------------Contact Me->
-	<!-------------------------------------------------------------------------------------------------------Footer----->
+	</section>
+	<!-----------------------------------------------------------------------------------------------------Contact Me->
+	<section>
+	</section>
+	<!--------------------------------------------------------------------------------------------------------Footer----->
+	<section>
 	<div class="footer-copyright text-center py-3 bg-dark text-light">© 2019 Copyright:
 		<a href="https://bootcamp-coders/~bhuffman1/"> designb;.com</a>
 	</div>
+	</section>
 </body>
