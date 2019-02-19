@@ -38,8 +38,8 @@
 	<!--------------------------------------------------------------------------------------------------Navigation Bar-->
 	<div class="first-cover-background">
 	<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark transparent-navigation">
-		<div class="container-fluid mt-3 ">
-			<img class="image-fluid logo-image" src="design-b;-transparent-2.png" alt="this is my personal logo"/>
+		<div class="container-fluid mt-1 ">
+			<img class="image-fluid logo-image" src="design-b;-transparent-2-black.png" alt="this is my personal logo"/>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse_target">
 				<span class="navbar-toggler-icon"></span>
 			</button>
@@ -70,6 +70,7 @@
 	<div class="container-fluid">
 		<div class="jumbotron mt-5 mb-5">
 			<div class="empty mt-5 mb-5">This will be invisible</div>
+			<div class="empty mt-4 mb-3">This will be invisible</div>
 			<div class="d-flex justify-content-center">
 				<h1>Brandon Huffman</h1>
 			</div>
@@ -80,21 +81,32 @@
 				<h2>Contact Me</h2>
 			</div>
 			<div class="d-flex justify-content-center">
-				<i class="fab fa-linkedin mr-2 h1"></i>
-				<i class="fab fa-github h1 ml-2"></i>
+				<a type="link" href="https://www.linkedin.com/in/brandon-huffman-33686527/"><i class="fab fa-linkedin mr-2 h1"></i></a>
+				<a type="link" href="https://github.com/bthuffman"><i class="fab fa-github h1 ml-2"></i></a>
 			</div>
-			<div class="empty mt-5 mb-5">This will be invisible</div>
+			<div class="empty mt-5 mb-3">This will be invisible</div>
 		</div>
 	</div>
 	</div>
+	<!-------------------------------------------------------------------------------------------------------Tag Line-->
+	<h2 class="mt-5 mb-3 text-center">Create. Augment. Repeat </h2>
+	<div class="card p-3 bg-primary">
+		<div class="row align-items-center">
+			<div class="col-12 mb-5">I'm Brandon Huffman, a Web Developer whose versatile background gives me the skills I need to hit the ground running in the software industry. I love solving problems with my team by constructing the infrastructure and software that helps people reach their goals and better their lives. Whether it be creating a non-profit organizations from the ground up, developing highly competitive athletes, preparing financials for small businesses or building unique websites and databases I was born to create opportunities and solutions.</div>
+			<div class="col-0 col-md-1"></div>
+		</div>
+	</div>
 	<!-------------------------------------------------------------------------------------------------------Skills-->
-	<div class="container">
+		<h2 class="mt-5 mb-3 text-center">Skills </h2>
 		<div class="row mx-auto d-flex justify-content-center">
 			<div class="col-10 col-sm-6 col-md-5 col-lg-3">
 				<div class="card border-0">
 					<div class="card-block">
 						<img class="img-fluid rounded-circle m-3 d-flex justify-content-center" src="images/cup-of-tea.jpg" alt="this is image">
-						<div class="card-text m-3 text-center border">"Would you like a 'ot cup o' tea?" Squirrel beefeater conkers grub's up blighty full English breakast, down the local and thus Bad Wolf absolute scrumpy had a barney with the inlaws bossy britches done up like a kipper, the fuzz have a bash middle class upper class copped a bollocking posh nosh.</div>
+						<div class="card-text m-3 text-center border">
+							<h3>Detail Oriented</h3>
+							<p>Description of skills Description of skills Description of skills Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills.</p>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -102,7 +114,10 @@
 				<div class="card border-0">
 					<div class="card-block">
 						<img class="img-fluid rounded-circle m-3 d-flex justify-content-center" src="images/phone-box.jpg" alt="this is image">
-						<div class="card-text m-3 text-center border">"Need to tele ya folks?" Gallivanting around off t'shop easy peasy porky-pies throw a spanner in the works Sonic Screwdriver lost her marbles, accordingly whizz slappers Shakespeare it's nicked fork out, golly down the village green copped a bollocking snotty nosed brat I bid you good day. </div>
+						<div class="card-text m-3 text-center border">
+							<h3>Analytical</h3>
+							<p>Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills.</p>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -110,16 +125,41 @@
 				<div class="card border-0">
 					<div class="card-block">
 						<img class="img-fluid rounded-circle m-3 d-flex justify-content-center" src="images/bus.jpg" alt="this is image">
-						<div class="card-text m-3 text-center border">"Wanna hitch a ride?" Chips air one's dirty linen drizzle a fiver what a mug anorak, terribly numpty The Hounds of Baskerville pikey. </div>
+						<div class="card-text m-3 text-center border">
+							<h3>Web Development</h3>
+							<p>Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills.</p>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
 	<!-------------------------------------------------------------------------------------------------------Portfolio-->
-	<!-------------------------------------------------------------------------------------------------------Contact Me-->
-	<!-------------------------------------------------------------------------------------------------------Footer-->
+	<div class="card p-3 bg-primary">
+		<div class="row align-items-center">
+			<div class="mt-5 mb-5 text-center col-12">
+				<h2>Portfolio</h2>
+			</div>
+			<div class="col-0 col-md-1"></div>
+		</div>
+		<div class="row align-items-center">
+			<img class="col-12 col-md-4 d-flex justify-content-center justify-content-md-start ml-lg-5 my-5" src="images/big-ben-2.jpg" alt="this is image">
+			<div class="col-12 col-md-7 mb-5">We luv 'locks so much we eben made a giant one 'n de middle o' London. Pommy ipsum cor blimey' jammy git I'd reet fancy a wind up utter shambles, tip-top fork out on't goggle box have a butcher's at this gutted chap, apple and pears jolly good I bid you good day jellied eels fish and chips. The lakes Prince Charles 'ar kid numpty The Doctor absobloodylootely, a bit miffed Prince Charles in the goolies. Big light pot noodle one off knows bugger all about nowt driving a mini golly a week on Sunday fancy a cuppa jolly hockey sticks, dignified could be a bit of a git numpty knackered dignified Big Ben. By 'eck love golly it's cracking flags you 'avin a laugh at the boozer, Shakespeare two weeks on't trot one would be honoured to. </div>
+			<div class="col-0 col-md-1"></div>
+		</div>
+		<div class="row align-items-center">
+			<img class="col-12 col-md-4 d-flex justify-content-center justify-content-md-start ml-lg-5 my-5" src="images/big-ben-2.jpg" alt="this is image">
+			<div class="col-12 col-md-7 mb-5">We luv 'locks so much we eben made a giant one 'n de middle o' London. Pommy ipsum cor blimey' jammy git I'd reet fancy a wind up utter shambles, tip-top fork out on't goggle box have a butcher's at this gutted chap, apple and pears jolly good I bid you good day jellied eels fish and chips. The lakes Prince Charles 'ar kid numpty The Doctor absobloodylootely, a bit miffed Prince Charles in the goolies. Big light pot noodle one off knows bugger all about nowt driving a mini golly a week on Sunday fancy a cuppa jolly hockey sticks, dignified could be a bit of a git numpty knackered dignified Big Ben. By 'eck love golly it's cracking flags you 'avin a laugh at the boozer, Shakespeare two weeks on't trot one would be honoured to. </div>
+			<div class="col-0 col-md-1"></div>
+		</div>
+		<div class="row align-items-center">
+			<img class="col-12 col-md-4 d-flex justify-content-center justify-content-md-start ml-lg-5 my-5" src="images/big-ben-2.jpg" alt="this is image">
+			<div class="col-12 col-md-7 mb-5">We luv 'locks so much we eben made a giant one 'n de middle o' London. Pommy ipsum cor blimey' jammy git I'd reet fancy a wind up utter shambles, tip-top fork out on't goggle box have a butcher's at this gutted chap, apple and pears jolly good I bid you good day jellied eels fish and chips. The lakes Prince Charles 'ar kid numpty The Doctor absobloodylootely, a bit miffed Prince Charles in the goolies. Big light pot noodle one off knows bugger all about nowt driving a mini golly a week on Sunday fancy a cuppa jolly hockey sticks, dignified could be a bit of a git numpty knackered dignified Big Ben. By 'eck love golly it's cracking flags you 'avin a laugh at the boozer, Shakespeare two weeks on't trot one would be honoured to. </div>
+			<div class="col-0 col-md-1"></div>
+		</div>
+	</div>
+	<!-------------------------------------------------------------------------------------------------------Contact Me->
+	<!-------------------------------------------------------------------------------------------------------Footer----->
 	<div class="footer-copyright text-center py-3 bg-dark text-light">© 2019 Copyright:
-		<a href="https://bootcamp-coders/~bhuffman1/"> WhatItMeansToBeBritish.com</a>
+		<a href="https://bootcamp-coders/~bhuffman1/"> designb;.com</a>
 	</div>
 </body>

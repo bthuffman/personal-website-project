@@ -2,7 +2,7 @@
 ***********************************************************************/
 .logo-image {
 	width: 12rem;
-	height: 6rem;
+	height: 5rem;
 }
 
 .nav-link,
@@ -20,8 +20,13 @@
 	opacity: 0.9;
 }
 
-/*Cover Styles
+/*Jumbotron Styles
 ***********************************************************************/
+a {
+	color: black;
+}
+
+
 .empty {
 	visibility: hidden;
 }
@@ -39,3 +44,6 @@
 .jumbotron {
 	background: none;
 }
+
+
+
