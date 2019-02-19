@@ -7,7 +7,10 @@
 		<!--------------------------------------------------------------------------------------------Bootstrap CSS------>
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
 				integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+		<!--------------------------------------------------------------------------------------------My CSS------------->
 		  <link rel="stylesheet" href="milestone-2b-style.css">
+		<!--------------------------------------------------------------------------------------------Font Awesome CSS--->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 		<!--------------------------------------------------------------------------------------------Bootstrap Scripts-->
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 				  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -66,8 +69,8 @@
 				<h2>Contact Me</h2>
 			</div>
 			<div class="d-flex justify-content-center">
-				<img href=""alt="link to GitHub"/>
-				<img alt="link to Linkedin"/>
+				<i class="fab fa-linkedin"></i>
+				<i class="fab fa-github"></i>
 			</div>
 			<div class="empty mt-5 mb-5">This will be invisible</div>
 		</div>
