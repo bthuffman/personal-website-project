@@ -7,6 +7,7 @@
 		<!--------------------------------------------------------------------------------------------Bootstrap CSS------>
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
 				integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+		  <link rel="stylesheet" href="milestone-2b-style.css">
 		<!--------------------------------------------------------------------------------------------Bootstrap Scripts-->
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 				  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -30,23 +31,23 @@
 			<!--<span class="navbar-text"></span>-->
 			<div class="collapse navbar-collapse" id="collapse_target">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item">
-						<a class="nav-link" href="#">About Me</a>
+					<li class="nav-item active">
+						<a class="nav-link waves-effect waves-dark" href="#">About Me</a>
 					</li>
 				</ul>
 				<ul class="navbar-nav">
 					<li class="nav-item">
-						<a class="nav-link" href="#">Skills</a>
+						<a class="nav-link waves-effect waves-light" href="#">Skills</a>
 					</li>
 				</ul>
 				<ul class="navbar-nav">
 					<li class="nav-item">
-						<a class="nav-link" href="#">Portfolio</a>
+						<a class="nav-link waves-effect waves-light" href="#">Portfolio</a>
 					</li>
 				</ul>
 				<ul class="navbar-nav">
 					<li class="nav-item">
-						<a class="nav-link" href="#">Contact Me</a>
+						<a class="nav-link waves-effect waves-light" href="#">Contact Me</a>
 					</li>
 				</ul>
 			</div>
@@ -54,7 +55,7 @@
 	</nav>
 	<!-------------------------------------------------------------------------------------------------------Jumbotron-->
 	<div class="container-fluid">
-		<div class="jumbotron mt-5 mb-5">
+		<div class="jumbotron mt-5 mb-5 first-cover-background">
 			<div class="d-flex justify-content-center">
 				<h1>Brandon Huffman</h1>
 			</div>
