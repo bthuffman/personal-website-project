@@ -5,13 +5,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<title>Who is Brandon Huffman</title>
 		<!-- Font Awesome -->
-<!--		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">-->
+		<!--		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">-->
 		<!-- Bootstrap core CSS-->
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet">
 		<!-- Material Design Bootstrap -->
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.3/css/mdb.min.css" rel="stylesheet">
 		<!--My CSS-->
-		  <link rel="stylesheet" href="milestone-2b-style.css">
+		<link rel="stylesheet" href="milestone-2b-style.css">
 		<!--Font Awesome CSS-->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 		<!--Bootstrap Scripts-->
@@ -27,7 +27,7 @@
 		<!-- JQuery -->
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<!-- Bootstrap tooltips -->
-<!--		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>-->
+		<!--		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>-->
 		<!-- Bootstrap core JavaScript -->
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.min.js"></script>
 		<!-- MDB core JavaScript -->
@@ -37,56 +37,56 @@
 <body>
 	<!--Navigation Bar-->
 	<div class="first-cover-background">
-	<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark transparent-navigation">
-		<div class="container-fluid mt-1 ">
-			<img class="image-fluid logo-image" src="design-b;-transparent-2-black.png" alt="this is my personal logo"/>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse_target">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="collapse_target">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item">
-						<a type="button" class="btn btn-primary mx-1" href="#">About Me</a>
-					</li>
-				<ul class="navbar-nav">
-					<li class="nav-item">
-						<a type="button" class="btn btn-primary mx-1" href="#">Skills</a>
-					</li>
-				</ul>
-				<ul class="navbar-nav">
-					<li class="nav-item">
-						<a type="button" class="btn btn-primary mx-1" href="#">Portfolio</a>
-					</li>
-				</ul>
-				<ul class="navbar-nav">
-					<li class="nav-item">
-						<a type="button" class="btn btn-primary mx-1" href="#">Contact Me</a>
-					</li>
-				</ul>
+		<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark transparent-navigation">
+			<div class="container-fluid mt-1 ">
+				<img class="image-fluid logo-image" src="design-b;-transparent-2-black.png" alt="this is my personal logo"/>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse_target">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="collapse_target">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a type="button" class="btn btn-primary mx-1" href="#">About Me</a>
+						</li>
+						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a type="button" class="btn btn-primary mx-1" href="#">Skills</a>
+							</li>
+						</ul>
+						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a type="button" class="btn btn-primary mx-1" href="#">Portfolio</a>
+							</li>
+						</ul>
+						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a type="button" class="btn btn-primary mx-1" href="#">Contact Me</a>
+							</li>
+						</ul>
+				</div>
+			</div>
+		</nav>
+		<!--Jumbotron-->
+		<div class="container-fluid">
+			<div class="jumbotron mt-5 mb-5">
+				<div class="empty col-12 mt-5 mb-5">This will be invisible</div>
+				<div class="empty col-12 mt-4 mb-3">This will be invisible</div>
+				<div class="d-flex justify-content-center">
+					<h1>Brandon Huffman</h1>
+				</div>
+				<div class="d-flex justify-content-center">
+					<h2>Web Developer | Web Designer</h2>
+				</div>
+				<div class="d-flex justify-content-center">
+					<h2>Contact Me</h2>
+				</div>
+				<div class="d-flex justify-content-center">
+					<a type="link" href="https://www.linkedin.com/in/brandon-huffman-33686527/"><i class="fab fa-linkedin mr-2 h1"></i></a>
+					<a type="link" href="https://github.com/bthuffman"><i class="fab fa-github h1 ml-2"></i></a>
+				</div>
+				<div class="empty col-12 mt-5 mb-3">This will be invisible</div>
 			</div>
 		</div>
-	</nav>
-	<!--Jumbotron-->
-	<div class="container-fluid">
-		<div class="jumbotron mt-5 mb-5">
-			<div class="empty col-12 mt-5 mb-5">This will be invisible</div>
-			<div class="empty col-12 mt-4 mb-3">This will be invisible</div>
-			<div class="d-flex justify-content-center">
-				<h1>Brandon Huffman</h1>
-			</div>
-			<div class="d-flex justify-content-center">
-				<h2>Web Developer | Web Designer</h2>
-			</div>
-			<div class="d-flex justify-content-center">
-				<h2>Contact Me</h2>
-			</div>
-			<div class="d-flex justify-content-center">
-				<a type="link" href="https://www.linkedin.com/in/brandon-huffman-33686527/"><i class="fab fa-linkedin mr-2 h1"></i></a>
-				<a type="link" href="https://github.com/bthuffman"><i class="fab fa-github h1 ml-2"></i></a>
-			</div>
-			<div class="empty col-12 mt-5 mb-3">This will be invisible</div>
-		</div>
-	</div>
 	</div>
 	<!--Tag Line-->
 	<div class="empty col-12 mt-4">This will be invisible</div>
@@ -98,42 +98,42 @@
 		</div>
 	</div>
 	<!--Skills-->
-		<h2 class="mt-3 mb-4 text-center">Skills </h2>
-		<div class="row mx-auto d-flex justify-content-center">
-			<div class="col-10 col-sm-6 col-md-5 col-lg-3">
-				<div class="card">
-					<div class="card-block mb-5">
-						<img class="img-fluid rounded-circle m-3 d-flex justify-content-center" src="images/cup-of-tea.jpg" alt="this is image">
-						<div class="card-text m-3 mb-5 text-center">
-							<h3>Detail Oriented</h3>
-							<p>Description of skills Description of skills Description of skills Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-10 col-sm-6 col-md-5 col-lg-3">
-				<div class="card border-0">
-					<div class="card-block mb-5">
-						<img class="img-fluid rounded-circle m-3 d-flex justify-content-center" src="images/phone-box.jpg" alt="this is image">
-						<div class="card-text m-3 mb-5 text-center">
-							<h3>Analytical</h3>
-							<p>Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-10 col-sm-6 col-md-5 col-lg-3 ">
-				<div class="card border-0">
-					<div class="card-block mb-5">
-						<img class="img-fluid rounded-circle m-3 d-flex justify-content-center" src="images/bus.jpg" alt="this is image">
-						<div class="card-text m-3 mb-5 text-center">
-							<h3>Web Development</h3>
-							<p>Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills.</p>
-						</div>
+	<h2 class="mt-3 mb-4 text-center">Skills </h2>
+	<div class="row mx-auto d-flex justify-content-center">
+		<div class="col-10 col-sm-6 col-md-5 col-lg-3">
+			<div class="card">
+				<div class="card-block mb-5">
+					<img class="img-fluid rounded-circle m-3 d-flex justify-content-center" src="images/cup-of-tea.jpg" alt="this is image">
+					<div class="card-text m-3 mb-5 text-center">
+						<h3>Detail Oriented</h3>
+						<p>Description of skills Description of skills Description of skills Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills.</p>
 					</div>
 				</div>
 			</div>
 		</div>
+		<div class="col-10 col-sm-6 col-md-5 col-lg-3">
+			<div class="card border-0">
+				<div class="card-block mb-5">
+					<img class="img-fluid rounded-circle m-3 d-flex justify-content-center" src="images/phone-box.jpg" alt="this is image">
+					<div class="card-text m-3 mb-5 text-center">
+						<h3>Analytical</h3>
+						<p>Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-10 col-sm-6 col-md-5 col-lg-3 ">
+			<div class="card border-0">
+				<div class="card-block mb-5">
+					<img class="img-fluid rounded-circle m-3 d-flex justify-content-center" src="images/bus.jpg" alt="this is image">
+					<div class="card-text m-3 mb-5 text-center">
+						<h3>Web Development</h3>
+						<p>Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 	<!-Portfolio-->
 	<div class="card p-3 bg-primary">
 		<div class="row align-items-center">
@@ -159,7 +159,10 @@
 		</div>
 	</div>
 	<!--Contact Me-->
-
+	<div class="container">
+		<h2 class="text-uppercase text-center"> Interested in collaborating? </h2>
+		<h3 class="text-center">Contact Me</h3>
+	</div>
 	<!--Footer-->
 	<div class="footer-copyright text-center py-3 bg-dark text-light">© 2019 Copyright:
 		<a href="https://bootcamp-coders/~bhuffman1/"> designb;.com</a>
