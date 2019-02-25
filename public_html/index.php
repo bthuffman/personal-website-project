@@ -12,7 +12,7 @@
 		<!-- Material Design Bootstrap -->
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.3/css/mdb.min.css" rel="stylesheet">
 		<!--My CSS-->
-		<link rel="stylesheet" href="milestone-2b-style.css">
+		<link rel="stylesheet" href="styles/style.css">
 		<!--Font Awesome CSS-->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 		<!--Bootstrap Scripts-->
@@ -41,10 +41,9 @@
 	<div class="first-cover-background">
 		<nav class="navbar navbar-expand-lg navbar-light fixed-top bg-primary transparent-navigation">
 			<div class="container-fluid mt-1 ">
-				<img class="image-fluid logo-image" src="code-b;-transparent-2-black.png" alt="this is my personal logo"/>
+				<img class="image-fluid logo-image" src="images/code-b;-transparent-2-black.png" alt="this is my personal logo"/>
 		<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark transparent-navigation">
 			<div class="container-fluid mt-1 ">
-				<img class="image-fluid logo-image" src="design-b;-transparent-2-black.png" alt="this is my personal logo"/>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse_target">
 					<span class="navbar-toggler-icon"></span>
 				</button>
