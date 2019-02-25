@@ -6,7 +6,6 @@
 		<title>Who is Brandon Huffman</title>
 		<!-- Font Awesome -->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
-		<!--		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">-->
 		<!-- Bootstrap core CSS-->
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet">
 		<!-- Material Design Bootstrap -->
@@ -29,7 +28,6 @@
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<!-- Bootstrap tooltips -->
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
-		<!--		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>-->
 		<!-- Bootstrap core JavaScript -->
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.min.js"></script>
 		<!-- MDB core JavaScript -->
@@ -42,8 +40,6 @@
 		<nav class="navbar navbar-expand-lg navbar-light fixed-top bg-primary transparent-navigation">
 			<div class="container-fluid mt-1 ">
 				<img class="image-fluid logo-image" src="images/code-b;-transparent-2-black.png" alt="this is my personal logo"/>
-		<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark transparent-navigation">
-			<div class="container-fluid mt-1 ">
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse_target">
 					<span class="navbar-toggler-icon"></span>
 				</button>
@@ -83,13 +79,6 @@
 				</div>
 				<div class="d-flex justify-content-center">
 					<h2 class="text-wrap text-center">Contact Me</h2>
-					<h1>Brandon Huffman</h1>
-				</div>
-				<div class="d-flex justify-content-center">
-					<h2>Web Developer | Web Designer</h2>
-				</div>
-				<div class="d-flex justify-content-center">
-					<h2>Contact Me</h2>
 				</div>
 				<div class="d-flex justify-content-center">
 					<a type="link" href="https://www.linkedin.com/in/brandon-huffman-33686527/"><i class="fab fa-linkedin mr-2 h1"></i></a>
@@ -215,10 +204,6 @@
 				<div class="status"></div>
 			</div>
 		</div>
-	<!--Contact Me-->
-	<div class="container">
-		<h2 class="text-uppercase text-center"> Interested in collaborating? </h2>
-		<h3 class="text-center">Contact Me</h3>
 	</div>
 	<!--Footer-->
 	<div class="footer-copyright text-center py-3 bg-dark text-light">© 2019 Copyright:
