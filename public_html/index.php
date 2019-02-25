@@ -69,8 +69,8 @@
 		<!--Jumbotron-->
 		<div class="container-fluid">
 			<div class="jumbotron mt-5 mb-5">
-				<div class="empty col-12 mt-5 mb-5">This will be invisible</div>
-				<div class="empty col-12 mt-4 mb-3">This will be invisible</div>
+				<div class="empty col-12 mt-5 mb-5">invisible</div>
+				<div class="empty col-12 mt-4 mb-3">invisible</div>
 				<div class="d-flex justify-content-center">
 					<h1 class="text-wrap text-center">Brandon Huffman</h1>
 				</div>
@@ -84,17 +84,17 @@
 					<a type="link" href="https://www.linkedin.com/in/brandon-huffman-33686527/"><i class="fab fa-linkedin mr-2 h1"></i></a>
 					<a type="link" href="https://github.com/bthuffman"><i class="fab fa-github h1 ml-2"></i></a>
 				</div>
-				<div class="empty col-12 mt-5 mb-3">This will be invisible</div>
+				<div class="empty col-12 mt-5 mb-3">invisible</div>
 			</div>
 		</div>
 	</div>
 	<!--Tag Line-->
-	<div class="empty col-12 mt-4">This will be invisible</div>
+	<div class="empty col-12 mt-4">invisible</div>
 	<h2 class="mt-5 mb-4 text-center">Create. Augment. Repeat </h2>
 	<div class="card p-3">
 		<div class="row d-flex text-center justify-content-center">
 			<div class="col-8 mb-4">I'm Brandon Huffman, a Web Developer whose versatile background gives me the skills I need to hit the ground running in the software industry. Whether it be from creating non-profit organizations from the ground up, developing highly competitive athletes, bookkeeping for small businesses or building unique websites and databases, my experience has become a tangible asset. I love solving problems with my team, constructing the solutions and software needed to help people reach their goals and better their lives.</div>
-			<div class="empty col-12 mt-4">This will be invisible</div>
+			<div class="empty col-12 mt-4">invisible</div>
 		</div>
 	</div>
 	<!--Skills-->
