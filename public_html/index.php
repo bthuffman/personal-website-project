@@ -177,7 +177,7 @@
 		<h3 class="text-center">Contact Me</h3>
 		<div class="row">
 			<div class="col-md-12 mb-md-0 mb-5">
-				<form id="contact-form" name="contact-form" action="" method="POST">
+				<form id="contact-form" name="contact-form" action="action" method="POST">
 					<div class="row">
 						<div class="col-md-6">
 							<div class="md-form mb-0">
@@ -194,14 +194,6 @@
 					</div>
 					<div class="row">
 						<div class="col-md-12">
-							<div class="md-form mb-0">
-								<textarea type="text" id="subject" name="subject" rows="2" class="form-control"></textarea>
-								<label for="subject" class="">Subject</label>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12">
 							<div class="md-form">
 								<textarea type="text" id="message" name="message" rows="2" class="form-control md-text area"></textarea>
 								<label for="message">Your message</label>
@@ -210,7 +202,7 @@
 					</div>
 				</form>
 				<div class="text-center text-md-left mb-5">
-<!--					THIS RECAPTCHA IS REQUIRED BEFORE BUTTONS-->
+<!--					THIS RECAPTCHA IS REQUIRED BEFORE THE SUBMIT BUTTON TO WORK-->
 					<div class="g-recaptcha" data-sitekey="6LfVEpQUAAAAALLJc7c9Ab3iM78_MmDDG5sBIm3-"></div>
 					<a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
 				</div>
