@@ -32,6 +32,17 @@
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.min.js"></script>
 		<!-- MDB core JavaScript -->
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.3/js/mdb.min.js"></script>
+		<!--CONTACT FORM SCRIPTS-->
+		<!-- jQuery Form, Additional Methods, Validate -->
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
+		<!-- Your JavaScript Form Validator -->
+		<script src="js/form-validate.js"></script>
+		<!-- Google reCAPTCHA -->
+		<script src='https://www.google.com/recaptcha/api.js'></script>
+		<!-- form validate js -->
+		<script src="js/form-validate.js"></script>
 	</head>
 </html>
 <body>
@@ -67,7 +78,7 @@
 			</div>
 		</nav>
 		<!--Jumbotron-->
-		<div class="container-fluid">
+		<div class="container-fluid non-navbar-section">
 			<div class="jumbotron mt-5 mb-5">
 				<div class="empty col-12 mt-5 mb-5">invisible</div>
 				<div class="empty col-12 mt-4 mb-3">invisible</div>
@@ -199,9 +210,12 @@
 					</div>
 				</form>
 				<div class="text-center text-md-left mb-5">
+<!--					THIS RECAPTCHA IS REQUIRED BEFORE BUTTONS-->
+					<div class="g-recaptcha" data-sitekey="6LfVEpQUAAAAALLJc7c9Ab3iM78_MmDDG5sBIm3-"></div>
 					<a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
 				</div>
 				<div class="status"></div>
+				<div id="output-area"></div>
 			</div>
 		</div>
 	</div>

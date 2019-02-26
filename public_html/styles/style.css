@@ -1,9 +1,13 @@
 /*GLOBAL STYLES
 ***********************************************************************/
+/*This targets all sectionS*/
 * {
 	box-shadow: none !important;
 }
-
+/*This makes an exception of the navbar to the rule above*/ /*TODO address this*/
+nav {
+	box-shadow: black !important;
+}
 /*NAVIGATION BAR
 ***********************************************************************/
 .logo-image {
