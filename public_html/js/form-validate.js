@@ -27,7 +27,8 @@ $("#contact-form").validate({
 		//message attribute
 		message: {
 			required: true,
-			maxlength: 2000
+			maxlength: 2000,
+			minLength: 10
 		}
 	},
 	//errors to display to the end user when the rules above don't pass
@@ -42,7 +43,8 @@ $("#contact-form").validate({
 		},
 		message: {
 			required: "Please enter a message.",
-			maxlength: "2000 characters max."
+			maxlength: "2000 characters max.",
+			minlength: "10 characters min."
 		}
 	},
 	// AJAX will submit the form to the backend if the rules pass

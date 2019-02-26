@@ -21,9 +21,9 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
 				  integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
 				  crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
-				  integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-				  crossorigin="anonymous"></script>
+<!--		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"-->
+<!--				  integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"-->
+<!--				  crossorigin="anonymous"></script>-->
 		<!-- JQuery -->
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<!-- Bootstrap tooltips -->
@@ -114,7 +114,7 @@
 		<div class="col-10 col-sm-6 col-md-5 col-lg-3">
 			<div class="card">
 				<div class="card-block mb-5">
-					<img class="img-fluid rounded-circle m-3 d-flex justify-content-center" src="images/cup-of-tea.jpg" alt="this is image">
+					<img class="img-fluid rounded-circle m-3 d-flex justify-content-center" src="" alt="this is ">
 					<div class="card-text m-3 mb-5 text-center">
 						<h3>Detail Oriented</h3>
 						<p>Description of skills Description of skills Description of skills Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills.</p>
@@ -125,7 +125,7 @@
 		<div class="col-10 col-sm-6 col-md-5 col-lg-3">
 			<div class="card border-0">
 				<div class="card-block mb-5">
-					<img class="img-fluid rounded-circle m-3 d-flex justify-content-center" src="images/phone-box.jpg" alt="this is image">
+					<img class="img-fluid rounded-circle m-3 d-flex justify-content-center" src="" alt="this is ">
 					<div class="card-text m-3 mb-5 text-center">
 						<h3>Analytical</h3>
 						<p>Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills.</p>
@@ -136,7 +136,7 @@
 		<div class="col-10 col-sm-6 col-md-5 col-lg-3 ">
 			<div class="card border-0">
 				<div class="card-block mb-5">
-					<img class="img-fluid rounded-circle m-3 d-flex justify-content-center" src="images/bus.jpg" alt="this is image">
+					<img class="img-fluid rounded-circle m-3 d-flex justify-content-center" src="" alt="this is ">
 					<div class="card-text m-3 mb-5 text-center">
 						<h3>Web Development</h3>
 						<p>Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills.</p>
@@ -154,17 +154,17 @@
 			<div class="col-0 col-md-1"></div>
 		</div>
 		<div class="row align-items-center">
-			<img class="col-12 col-md-4 d-flex justify-content-center justify-content-md-start ml-lg-5 my-5" src="images/big-ben-2.jpg" alt="this is image">
+			<img class="col-12 col-md-4 d-flex justify-content-center justify-content-md-start ml-lg-5 my-5" src="" alt="this is ">
 			<div class="col-12 col-md-7 mb-5">We luv 'locks so much we eben made a giant one 'n de middle o' London. Pommy ipsum cor blimey' jammy git I'd reet fancy a wind up utter shambles, tip-top fork out on't goggle box have a butcher's at this gutted chap, apple and pears jolly good I bid you good day jellied eels fish and chips. The lakes Prince Charles 'ar kid numpty The Doctor absobloodylootely, a bit miffed Prince Charles in the goolies. Big light pot noodle one off knows bugger all about nowt driving a mini golly a week on Sunday fancy a cuppa jolly hockey sticks, dignified could be a bit of a git numpty knackered dignified Big Ben. By 'eck love golly it's cracking flags you 'avin a laugh at the boozer, Shakespeare two weeks on't trot one would be honoured to. </div>
 			<div class="col-0 col-md-1"></div>
 		</div>
 		<div class="row align-items-center">
-			<img class="col-12 col-md-4 d-flex justify-content-center justify-content-md-start ml-lg-5 my-5" src="images/big-ben-2.jpg" alt="this is image">
+			<img class="col-12 col-md-4 d-flex justify-content-center justify-content-md-start ml-lg-5 my-5" src="" alt="this is ">
 			<div class="col-12 col-md-7 mb-5">We luv 'locks so much we eben made a giant one 'n de middle o' London. Pommy ipsum cor blimey' jammy git I'd reet fancy a wind up utter shambles, tip-top fork out on't goggle box have a butcher's at this gutted chap, apple and pears jolly good I bid you good day jellied eels fish and chips. The lakes Prince Charles 'ar kid numpty The Doctor absobloodylootely, a bit miffed Prince Charles in the goolies. Big light pot noodle one off knows bugger all about nowt driving a mini golly a week on Sunday fancy a cuppa jolly hockey sticks, dignified could be a bit of a git numpty knackered dignified Big Ben. By 'eck love golly it's cracking flags you 'avin a laugh at the boozer, Shakespeare two weeks on't trot one would be honoured to. </div>
 			<div class="col-0 col-md-1"></div>
 		</div>
 		<div class="row align-items-center">
-			<img class="col-12 col-md-4 d-flex justify-content-center justify-content-md-start ml-lg-5 my-5" src="images/big-ben-2.jpg" alt="this is image">
+			<img class="col-12 col-md-4 d-flex justify-content-center justify-content-md-start ml-lg-5 my-5" src="" alt="this is ">
 			<div class="col-12 col-md-7 mb-5">We luv 'locks so much we eben made a giant one 'n de middle o' London. Pommy ipsum cor blimey' jammy git I'd reet fancy a wind up utter shambles, tip-top fork out on't goggle box have a butcher's at this gutted chap, apple and pears jolly good I bid you good day jellied eels fish and chips. The lakes Prince Charles 'ar kid numpty The Doctor absobloodylootely, a bit miffed Prince Charles in the goolies. Big light pot noodle one off knows bugger all about nowt driving a mini golly a week on Sunday fancy a cuppa jolly hockey sticks, dignified could be a bit of a git numpty knackered dignified Big Ben. By 'eck love golly it's cracking flags you 'avin a laugh at the boozer, Shakespeare two weeks on't trot one would be honoured to. </div>
 			<div class="col-0 col-md-1"></div>
 		</div>
@@ -176,31 +176,40 @@
 		<h2 class="text-uppercase text-center"> Interested in collaborating? </h2>
 		<h3 class="text-center">Contact Me</h3>
 		<div class="row">
-			<div class="col-md-12 mb-md-0 mb-5">
-				<form id="contact-form" name="contact-form" action="php/mailer.php" method="POST">
+			<div class="col-md-12 mb-md-0 mb-5 mt-3">
+				<form id="contact-form" action="php/mailer.php" method="POST">
 					<div class="row">
 						<div class="col-md-6">
-							<div class="md-form mb-0">
-								<input for="name" type="text" id="name" name="name" class="form-control" placeholder="Your name"><br/>
+							<label class="font-weight-bold text-uppercase mb-0" for="name">Name</label>
+							<div class="input-group">
+								<div class="input-group-prepend">
+									<span class="input-group-text mr-1"><i class="fa fa-user"></i></span>
+								<input type="text" id="name" name="name" class="form-control" placeholder="Your name"><br/>
+								</div>
 							</div>
 						</div>
 						<div class="col-md-6">
-							<div class="md-form mb-0">
-								<input for="email" type="text" id="email" name="email" class="form-control" placeholder="Your email"><br/>
+							<label class="font-weight-bold text-uppercase mb-0" for="name">Email</label>
+							<div class="input-group">
+								<div class="input-group-prepend">
+									<span class="input-group-text mr-1"><i class="fa fa-envelope"></i></span>
+								<input type="text" id="email" name="email" class="form-control" placeholder="Your email"><br/>
+									</div>
 							</div>
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-md-12">
-							<div class="md-form">
-								<textarea for="message" type="text" id="message" name="message" rows="2" class="form-control md-text area" placeholder="Your message"></textarea>
+						<div class="col-md-12 mt-3">
+							<label class="font-weight-bold text-uppercase mb-0" for="name">Message</label>
+							<div class="md-form mt-0">
+								<textarea type="text" id="message" name="message" rows="2" class="form-control md-text area" placeholder="Your message"></textarea>
 							</div>
 						</div>
 					</div>
 					<!--					THIS RECAPTCHA IS REQUIRED BEFORE THE SUBMIT BUTTON TO WORK-->
 					<div class="g-recaptcha" data-sitekey="6LfVEpQUAAAAALLJc7c9Ab3iM78_MmDDG5sBIm3-"></div>
 				</form>
-				<div class="text-center text-md-left mb-5">
+				<div class="text-center text-md-left mb-5 mt-3">
 					<a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
 				</div>
 				<div class="status"></div>
