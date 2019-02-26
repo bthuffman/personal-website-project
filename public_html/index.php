@@ -177,33 +177,30 @@
 		<h3 class="text-center">Contact Me</h3>
 		<div class="row">
 			<div class="col-md-12 mb-md-0 mb-5">
-				<form id="contact-form" name="contact-form" action="action" method="POST">
+				<form id="contact-form" name="contact-form" action="php/mailer.php" method="POST">
 					<div class="row">
 						<div class="col-md-6">
 							<div class="md-form mb-0">
-								<input type="text" id="name" name="name" class="form-control">
-								<label for="email" class="">Your name</label>
+								<input for="name" type="text" id="name" name="name" class="form-control" placeholder="Your name"><br/>
 							</div>
 						</div>
 						<div class="col-md-6">
 							<div class="md-form mb-0">
-								<input type="text" id="email" name="email" class="form-control">
-								<label for="email" class="">Your email</label>
+								<input for="email" type="text" id="email" name="email" class="form-control" placeholder="Your email"><br/>
 							</div>
 						</div>
 					</div>
 					<div class="row">
 						<div class="col-md-12">
 							<div class="md-form">
-								<textarea type="text" id="message" name="message" rows="2" class="form-control md-text area"></textarea>
-								<label for="message">Your message</label>
+								<textarea for="message" type="text" id="message" name="message" rows="2" class="form-control md-text area" placeholder="Your message"></textarea>
 							</div>
 						</div>
 					</div>
+					<!--					THIS RECAPTCHA IS REQUIRED BEFORE THE SUBMIT BUTTON TO WORK-->
+					<div class="g-recaptcha" data-sitekey="6LfVEpQUAAAAALLJc7c9Ab3iM78_MmDDG5sBIm3-"></div>
 				</form>
 				<div class="text-center text-md-left mb-5">
-<!--					THIS RECAPTCHA IS REQUIRED BEFORE THE SUBMIT BUTTON TO WORK-->
-					<div class="g-recaptcha" data-sitekey="6LfVEpQUAAAAALLJc7c9Ab3iM78_MmDDG5sBIm3-"></div>
 					<a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
 				</div>
 				<div class="status"></div>

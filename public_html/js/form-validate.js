@@ -8,14 +8,14 @@ $(document).ready(function() {
 * @author Brandon Huffman <bt_huffman@msn.com>
 * */
 
-$("#contact-form").validate([
+$("#contact-form").validate({
 	//state variables and then the values...
-	debug: true, errorClass: "alert -alert-danger", errorLabelContainer: "#output-area", errorElement: "div",
+	debug: true, errorClass: "alert alert-danger", errorLabelContainer: "#output-area", errorElement: "div",
 
 	//the following rules will define good and bad input
 	//these rules start with the form input element's NAME (html attribute)
 	rules: {
-	//name attribute
+		//name attribute
 		name: {
 			required: true
 		},
@@ -23,7 +23,7 @@ $("#contact-form").validate([
 		email: {
 			email: true,
 			required: true
-	},
+		},
 		//message attribute
 		message: {
 			required: true,
@@ -35,8 +35,8 @@ $("#contact-form").validate([
 		name: {
 			required: "Please enter your name."
 		}
-	,
-		email:{
+		,
+		email: {
 			email: "Please enter a valid email address.",
 			required: "Please enter a valid email address."
 		},
@@ -47,25 +47,25 @@ $("#contact-form").validate([
 	},
 	// AJAX will submit the form to the backend if the rules pass
 	submitHandler: function(form) {
-	$("#contact-form").ajaxSubmit({
-		type: "POST",
-		url: $("#contact-form").attr("action"),
+		$("#contact-form").ajaxSubmit({
+			type: "POST",
+			url: $("#contact-form").attr("action"),
 
-		//determine what happens if the form is successful
-		success: function(ajaxOutput) {
+			//determine what happens if the form is successful
+			success: function(ajaxOutput) {
 
-			// clear the output area's formatting
-			$("#output-area").css("display", "");
+				// clear the output area's formatting
+				$("#output-area").css("display", "");
 
-			//write the server's reply to the output area
-			$("#output-area").html(ajaxOutput);
+				//write the server's reply to the output area
+				$("#output-area").html(ajaxOutput);
 
-			//reset the form if it's successful
-			if($(".alert-success").length >= 1) {
-				$("contact-form")[0].reset();
+				//reset the form if it's successful
+				if($(".alert-success").length >= 1) {
+					$("#contact-form")[0].reset();
+				}
 			}
-		}
-	})
+		})
 	}
-]); /*end of the validation function*/
+}); /*end of the validation function*/
 }); /*end of document.ready()*/
