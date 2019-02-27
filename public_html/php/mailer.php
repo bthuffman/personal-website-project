@@ -1,7 +1,6 @@
 <?php
 /**
  * mialer.php
- * TODO see documentation on Mailer with reCAPTCHA
  *
  * Using SendGrid this file handles secure mail transport with Google reCAPTCHA integration.
  *

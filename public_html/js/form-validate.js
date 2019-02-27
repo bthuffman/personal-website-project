@@ -10,7 +10,10 @@ $(document).ready(function() {
 
 $("#contact-form").validate({
 	//state variables and then the values...
-	debug: true, errorClass: "alert alert-danger", errorLabelContainer: "#output-area", errorElement: "div",
+	debug: true,
+	errorClass: "alert alert-danger",
+	errorLabelContainer: "#output-area",
+	errorElement: "div",
 
 	//the following rules will define good and bad input
 	//these rules start with the form input element's NAME (html attribute)

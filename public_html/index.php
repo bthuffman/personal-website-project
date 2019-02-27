@@ -181,18 +181,18 @@
 					<div class="row">
 						<div class="col-md-6">
 							<label class="font-weight-bold text-uppercase mb-0" for="name">Name</label>
-							<div class="input-group">
+							<div class="my-0">
 								<div class="input-group-prepend">
-									<span class="input-group-text mr-1"><i class="fa fa-user"></i></span>
+									<span class="input-group-text"><i class="fa fa-user"></i></span>
 								<input type="text" id="name" name="name" class="form-control" placeholder="Your name"><br/>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-6">
 							<label class="font-weight-bold text-uppercase mb-0" for="name">Email</label>
-							<div class="input-group">
+							<div class="my-0">
 								<div class="input-group-prepend">
-									<span class="input-group-text mr-1"><i class="fa fa-envelope"></i></span>
+									<span class="input-group-text"><i class="fa fa-envelope"></i></span>
 								<input type="text" id="email" name="email" class="form-control" placeholder="Your email"><br/>
 									</div>
 							</div>
@@ -202,7 +202,7 @@
 						<div class="col-md-12 mt-3">
 							<label class="font-weight-bold text-uppercase mb-0" for="name">Message</label>
 							<div class="md-form mt-0">
-								<textarea type="text" id="message" name="message" rows="2" class="form-control md-text area" placeholder="Your message"></textarea>
+								<textarea type="text" id="message" name="message" rows="2" class="form-control md-text pr-1" placeholder="Your message"></textarea>
 							</div>
 						</div>
 					</div>
