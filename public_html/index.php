@@ -21,9 +21,9 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
 				  integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
 				  crossorigin="anonymous"></script>
-<!--		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"-->
-<!--				  integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"-->
-<!--				  crossorigin="anonymous"></script>-->
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+				  integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+				  crossorigin="anonymous"></script>
 		<!-- JQuery -->
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<!-- Bootstrap tooltips -->
@@ -177,7 +177,7 @@
 		<h3 class="text-center">Contact Me</h3>
 		<div class="row">
 			<div class="col-md-12 mb-md-0 mb-5 mt-3">
-				<form id="contact-form" action="php/mailer.php" method="POST">
+				<form id="contact-form" name="contact-form" action="php/mailer.php" method="POST">
 					<div class="row">
 						<div class="col-md-6">
 							<label class="font-weight-bold text-uppercase mb-0" for="name">Name</label>
@@ -189,7 +189,7 @@
 							</div>
 						</div>
 						<div class="col-md-6">
-							<label class="font-weight-bold text-uppercase mb-0" for="name">Email</label>
+							<label class="font-weight-bold text-uppercase mb-0" for="email">Email</label>
 							<div class="my-0">
 								<div class="input-group-prepend">
 									<span class="input-group-text"><i class="fa fa-envelope"></i></span>
@@ -200,20 +200,24 @@
 					</div>
 					<div class="row">
 						<div class="col-md-12 mt-3">
-							<label class="font-weight-bold text-uppercase mb-0" for="name">Message</label>
+							<label class="font-weight-bold text-uppercase mb-0" for="message">Message</label>
 							<div class="md-form mt-0">
-								<textarea type="text" id="message" name="message" rows="2" class="form-control md-text pr-1" placeholder="Your message"></textarea>
+								<textarea id="message" name="message" rows="2" class="form-control md-text pr-1" placeholder="Your message"></textarea>
 							</div>
 						</div>
 					</div>
 					<!--					THIS RECAPTCHA IS REQUIRED BEFORE THE SUBMIT BUTTON TO WORK-->
 					<div class="g-recaptcha" data-sitekey="6LfVEpQUAAAAALLJc7c9Ab3iM78_MmDDG5sBIm3-"></div>
-				</form>
 				<div class="text-center text-md-left mb-5 mt-3">
 					<a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
 				</div>
 				<div class="status"></div>
+				</form>
+				<div class="row">
+				<div class="col-12">
 				<div id="output-area"></div>
+				</div>
+				</div>
 			</div>
 		</div>
 	</div>
