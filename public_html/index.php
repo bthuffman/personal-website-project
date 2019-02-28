@@ -170,7 +170,9 @@
 		</div>
 	</div>
 	<!--Portfolio: Job Experience-->
+<div>
 
+</div>
 	<!--Contact Me-->
 	<div class="container mt-5">
 		<h2 class="text-uppercase text-center"> Interested in collaborating? </h2>
@@ -184,7 +186,7 @@
 							<div class="my-0">
 								<div class="input-group-prepend">
 									<span class="input-group-text"><i class="fa fa-user"></i></span>
-								<input type="text" id="name" name="name" class="form-control" placeholder="Your name"><br/>
+									<input type="text" id="name" name="name" class="form-control" placeholder="Your name"><br/>
 								</div>
 							</div>
 						</div>
@@ -193,8 +195,8 @@
 							<div class="my-0">
 								<div class="input-group-prepend">
 									<span class="input-group-text"><i class="fa fa-envelope"></i></span>
-								<input type="text" id="email" name="email" class="form-control" placeholder="Your email"><br/>
-									</div>
+									<input type="email" id="email" name="email" class="form-control" placeholder="Your email"><br/>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -208,15 +210,15 @@
 					</div>
 					<!--					THIS RECAPTCHA IS REQUIRED BEFORE THE SUBMIT BUTTON TO WORK-->
 					<div class="g-recaptcha" data-sitekey="6LfVEpQUAAAAALLJc7c9Ab3iM78_MmDDG5sBIm3-"></div>
-				<div class="text-center text-md-left mb-5 mt-3">
-					<a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
-				</div>
-				<div class="status"></div>
+					<div class="text-center text-md-left mb-5 mt-3">
+						<button type="submit" class="btn btn-primary">Send</button>
+					</div>
+					<div class="status"></div>
 				</form>
 				<div class="row">
-				<div class="col-12">
-				<div id="output-area"></div>
-				</div>
+					<div class="col-12">
+						<div id="output-area"></div>
+					</div>
 				</div>
 			</div>
 		</div>

@@ -10,7 +10,6 @@
 require_once(dirname(__DIR__, 2) . "/vendor/autoload.php");
 //require the mail-config.php
 require_once("mail-config.php");
-
 use \SendGrid\Mail;
 $sendgrid = new \SendGrid($smtpSecret);
 //verify the user's reCaptcha input
