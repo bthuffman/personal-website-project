@@ -24,14 +24,6 @@
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
 				  integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
 				  crossorigin="anonymous"></script>
-		<!-- JQuery -->
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<!-- Bootstrap tooltips -->
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
-		<!-- Bootstrap core JavaScript -->
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.min.js"></script>
-		<!-- MDB core JavaScript -->
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.3/js/mdb.min.js"></script>
 		<!--CONTACT FORM SCRIPTS-->
 		<!-- jQuery Form, Additional Methods, Validate -->
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
@@ -172,108 +164,38 @@
 		</div>
 	</div>
 	<!--Portfolio: Job Experience-->
-	<div class="container-fluid">
-		<h1 class="text-center my-3">Bootstrap 4 Card Carousel</h1>
-		<div id="myCarousel" class="carousel slide" data-ride="carousel">
-			<div class="carousel-inner row w-100 mx-auto">
-				<div class="carousel-item col-md-4 active">
+	<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+		<div class="carousel-inner">
+			<div class="first-carousel-background">
+			<div class="carousel-item active">
+				<div class="col-10 col-sm-6 col-md-5 col-lg-3">
 					<div class="card">
-						<div class="card-body">
-							<h4 class="card-title">Card 1</h4>
-							<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is
-								a little bit longer.</p>
-							<p class="card-text">
-								<small class="text-muted">Last updated 3 mins ago</small>
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="carousel-item col-md-4">
-					<div class="card">
-						<div class="card-body">
-							<h4 class="card-title">Card 2</h4>
-							<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is
-								a little bit longer.</p>
-							<p class="card-text">
-								<small class="text-muted">Last updated 3 mins ago</small>
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="carousel-item col-md-4">
-					<div class="card">
-						<div class="card-body">
-							<h4 class="card-title">Card 3</h4>
-							<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is
-								a little bit longer.</p>
-							<p class="card-text">
-								<small class="text-muted">Last updated 3 mins ago</small>
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="carousel-item col-md-4">
-					<div class="card">
-						<div class="card-body">
-							<h4 class="card-title">Card 4</h4>
-							<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is
-								a little bit longer.</p>
-							<p class="card-text">
-								<small class="text-muted">Last updated 3 mins ago</small>
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="carousel-item col-md-4">
-					<div class="card">
-						<div class="card-body">
-							<h4 class="card-title">Card 5</h4>
-							<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is
-								a little bit longer.</p>
-							<p class="card-text">
-								<small class="text-muted">Last updated 3 mins ago</small>
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="carousel-item col-md-4">
-					<div class="card">
-						<div class="card-body">
-							<h4 class="card-title">Card 6</h4>
-							<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is
-								a little bit longer.</p>
-							<p class="card-text">
-								<small class="text-muted">Last updated 3 mins ago</small>
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="carousel-item col-md-4">
-					<div class="card">
-						<div class="card-body">
-							<h4 class="card-title">Card 7</h4>
-							<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is
-								a little bit longer.</p>
-							<p class="card-text">
-								<small class="text-muted">Last updated 3 mins ago</small>
-							</p>
+						<div class="card-block mb-5">
+							<img class="img-fluid rounded-circle m-3 d-flex justify-content-center" src="" alt="this is ">
+							<div class="card-text m-3 mb-5 text-center">
+								<h3>Detail Oriented</h3>
+								<p>Description of skills Description of skills Description of skills Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills.</p>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="container">
-				<div class="row">
-					<div class="col-12 text-center mt-4">
-						<a class="btn btn-outline-secondary mx-1 prev" href="javascript:void(0)" title="Previous">
-							<i class="fa fa-lg fa-chevron-left"></i>
-						</a>
-						<a class="btn btn-outline-secondary mx-1 next" href="javascript:void(0)" title="Next">
-							<i class="fa fa-lg fa-chevron-right"></i>
-						</a>
-					</div>
-				</div>
+			</div>
+			<div class="carousel-item">
+				<img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(46).jpg" alt="Second slide">
+			</div>
+			<div class="carousel-item">
+				<img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(47).jpg" alt="Third slide">
 			</div>
 		</div>
+		<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
 	</div>
 	<!--Contact Me-->
 	<div class="container mt-5">
@@ -329,4 +251,12 @@
 	<div class="footer-copyright text-center py-3 bg-dark text-light">© 2019 Copyright:
 		<a class="text-light" href="https://bootcamp-coders/~bhuffman1/"> code-b;.com</a>
 	</div>
+	<!-- JQuery -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!-- Bootstrap tooltips -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+	<!-- Bootstrap core JavaScript -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.min.js"></script>
+	<!-- MDB core JavaScript -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.3/js/mdb.min.js"></script>
 </body>
