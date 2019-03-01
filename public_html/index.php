@@ -43,7 +43,7 @@
 		<nav class="navbar navbar-expand-lg navbar-light fixed-top bg-primary transparent-navigation">
 			<div class="container-fluid mt-1 ">
 				<img class="image-fluid logo-image" src="images/code-b;-transparent-2-black.png" alt="this is my personal logo"/>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse_target">
+				<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#collapse_target">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="collapse_target">
@@ -162,38 +162,53 @@
 		</div>
 	</div>
 	<!--Portfolio: Job Experience-->
-	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel pause-hover">
+	<div id="carouselExampleIndicators" class="carousel slide second-carousel-background" data-ride="carousel pause-hover">
 		<ol class="carousel-indicators">
 			<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 			<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
 			<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
 		</ol>
 		<div class="carousel-inner">
 			<div class="carousel-item active">
-				<div class="first-carousel-background text-white">
-					<div class="row mx-auto d-flex justify-content-center text-center col-4 align-items-center mb-4">
-						<p><span class="carousel-job-title-text">Description</span> <br/>of skills Description of skills Description of skills Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills Description of skills Description of skills Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills.</p>
-					</div>
-					<div class="row mx-auto d-flex justify-content-center text-center col-4 align-items-center mb-4">
-						<p><span class="carousel-job-title-text">Description</span> <br/>of skills Description of skills Description of skills Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills Description of skills Description of skills Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills.</p>
-					</div>
-				</div>
-			</div>
-			<div class="carousel-item">
-				<div class="second-carousel-background text-white">
-					<div class="row mx-auto d-flex justify-content-center text-center col-4 align-items-center mb-4">
-						<p><span class="carousel-job-title-text">Description</span> <br/>of skills Description of skills Description of skills Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills Description of skills Description of skills Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills.</p>
-					</div>
+				<div class="text-white">
 					<div class="row mx-auto d-flex justify-content-center text-center col-4 align-items-center mb-4">
 						<p><span class="carousel-job-title-text">Description</span> <br/>of skills Description of skills Description of skills Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills Description of skills Description of skills Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills.</p>
 					</div>
 				</div>
 			</div>
 			<div class="carousel-item">
-				<div class="third-carousel-background">
+				<div class="text-white">
 					<div class="row mx-auto d-flex justify-content-center text-center col-4 align-items-center mb-4">
 						<p><span class="carousel-job-title-text">Description</span> <br/>of skills Description of skills Description of skills Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills Description of skills Description of skills Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills.</p>
 					</div>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<div class="text-white">
+					<div class="row mx-auto d-flex justify-content-center text-center col-4 align-items-center mb-4">
+						<p><span class="carousel-job-title-text">Description</span> <br/>of skills Description of skills Description of skills Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills Description of skills Description of skills Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills.</p>
+					</div>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<div class=" text-white">
+					<div class="row mx-auto d-flex justify-content-center text-center col-4 align-items-center mb-4">
+						<p><span class="carousel-job-title-text">Description</span> <br/>of skills Description of skills Description of skills Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills Description of skills Description of skills Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills.</p>
+					</div>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<div class=" text-white">
+					<div class="row mx-auto d-flex justify-content-center text-center col-4 align-items-center mb-4">
+						<p><span class="carousel-job-title-text">Description</span> <br/>of skills Description of skills Description of skills Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills Description of skills Description of skills Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills.</p>
+					</div>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<div class=" text-white">
 					<div class="row mx-auto d-flex justify-content-center text-center col-4 align-items-center mb-4">
 						<p><span class="carousel-job-title-text">Description</span> <br/>of skills Description of skills Description of skills Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills Description of skills Description of skills Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills.</p>
 					</div>
