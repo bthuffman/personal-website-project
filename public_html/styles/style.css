@@ -63,13 +63,33 @@ a {
 
 /*Portfolio Styles
 ***********************************************************************/
+.carousel-control-prev, .carousel-control-prev-icon {
+	right: 3rem;  //or you can increase this
+}
+
+.carousel-control-prev, .carousel-control-next-icon {
+	left: 0; //or you can increase this
+}
+
+.carousel-job-title-text {
+	font-size: 3rem;
+}
+
 .first-carousel-background {
 	background: url(../images/pond.jpg) no-repeat center center /cover;
+	height: 40rem;
 	display: flex;
 }
 
 .second-carousel-background {
+	background: url(../images/canyon.jpg) no-repeat center center /cover;
+	height: 40rem;
+	display: flex;
+}
+
+.third-carousel-background {
 	background: url(../images/dock.jpg) no-repeat center center /cover;
+	height: 40rem;
 	display: flex;
 }
 /*Contact Form Styles
