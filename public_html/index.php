@@ -35,8 +35,6 @@
 		<script src='https://www.google.com/recaptcha/api.js'></script>
 		<!-- form validate js -->
 		<script src="js/form-validate.js"></script>
-		<!-- carousel  js -->
-		<script src="js/script.js"></script>
 	</head>
 </html>
 <body>
@@ -166,26 +164,14 @@
 	<!--Portfolio: Job Experience-->
 	<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 		<div class="carousel-inner">
-			<div class="first-carousel-background">
 			<div class="carousel-item active">
-				<div class="col-10 col-sm-6 col-md-5 col-lg-3">
-					<div class="card">
-						<div class="card-block mb-5">
-							<img class="img-fluid rounded-circle m-3 d-flex justify-content-center" src="" alt="this is ">
-							<div class="card-text m-3 mb-5 text-center">
-								<h3>Detail Oriented</h3>
-								<p>Description of skills Description of skills Description of skills Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+				<h1 class="first-carousel-background">ONE</h1>
 			</div>
 			<div class="carousel-item">
-				<img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(46).jpg" alt="Second slide">
+				<h1 class="second-carousel-background">TWO</h1>
 			</div>
 			<div class="carousel-item">
-				<img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(47).jpg" alt="Third slide">
+				<h1 class="first-cover-background">THREE</h1>
 			</div>
 		</div>
 		<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">

@@ -63,7 +63,15 @@ a {
 
 /*Portfolio Styles
 ***********************************************************************/
+.first-carousel-background {
+	background: url(../images/pond.jpg) no-repeat center center /cover;
+	display: flex;
+}
 
+.second-carousel-background {
+	background: url(../images/dock.jpg) no-repeat center center /cover;
+	display: flex;
+}
 /*Contact Form Styles
 ***********************************************************************/
 
