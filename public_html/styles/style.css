@@ -10,11 +10,6 @@ nav {
 }
 /*NAVIGATION BAR
 ***********************************************************************/
-.logo-image {
-	width: 11rem;
-	height: 4rem;
-}
-
 .nav-link,
 .navbar-brand
 {
@@ -60,15 +55,24 @@ a {
 
 /*Skills Styles
 ***********************************************************************/
+.language-icon {
+	width: 5rem;
+	height: 5rem;
+	image-resolution: 72dpi;
+}
 
 /*Portfolio Styles
 ***********************************************************************/
-.carousel-control-prev, .carousel-control-prev-icon {
-	right: 3rem;
-}
+/*.carousel-control-prev, .carousel-control-prev-icon {*/
+	/*right: 3rem;*/
+/*}*/
 
-.carousel-control-prev, .carousel-control-next-icon {
-	left: 0;
+/*.carousel-control-prev, .carousel-control-next-icon {*/
+	/*left: 0;*/
+/*}*/
+
+.carousel-control {
+	width: 4%;
 }
 
 .carousel-job-title-text {

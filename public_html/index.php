@@ -47,7 +47,7 @@
 	<div class="first-cover-background">
 		<nav class="navbar navbar-expand-lg navbar-light fixed-top bg-primary transparent-navigation">
 			<div class="container-fluid mt-1 ">
-				<img class="image-fluid logo-image" src="images/code-b;-transparent-2-black.png" alt="this is my personal logo"/>
+				<a class="navbar-brand">Brandon Huffman</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse_target">
 					<span class="navbar-toggler-icon"></span>
 				</button>
@@ -80,13 +80,13 @@
 				<div class="empty col-12 mt-5 mb-5">invisible</div>
 				<div class="empty col-12 mt-4 mb-3">invisible</div>
 				<div class="d-flex justify-content-center">
-					<h1 class="text-wrap text-center">Brandon Huffman</h1>
+					<h1 class="text-wrap text-center font-weight-bold">Brandon Huffman</h1>
 				</div>
 				<div class="d-flex justify-content-center">
-					<h2 class="text-wrap text-center">Web Developer | Web Designer</h2>
+					<h2 class="text-wrap text-center font-weight-bold">Web Developer | Web Designer</h2>
 				</div>
 				<div class="d-flex justify-content-center">
-					<h2 class="text-wrap text-center">Contact Me</h2>
+					<h2 class="text-wrap text-center font-weight-bold">Contact Me</h2>
 				</div>
 				<div class="d-flex justify-content-center">
 					<a type="link" href="https://www.linkedin.com/in/brandon-huffman-33686527/"><i class="fab fa-linkedin mr-2 h1"></i></a>
@@ -98,15 +98,15 @@
 	</div>
 	<!--Tag Line-->
 	<div class="empty col-12 mt-4">invisible</div>
-	<h2 class="mt-5 mb-4 text-center">Create. Augment. Repeat </h2>
+	<h2 class="mt-5 mb-4 text-center font-weight-bold">Create. Augment. Repeat </h2>
 	<div class="card p-3">
 		<div class="row d-flex text-center justify-content-center">
-			<div class="col-8 mb-4">I'm Brandon Huffman, a Web Developer whose versatile background gives me the skills I need to hit the ground running in the software industry. Whether it be from creating non-profit organizations from the ground up, developing highly competitive athletes, bookkeeping for small businesses or building unique websites and databases, my experience has become a tangible asset. I love solving problems with my team, constructing the solutions and software needed to help people reach their goals and better their lives.</div>
+			<div class="col-8 mb-4">I'm Brandon Huffman, a Web Developer whose versatile background gives me the skills I need to hit the ground running in the software industry. Whether it be from creating non-profit organizations from the ground up, developing highly competitive athletes, bookkeeping for small businesses or building unique websites and databases, my experiences give me an edge in being adaptable and solving problems. I love working with teams to construct the solutions and software they need to reach their goals and better their lives.</div>
 			<div class="empty col-12 mt-4">invisible</div>
 		</div>
 	</div>
 	<!--Skills-->
-	<h2 id="Skills" class="mt-3 mb-4 text-center">Skills </h2>
+	<h2 id="Skills" class="mt-3 mb-4 text-center font-weight-bold">Skills </h2>
 	<div class="row mx-auto d-flex justify-content-center">
 		<div class="col-10 col-sm-6 col-md-5 col-lg-3">
 			<div class="card">
@@ -114,7 +114,7 @@
 					<img class="img-fluid rounded-circle m-3 d-flex justify-content-center" src="" alt="this is ">
 					<div class="card-text m-3 mb-5 text-center">
 						<h3>Detail Oriented</h3>
-						<p>Description of skills Description of skills Description of skills Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills.</p>
+						<p>From fine tuning swimmers technique, developing detailed training strategies, combing through financial statements, or sifting through 501(c)(3) laws, I am used to diving into the details where even the the most minute one can be crucial to success. </p>
 					</div>
 				</div>
 			</div>
@@ -125,7 +125,7 @@
 					<img class="img-fluid rounded-circle m-3 d-flex justify-content-center" src="" alt="this is ">
 					<div class="card-text m-3 mb-5 text-center">
 						<h3>Analytical</h3>
-						<p>Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills.</p>
+						<p>I've developed strong problem solving skills from forecasting economic outlooks in school, evaluating sports teams strengths and weaknesses in coaching, and finding ways to communicate meaningfully with clients and benefit their business.  </p>
 					</div>
 				</div>
 			</div>
@@ -136,17 +136,23 @@
 					<img class="img-fluid rounded-circle m-3 d-flex justify-content-center" src="" alt="this is ">
 					<div class="card-text m-3 mb-5 text-center">
 						<h3>Web Development</h3>
-						<p>Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills.</p>
+						<p>Thanks to my recent graduation from the Deep Dive Coding Full Stack Web Development boot camp my knowledge has expanded to include all the programming languages I need to build websites and databases. I've ranked them below from my strongest to weakest.</p>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+	<div><img class="language-icon row img-fluid rounded-circle m-3" src="images/html-5.png" alt="HTML5 Logo">
+		<img class="row img-fluid rounded-circle m-3" src="images/css-3.png" alt="CSS Three Logo ">
+		<img class="row img-fluid rounded-circle m-3" src="images/bootstrap-4.jpg" alt="Bootstrap 4 Logo">
+		<img class="row img-fluid rounded-circle m-3" src="images/es6.png" alt="ECMA Script 6 Logo">
+		<img class="row img-fluid rounded-circle m-3" src="images/mysql.png" alt="MySQL Logo">
+		<img class="row img-fluid rounded-circle m-3" src="images/php.png" alt="this is "> </div>
 	<!--Portfolio-->
 	<div id="Portfolio" class="card p-3 bg-primary">
 		<div class="row align-items-center">
 			<div class="mt-5 mb-5 text-center col-12">
-				<h2>Portfolio</h2>
+				<h2 class="font-weight-bold>Portfolio"</h2>
 			</div>
 			<div class="col-0 col-md-1"></div>
 		</div>
@@ -280,8 +286,8 @@
 		</div>
 	</div>
 	<!--Footer-->
-	<div class="footer-copyright text-center py-3 bg-dark text-light">© 2019 Copyright:
-		<a class="text-light" href="https://bootcamp-coders/~bhuffman1/"> code-b;.com</a>
+	<div class="footer-copyright text-center py-3 bg-primary text-light">© 2019
+		<a class="text-light" href="https://bootcamp-coders/~bhuffman1/"> Brandon Huffman - Web Developer</a>
 	</div>
 </body>
 </html>
