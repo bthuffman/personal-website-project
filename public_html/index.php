@@ -14,6 +14,9 @@
 		<link rel="stylesheet" href="styles/style.css">
 		<!--Font Awesome CSS-->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+		<!-- JQuery -->
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<!--Bootstrap Scripts-->
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 				  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -24,25 +27,15 @@
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
 				  integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
 				  crossorigin="anonymous"></script>
-		<!-- JQuery -->
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<!-- Bootstrap tooltips -->
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
 		<!-- Bootstrap core JavaScript -->
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.min.js"></script>
 		<!-- MDB core JavaScript -->
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.3/js/mdb.min.js"></script>
-		<!--CONTACT FORM SCRIPTS-->
-		<!-- jQuery Form, Additional Methods, Validate -->
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
-		<!-- Your JavaScript Form Validator -->
-		<script src="js/form-validate.js"></script>
-		<!-- Google reCAPTCHA -->
-		<script src='https://www.google.com/recaptcha/api.js'></script>
-		<!-- form validate js -->
-		<script src="js/form-validate.js"></script>
+<!--		My Navbar Toggle Script-->
+<!--		<script type="javascript" src="js/script.js"></script>-->
+
 	</head>
 <body>
 	<!--Navigation Bar-->
@@ -56,28 +49,28 @@
 				<div class="collapse navbar-collapse" id="collapse_target">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item">
-							<a type="button" class="btn btn-primary mx-1" href="#">About Me</a>
+							<a type="button" class="btn btn-primary mx-1" href="#About-Me">About Me</a>
 						</li>
 						<ul class="navbar-nav">
 							<li class="nav-item">
-								<a type="button" class="btn btn-primary mx-1" href="#">Skills</a>
+								<a type="button" class="btn btn-primary mx-1" href="#Skills">Skills</a>
 							</li>
 						</ul>
 						<ul class="navbar-nav">
 							<li class="nav-item">
-								<a type="button" class="btn btn-primary mx-1" href="#">Portfolio</a>
+								<a type="button" class="btn btn-primary mx-1" href="#Portfolio">Portfolio</a>
 							</li>
 						</ul>
 						<ul class="navbar-nav">
 							<li class="nav-item">
-								<a type="button" class="btn btn-primary mx-1" href="#">Contact Me</a>
+								<a type="button" class="btn btn-primary mx-1" href="#Contact-Me">Contact Me</a>
 							</li>
 						</ul>
 				</div>
 			</div>
 		</nav>
 		<!--Jumbotron-->
-		<div class="container-fluid non-navbar-section">
+		<div id="About-Me" class="container-fluid non-navbar-section">
 			<div class="jumbotron mt-5 mb-5">
 				<div class="empty col-12 mt-5 mb-5">invisible</div>
 				<div class="empty col-12 mt-4 mb-3">invisible</div>
@@ -108,7 +101,7 @@
 		</div>
 	</div>
 	<!--Skills-->
-	<h2 class="mt-3 mb-4 text-center">Skills </h2>
+	<h2 id="Skills" class="mt-3 mb-4 text-center">Skills </h2>
 	<div class="row mx-auto d-flex justify-content-center">
 		<div class="col-10 col-sm-6 col-md-5 col-lg-3">
 			<div class="card">
@@ -144,8 +137,8 @@
 			</div>
 		</div>
 	</div>
-	<!-Portfolio-->
-	<div class="card p-3 bg-primary">
+	<!--Portfolio-->
+	<div id="Portfolio" class="card p-3 bg-primary">
 		<div class="row align-items-center">
 			<div class="mt-5 mb-5 text-center col-12">
 				<h2>Portfolio</h2>
@@ -232,7 +225,7 @@
 		</a>
 	</div>
 	<!--Contact Me-->
-	<div class="container mt-5">
+	<div id="Contact-Me" class="container mt-5">
 		<h2 class="text-uppercase text-center"> Interested in collaborating? </h2>
 		<h3 class="text-center">Contact Me</h3>
 		<div class="row">
@@ -285,5 +278,14 @@
 	<div class="footer-copyright text-center py-3 bg-dark text-light">© 2019 Copyright:
 		<a class="text-light" href="https://bootcamp-coders/~bhuffman1/"> code-b;.com</a>
 	</div>
+	<!--CONTACT FORM SCRIPTS-->
+	<!-- jQuery Form, Additional Methods, Validate -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
+	<!-- Google reCAPTCHA -->
+	<script src='https://www.google.com/recaptcha/api.js'></script>
+	<!-- form validate js -->
+	<script src="js/form-validate.js"></script>
 </body>
 </html>
