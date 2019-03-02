@@ -64,11 +64,11 @@ a {
 /*Portfolio Styles
 ***********************************************************************/
 .carousel-control-prev, .carousel-control-prev-icon {
-	right: 3rem;  //or you can increase this
+	right: 3rem;
 }
 
 .carousel-control-prev, .carousel-control-next-icon {
-	left: 0; //or you can increase this
+	left: 0;
 }
 
 .carousel-job-title-text {

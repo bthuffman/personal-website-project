@@ -24,6 +24,14 @@
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
 				  integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
 				  crossorigin="anonymous"></script>
+		<!-- JQuery -->
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<!-- Bootstrap tooltips -->
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+		<!-- Bootstrap core JavaScript -->
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.min.js"></script>
+		<!-- MDB core JavaScript -->
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.3/js/mdb.min.js"></script>
 		<!--CONTACT FORM SCRIPTS-->
 		<!-- jQuery Form, Additional Methods, Validate -->
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
@@ -36,14 +44,13 @@
 		<!-- form validate js -->
 		<script src="js/form-validate.js"></script>
 	</head>
-</html>
 <body>
 	<!--Navigation Bar-->
 	<div class="first-cover-background">
 		<nav class="navbar navbar-expand-lg navbar-light fixed-top bg-primary transparent-navigation">
 			<div class="container-fluid mt-1 ">
 				<img class="image-fluid logo-image" src="images/code-b;-transparent-2-black.png" alt="this is my personal logo"/>
-				<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#collapse_target">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse_target">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="collapse_target">
@@ -278,12 +285,5 @@
 	<div class="footer-copyright text-center py-3 bg-dark text-light">© 2019 Copyright:
 		<a class="text-light" href="https://bootcamp-coders/~bhuffman1/"> code-b;.com</a>
 	</div>
-	<!-- JQuery -->
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<!-- Bootstrap tooltips -->
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
-	<!-- Bootstrap core JavaScript -->
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.min.js"></script>
-	<!-- MDB core JavaScript -->
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.3/js/mdb.min.js"></script>
 </body>
+</html>
