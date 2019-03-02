@@ -14,7 +14,6 @@
 		<link rel="stylesheet" href="styles/style.css">
 		<!--Font Awesome CSS-->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-
 		<!-- JQuery -->
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<!--Bootstrap Scripts-->
@@ -33,9 +32,15 @@
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.min.js"></script>
 		<!-- MDB core JavaScript -->
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.3/js/mdb.min.js"></script>
-<!--		My Navbar Toggle Script-->
-<!--		<script type="javascript" src="js/script.js"></script>-->
-
+		<!--CONTACT FORM SCRIPTS-->
+		<!-- jQuery Form, Additional Methods, Validate -->
+		<script defer type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
+		<script defer type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+		<script defer type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
+		<!-- Google reCAPTCHA -->
+		<script defer src='https://www.google.com/recaptcha/api.js'></script>
+		<!-- form validate js -->
+		<script defer src="js/form-validate.js"></script>
 	</head>
 <body>
 	<!--Navigation Bar-->
@@ -278,14 +283,5 @@
 	<div class="footer-copyright text-center py-3 bg-dark text-light">© 2019 Copyright:
 		<a class="text-light" href="https://bootcamp-coders/~bhuffman1/"> code-b;.com</a>
 	</div>
-	<!--CONTACT FORM SCRIPTS-->
-	<!-- jQuery Form, Additional Methods, Validate -->
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
-	<!-- Google reCAPTCHA -->
-	<script src='https://www.google.com/recaptcha/api.js'></script>
-	<!-- form validate js -->
-	<script src="js/form-validate.js"></script>
 </body>
 </html>
