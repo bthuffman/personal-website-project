@@ -100,7 +100,9 @@
 	</div>
 	<!--Tag Line-->
 	<div class="empty col-12 mt-4">invisible</div>
+	<div class="typewriter">
 	<h2 class="mt-5 mb-4 text-center font-weight-bold">Create. Augment. Repeat </h2>
+	</div>
 	<div class="card p-3">
 		<div class="row d-flex text-center justify-content-center">
 			<div class="col-8 mb-4">I'm Brandon Huffman, a Web Developer whose versatile background gives me the skills I need to hit the ground running in the software industry. Whether it be from creating non-profit organizations from the ground up, developing highly competitive athletes, bookkeeping for small businesses or building unique websites and databases, my experiences give me an edge in being adaptable and solving problems. I love working with teams to construct the solutions and software they need to reach their goals and better their lives.</div>
@@ -145,7 +147,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="row d-flex justify-content-center mb-5">
+	<div class="row d-flex justify-content-center mb-0">
 		<img class="language-icon img-fluid  mx-3 mt-3 mb-5" src="images/html-5.png" alt="HTML5 Logo">
 		<img class="language-icon img-fluid  mx-3 mt-3 mb-5" src="images/css-3.png" alt="CSS Three Logo ">
 		<img class="language-icon img-fluid  mx-3 mt-3 mb-5" src="images/bootstrap.png" alt="Bootstrap 4 Logo">
@@ -153,9 +155,9 @@
 		<img class="language-icon img-fluid  mx-3 mt-3 mb-5" src="images/mysql.png" alt="MySQL Logo">
 		<img class="language-icon img-fluid  mx-3 mt-3 mb-5" src="images/php.png" alt="this is ">
 	</div>
-	<div id="Portfolio" class="empty col-12 mt-4 mb-3">invisible</div>
+	<div id="Portfolio" class="empty col-12">invisible</div>
 	<!--Portfolio-->
-	<div class="container">
+	<div class="container mb-5">
 	<div class="card p-3 portfolio-bg text-white mt-5">
 		<div class="row align-items-center">
 			<div class="mt-5 mb-5 text-center col-12">
@@ -198,8 +200,9 @@
 		<a type="button" class="btn btn-primary ml-auto col-12 col-md-4" href="Brandon-Huffman-Resume.pdf" download>Download Brandon's Resume</a>
 	</div>
 	</div>
+	<div class="empty col-12 mt-4 mb-3">invisible</div>
 	<!--Portfolio: Job Experience-->
-	<div id="carouselExampleIndicators" class="carousel slide carousel-background" data-ride="carousel pause-hover">
+	<div id="carouselExampleIndicators" class="carousel slide carousel-background mt-5" data-ride="carousel pause-hover">
 		<ol class="carousel-indicators">
 			<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 			<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -268,7 +271,7 @@
 			<span class="glyphicon glyphicon-chevron-right">Next</span>
 		</a>
 	</div>
-	<div id="Contact-Me" class="empty col-12 mt-4 mb-3">invisible</div>
+	<div id="Contact-Me" class="empty col-12 mt-5 mb-4">invisible</div>
 	<!--Contact Me-->
 	<div class="container px-5 my-5 bg-success">
 		<h2 class="text-uppercase text-center pt-5"> Interested in collaborating? </h2>
