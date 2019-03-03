@@ -165,6 +165,7 @@
 			<a class="col-12 d-flex justify-content-center mx-auto mt-auto mb-5" href="https://bootcamp-coders.cnm.edu/~bhuffman1/bootstrap-challenge-bthuffman/index.html#" target="_blank">
 				<img class="web-project" src="images/art-haus.png" alt="this is ">
 			</a>
+			<h3>arthaus.org</h3>
 			<div class="col-12 d-flex justify-content-center mx-auto mt-auto mb-5">A website designed to support the local ABQ art community and help users find local art and artists that interest them!</div>
 			<div class="col-0 col-md-1"></div>
 		</div>
@@ -172,20 +173,23 @@
 			<a class="col-12 d-flex justify-content-center mx-auto mt-auto mb-5" href="https://bootcamp-coders.cnm.edu/~bhuffman1/bootstrap-challenge-bthuffman/index.html#" target="_blank">
 			<img class="web-project" src="images/what-it-means-to-be-british.png" alt="this is ">
 			</a>
+			<h3><a href="https://bootcamp-coders.cnm.edu/~bhuffman1/bootstrap-challenge-bthuffman/" target="_blank">What it Means to be British</a></h3>
 			<div class="col-12 d-flex justify-content-center mx-auto mt-auto mb-5">A demonstration of how I can quickly build attractive websites using Bootstrap.</div>
 			<div class="col-0 col-md-1"></div>
 		</div>
 		<div class="row">
 			<a class="col-12 d-flex justify-content-center mx-auto mt-auto mb-5" href="https://bootcamp-coders.cnm.edu/~bhuffman1/bootstrap-challenge-bthuffman/index.html#" target="_blank">
-				<img class="web-project" src="images/what-it-means-to-be-british.png" alt="this is ">
+				<img class="web-project" src="images/pro-dev-site.png" alt="Picture professional development site">
 			</a>
+			<h3><a href="https://bthuffman.github.io/" target="_blank">Professional Development</a></h3>
 			<div class="col-12 d-flex justify-content-center mx-auto mt-auto mb-5">My professional development site that includes more details about me and my weekly reflections for the Deep Dive Fullstack Web boot camp. </div>
 			<div class="col-0 col-md-1"></div>
 		</div>
 		<div class="row">
-			<a class="col-12 d-flex justify-content-center mx-auto mt-auto mb-5" href="https://bootcamp-coders.cnm.edu/~bhuffman1/bootstrap-challenge-bthuffman/index.html#" target="_blank">
-				<img class="web-project" src="images/what-it-means-to-be-british.png" alt="this is ">
+			<a class="col-12 d-flex justify-content-center mx-auto mt-auto mb-5" href="" target="">
+				<img class="web-project" src="images/what-it-means-to-be-british.png" alt="Picture of the What it Means to be British Site">
 			</a>
+			<h3>Choice App</h3>
 			<div class="col-12 d-flex justify-content-center mx-auto mt-auto mb-5">This site is still in development, but when it is completed I want it to allow users to break down complex problems into a list of priorities, rate them by how they will affect their lives, and then use an algorithm to score their options. Decision making affects everyone so I hope that by it's completion others will benefit from this site. </div>
 			<div class="col-0 col-md-1"></div>
 		</div>
@@ -255,7 +259,7 @@
 		</a>
 	</div>
 	<!--Contact Me-->
-	<div id="Contact-Me" class="container mt-5 bg.secondary">
+	<div id="Contact-Me" class="container mt-5 bg-secondary">
 		<h2 class="text-uppercase text-center"> Interested in collaborating? </h2>
 		<h3 class="text-center">Contact Me</h3>
 		<div class="row">
