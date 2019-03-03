@@ -47,7 +47,7 @@
 	<div class="first-cover-background">
 		<nav class="navbar navbar-expand-lg navbar-light fixed-top bg-primary transparent-navigation">
 			<div class="container-fluid mt-1 ">
-				<a class="navbar-brand">Brandon Huffman</a>
+				<a class="navbar-brand text-white font-weight-bold">Brandon Huffman</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse_target">
 					<span class="navbar-toggler-icon"></span>
 				</button>
@@ -110,9 +110,9 @@
 	<div class="row mx-auto d-flex justify-content-center">
 		<div class="col-10 col-sm-6 col-md-5 col-lg-3">
 			<div class="card">
-				<div class="card-block mb-5">
-					<img class="img-fluid rounded-circle m-3 d-flex justify-content-center" src="" alt="this is ">
-					<div class="card-text m-3 mb-5 text-center">
+				<div class="card-block">
+					<img class="img-fluid skills-img rounded-circle d-flex justify-content-center m-auto" src="images/detail-oriented.jpg" alt="Magnifying glass image">
+					<div class="card-text m-3 text-center">
 						<h3>Detail Oriented</h3>
 						<p>From fine tuning swimmers technique, developing detailed training strategies, combing through financial statements, or sifting through 501(c)(3) laws, I am used to diving into the details where even the the most minute one can be crucial to success. </p>
 					</div>
@@ -121,9 +121,9 @@
 		</div>
 		<div class="col-10 col-sm-6 col-md-5 col-lg-3">
 			<div class="card border-0">
-				<div class="card-block mb-5">
-					<img class="img-fluid rounded-circle m-3 d-flex justify-content-center" src="" alt="this is ">
-					<div class="card-text m-3 mb-5 text-center">
+				<div class="card-block">
+					<img class="img-fluid skills-img rounded-circle d-flex justify-content-center m-auto" src="images/analytical.jpg" alt="Data analytics image">
+					<div class="card-text m-3 text-center">
 						<h3>Analytical</h3>
 						<p>I've developed strong problem solving skills from forecasting economic outlooks in school, evaluating sports teams strengths and weaknesses in coaching, and finding ways to communicate meaningfully with clients and benefit their business.  </p>
 					</div>
@@ -132,9 +132,9 @@
 		</div>
 		<div class="col-10 col-sm-6 col-md-5 col-lg-3 ">
 			<div class="card border-0">
-				<div class="card-block mb-5">
-					<img class="img-fluid rounded-circle m-3 d-flex justify-content-center" src="" alt="this is ">
-					<div class="card-text m-3 mb-5 text-center">
+				<div class="card-block">
+					<img class="img-fluid skills-img rounded-circle d-flex justify-content-center m-auto" src="images/programming.jpg" alt="Computer programmer image">
+					<div class="card-text m-3 text-center">
 						<h3>Web Development</h3>
 						<p>Thanks to my recent graduation from the Deep Dive Coding Full Stack Web Development boot camp my knowledge has expanded to include all the programming languages I need to build websites and databases. I've ranked them below from my strongest to weakest.</p>
 					</div>
@@ -142,38 +142,53 @@
 			</div>
 		</div>
 	</div>
-	<div><img class="language-icon row img-fluid rounded-circle m-3" src="images/html-5.png" alt="HTML5 Logo">
-		<img class="row img-fluid rounded-circle m-3" src="images/css-3.png" alt="CSS Three Logo ">
-		<img class="row img-fluid rounded-circle m-3" src="images/bootstrap-4.jpg" alt="Bootstrap 4 Logo">
-		<img class="row img-fluid rounded-circle m-3" src="images/es6.png" alt="ECMA Script 6 Logo">
-		<img class="row img-fluid rounded-circle m-3" src="images/mysql.png" alt="MySQL Logo">
-		<img class="row img-fluid rounded-circle m-3" src="images/php.png" alt="this is "> </div>
+	<div class="row d-flex justify-content-center mb-5">
+		<img class="language-icon img-fluid  m-3" src="images/html-5.png" alt="HTML5 Logo">
+		<img class="language-icon img-fluid  m-3" src="images/css-3.png" alt="CSS Three Logo ">
+		<img class="language-icon img-fluid  m-3" src="images/bootstrap-4.jpg" alt="Bootstrap 4 Logo">
+		<img class="language-icon img-fluid  m-3" src="images/es6.png" alt="ECMA Script 6 Logo">
+		<img class="language-icon img-fluid  m-3" src="images/mysql.png" alt="MySQL Logo">
+		<img class="language-icon img-fluid  m-3" src="images/php.png" alt="this is ">
+	</div>
 	<!--Portfolio-->
 	<div id="Portfolio" class="card p-3 bg-primary">
 		<div class="row align-items-center">
 			<div class="mt-5 mb-5 text-center col-12">
-				<h2 class="font-weight-bold>Portfolio"</h2>
+				<h2 class="font-weight-bold">Portfolio</h2>
 			</div>
 			<div class="col-0 col-md-1"></div>
 		</div>
-		<div class="row align-items-center">
-			<img class="col-12 col-md-4 d-flex justify-content-center justify-content-md-start ml-lg-5 my-5" src="" alt="this is ">
-			<div class="col-12 col-md-7 mb-5">We luv 'locks so much we eben made a giant one 'n de middle o' London. Pommy ipsum cor blimey' jammy git I'd reet fancy a wind up utter shambles, tip-top fork out on't goggle box have a butcher's at this gutted chap, apple and pears jolly good I bid you good day jellied eels fish and chips. The lakes Prince Charles 'ar kid numpty The Doctor absobloodylootely, a bit miffed Prince Charles in the goolies. Big light pot noodle one off knows bugger all about nowt driving a mini golly a week on Sunday fancy a cuppa jolly hockey sticks, dignified could be a bit of a git numpty knackered dignified Big Ben. By 'eck love golly it's cracking flags you 'avin a laugh at the boozer, Shakespeare two weeks on't trot one would be honoured to. </div>
+		<div class="row">
+			<a class="col-12 d-flex justify-content-center mx-auto mt-auto mb-5" href="https://bootcamp-coders.cnm.edu/~bhuffman1/bootstrap-challenge-bthuffman/index.html#" target="_blank">
+				<img class="web-project" src="images/what-it-means-to-be-british.png" alt="this is ">
+			</a>
+			<div class="col-12 d-flex justify-content-center mx-auto mt-auto mb-5">A website designed to support the local ABQ art community and help users find local art and artists that interest them!</div>
 			<div class="col-0 col-md-1"></div>
 		</div>
-		<div class="row align-items-center">
-			<img class="col-12 col-md-4 d-flex justify-content-center justify-content-md-start ml-lg-5 my-5" src="" alt="this is ">
-			<div class="col-12 col-md-7 mb-5">We luv 'locks so much we eben made a giant one 'n de middle o' London. Pommy ipsum cor blimey' jammy git I'd reet fancy a wind up utter shambles, tip-top fork out on't goggle box have a butcher's at this gutted chap, apple and pears jolly good I bid you good day jellied eels fish and chips. The lakes Prince Charles 'ar kid numpty The Doctor absobloodylootely, a bit miffed Prince Charles in the goolies. Big light pot noodle one off knows bugger all about nowt driving a mini golly a week on Sunday fancy a cuppa jolly hockey sticks, dignified could be a bit of a git numpty knackered dignified Big Ben. By 'eck love golly it's cracking flags you 'avin a laugh at the boozer, Shakespeare two weeks on't trot one would be honoured to. </div>
+		<div class="row">
+			<a class="col-12 d-flex justify-content-center mx-auto mt-auto mb-5" href="https://bootcamp-coders.cnm.edu/~bhuffman1/bootstrap-challenge-bthuffman/index.html#" target="_blank">
+			<img class="web-project" src="images/what-it-means-to-be-british.png" alt="this is ">
+			</a>
+			<div class="col-12 d-flex justify-content-center mx-auto mt-auto mb-5">A site demonstrating that I can quickly build attractive websites using Bootstrap.</div>
 			<div class="col-0 col-md-1"></div>
 		</div>
-		<div class="row align-items-center">
-			<img class="col-12 col-md-4 d-flex justify-content-center justify-content-md-start ml-lg-5 my-5" src="" alt="this is ">
-			<div class="col-12 col-md-7 mb-5">We luv 'locks so much we eben made a giant one 'n de middle o' London. Pommy ipsum cor blimey' jammy git I'd reet fancy a wind up utter shambles, tip-top fork out on't goggle box have a butcher's at this gutted chap, apple and pears jolly good I bid you good day jellied eels fish and chips. The lakes Prince Charles 'ar kid numpty The Doctor absobloodylootely, a bit miffed Prince Charles in the goolies. Big light pot noodle one off knows bugger all about nowt driving a mini golly a week on Sunday fancy a cuppa jolly hockey sticks, dignified could be a bit of a git numpty knackered dignified Big Ben. By 'eck love golly it's cracking flags you 'avin a laugh at the boozer, Shakespeare two weeks on't trot one would be honoured to. </div>
+		<div class="row">
+			<a class="col-12 d-flex justify-content-center mx-auto mt-auto mb-5" href="https://bootcamp-coders.cnm.edu/~bhuffman1/bootstrap-challenge-bthuffman/index.html#" target="_blank">
+				<img class="web-project" src="images/what-it-means-to-be-british.png" alt="this is ">
+			</a>
+			<div class="col-12 d-flex justify-content-center mx-auto mt-auto mb-5">My professional development site that includes more details about me and my weekly reflections for the Deep Dive Fullstack Web boot camp. </div>
+			<div class="col-0 col-md-1"></div>
+		</div>
+		<div class="row">
+			<a class="col-12 d-flex justify-content-center mx-auto mt-auto mb-5" href="https://bootcamp-coders.cnm.edu/~bhuffman1/bootstrap-challenge-bthuffman/index.html#" target="_blank">
+				<img class="web-project" src="images/what-it-means-to-be-british.png" alt="this is ">
+			</a>
+			<div class="col-12 d-flex justify-content-center mx-auto mt-auto mb-5">This site is still in development, but when it is completed I want it to allow users to break down complex problems into a list of priorities, rate them by how they will affect their lives, and then use an algorithm to score their options. Decision making affects everyone so I hope that by it's completion others will benefit from this site. </div>
 			<div class="col-0 col-md-1"></div>
 		</div>
 	</div>
 	<!--Portfolio: Job Experience-->
-	<div id="carouselExampleIndicators" class="carousel slide second-carousel-background" data-ride="carousel pause-hover">
+	<div id="carouselExampleIndicators" class="carousel slide carousel-background" data-ride="carousel pause-hover">
 		<ol class="carousel-indicators">
 			<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 			<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -236,7 +251,7 @@
 		</a>
 	</div>
 	<!--Contact Me-->
-	<div id="Contact-Me" class="container mt-5">
+	<div id="Contact-Me" class="container mt-5 bg.secondary">
 		<h2 class="text-uppercase text-center"> Interested in collaborating? </h2>
 		<h3 class="text-center">Contact Me</h3>
 		<div class="row">
