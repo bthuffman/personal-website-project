@@ -189,6 +189,7 @@
 			<div class="col-12 d-flex justify-content-center mx-auto mt-auto mb-5">This site is still in development, but when it is completed I want it to allow users to break down complex problems into a list of priorities, rate them by how they will affect their lives, and then use an algorithm to score their options. Decision making affects everyone so I hope that by it's completion others will benefit from this site. </div>
 			<div class="col-0 col-md-1"></div>
 		</div>
+		<a type="button" class="btn btn-primary ml-auto col-2" href="Brandon-Huffman-Resume.pdf" download>Download Brandon Huffman's Resume</a>
 	</div>
 	<!--Portfolio: Job Experience-->
 	<div id="carouselExampleIndicators" class="carousel slide carousel-background" data-ride="carousel pause-hover">
@@ -306,6 +307,10 @@
 	<!--Footer-->
 	<div class="footer-copyright text-center py-3 bg-primary text-light">© 2019
 		<a class="text-light" href="https://bootcamp-coders/~bhuffman1/"> Brandon Huffman - Web Developer</a>
+		<div class="d-flex justify-content-center">
+			<a type="link" href="https://www.linkedin.com/in/brandon-huffman-33686527/"><i class="fab fa-linkedin mr-2 h1"></i></a>
+			<a type="link" href="https://github.com/bthuffman"><i class="fab fa-github h1 ml-2"></i></a>
+		</div>
 	</div>
 </body>
 </html>
