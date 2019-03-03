@@ -100,9 +100,7 @@
 	</div>
 	<!--Tag Line-->
 	<div class="empty col-12 mt-4">invisible</div>
-	<div class="typewriter">
 	<h2 class="mt-5 mb-4 text-center font-weight-bold">Create. Augment. Repeat </h2>
-	</div>
 	<div class="card p-3">
 		<div class="row d-flex text-center justify-content-center">
 			<div class="col-8 mb-4">I'm Brandon Huffman, a Web Developer whose versatile background gives me the skills I need to hit the ground running in the software industry. Whether it be from creating non-profit organizations from the ground up, developing highly competitive athletes, bookkeeping for small businesses or building unique websites and databases, my experiences give me an edge in being adaptable and solving problems. I love working with teams to construct the solutions and software they need to reach their goals and better their lives.</div>
@@ -274,7 +272,7 @@
 	<div id="Contact-Me" class="empty col-12 mt-5 mb-4">invisible</div>
 	<!--Contact Me-->
 	<div class="container px-5 my-5 bg-success">
-		<h2 class="text-uppercase text-center pt-5"> Interested in collaborating? </h2>
+		<h2 class="text-center pt-5"> Interested in collaborating? </h2>
 		<h3 class="text-center">Contact Me</h3>
 		<div class="row">
 			<div class="col-md-12 mb-md-0 mb-5 mt-3">
