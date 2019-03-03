@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<title>Who is Brandon Huffman</title>
+		<title>Brandon Huffman Full Stack Web Developer</title>
 		<!-- Font Awesome -->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
 		<!-- Bootstrap core CSS-->
@@ -15,7 +15,7 @@
 		<!--Font Awesome CSS-->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 		<!-- JQuery -->
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script asynch type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<!--Bootstrap Scripts-->
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 				  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -34,13 +34,13 @@
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.3/js/mdb.min.js"></script>
 		<!--CONTACT FORM SCRIPTS-->
 		<!-- jQuery Form, Additional Methods, Validate -->
-		<script defer type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
-		<script defer type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
-		<script defer type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
-		<!-- Google reCAPTCHA -->
-		<script defer src='https://www.google.com/recaptcha/api.js'></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
 		<!-- form validate js -->
-		<script defer src="js/form-validate.js"></script>
+		<script src="js/form-validate.js"></script>
+		<!-- Google reCAPTCHA -->
+		<script src='https://www.google.com/recaptcha/api.js'></script>
 	</head>
 <body>
 	<!--Navigation Bar-->
@@ -104,6 +104,7 @@
 			<div class="col-8 mb-4">I'm Brandon Huffman, a Web Developer whose versatile background gives me the skills I need to hit the ground running in the software industry. Whether it be from creating non-profit organizations from the ground up, developing highly competitive athletes, bookkeeping for small businesses or building unique websites and databases, my experiences give me an edge in being adaptable and solving problems. I love working with teams to construct the solutions and software they need to reach their goals and better their lives.</div>
 			<div class="empty col-12 mt-4">invisible</div>
 		</div>
+		<hr class="d-flex justify-content-center mx-auto mt-auto mb-4" width="100px">
 	</div>
 	<!--Skills-->
 	<h2 id="Skills" class="mt-3 mb-4 text-center font-weight-bold">Skills </h2>
@@ -111,7 +112,7 @@
 		<div class="col-10 col-sm-6 col-md-5 col-lg-3">
 			<div class="card">
 				<div class="card-block">
-					<img class="img-fluid skills-img rounded-circle d-flex justify-content-center m-auto" src="images/detail-oriented.jpg" alt="Magnifying glass image">
+					<img class="img-fluid skills-img rounded-circle d-flex justify-content-center mx-auto mt-3 mb-5" src="images/detail-oriented.jpg" alt="Magnifying glass image">
 					<div class="card-text m-3 text-center">
 						<h3>Detail Oriented</h3>
 						<p>From fine tuning swimmers technique, developing detailed training strategies, combing through financial statements, or sifting through 501(c)(3) laws, I am used to diving into the details where even the the most minute one can be crucial to success. </p>
@@ -122,7 +123,7 @@
 		<div class="col-10 col-sm-6 col-md-5 col-lg-3">
 			<div class="card border-0">
 				<div class="card-block">
-					<img class="img-fluid skills-img rounded-circle d-flex justify-content-center m-auto" src="images/analytical.jpg" alt="Data analytics image">
+					<img class="img-fluid skills-img rounded-circle d-flex justify-content-center mx-auto mt-3 mb-5" src="images/analytical.jpg" alt="Data analytics image">
 					<div class="card-text m-3 text-center">
 						<h3>Analytical</h3>
 						<p>I've developed strong problem solving skills from forecasting economic outlooks in school, evaluating sports teams strengths and weaknesses in coaching, and finding ways to communicate meaningfully with clients and benefit their business.  </p>
@@ -133,7 +134,7 @@
 		<div class="col-10 col-sm-6 col-md-5 col-lg-3 ">
 			<div class="card border-0">
 				<div class="card-block">
-					<img class="img-fluid skills-img rounded-circle d-flex justify-content-center m-auto" src="images/programming.jpg" alt="Computer programmer image">
+					<img class="img-fluid skills-img rounded-circle d-flex justify-content-center mx-auto mt-3 mb-5" src="images/programming.jpg" alt="Computer programmer image">
 					<div class="card-text m-3 text-center">
 						<h3>Web Development</h3>
 						<p>Thanks to my recent graduation from the Deep Dive Coding Full Stack Web Development boot camp my knowledge has expanded to include all the programming languages I need to build websites and databases. I've ranked them below from my strongest to weakest.</p>
@@ -143,15 +144,15 @@
 		</div>
 	</div>
 	<div class="row d-flex justify-content-center mb-5">
-		<img class="language-icon img-fluid  m-3" src="images/html-5.png" alt="HTML5 Logo">
-		<img class="language-icon img-fluid  m-3" src="images/css-3.png" alt="CSS Three Logo ">
-		<img class="language-icon img-fluid  m-3" src="images/bootstrap-4.jpg" alt="Bootstrap 4 Logo">
-		<img class="language-icon img-fluid  m-3" src="images/es6.png" alt="ECMA Script 6 Logo">
-		<img class="language-icon img-fluid  m-3" src="images/mysql.png" alt="MySQL Logo">
-		<img class="language-icon img-fluid  m-3" src="images/php.png" alt="this is ">
+		<img class="language-icon img-fluid  mx-3 mt-3 mb-5" src="images/html-5.png" alt="HTML5 Logo">
+		<img class="language-icon img-fluid  mx-3 mt-3 mb-5" src="images/css-3.png" alt="CSS Three Logo ">
+		<img class="language-icon img-fluid  mx-3 mt-3 mb-5" src="images/bootstrap.png" alt="Bootstrap 4 Logo">
+		<img class="language-icon img-fluid  mx-3 mt-3 mb-5" src="images/es6.png" alt="ECMA Script 6 Logo">
+		<img class="language-icon img-fluid  mx-3 mt-3 mb-5" src="images/mysql.png" alt="MySQL Logo">
+		<img class="language-icon img-fluid  mx-3 mt-3 mb-5" src="images/php.png" alt="this is ">
 	</div>
 	<!--Portfolio-->
-	<div id="Portfolio" class="card p-3 bg-primary">
+	<div id="Portfolio" class="card p-3 portfolio-bg text-white mt-5">
 		<div class="row align-items-center">
 			<div class="mt-5 mb-5 text-center col-12">
 				<h2 class="font-weight-bold">Portfolio</h2>
@@ -160,7 +161,7 @@
 		</div>
 		<div class="row">
 			<a class="col-12 d-flex justify-content-center mx-auto mt-auto mb-5" href="https://bootcamp-coders.cnm.edu/~bhuffman1/bootstrap-challenge-bthuffman/index.html#" target="_blank">
-				<img class="web-project" src="images/what-it-means-to-be-british.png" alt="this is ">
+				<img class="web-project" src="images/art-haus.png" alt="this is ">
 			</a>
 			<div class="col-12 d-flex justify-content-center mx-auto mt-auto mb-5">A website designed to support the local ABQ art community and help users find local art and artists that interest them!</div>
 			<div class="col-0 col-md-1"></div>
@@ -169,7 +170,7 @@
 			<a class="col-12 d-flex justify-content-center mx-auto mt-auto mb-5" href="https://bootcamp-coders.cnm.edu/~bhuffman1/bootstrap-challenge-bthuffman/index.html#" target="_blank">
 			<img class="web-project" src="images/what-it-means-to-be-british.png" alt="this is ">
 			</a>
-			<div class="col-12 d-flex justify-content-center mx-auto mt-auto mb-5">A site demonstrating that I can quickly build attractive websites using Bootstrap.</div>
+			<div class="col-12 d-flex justify-content-center mx-auto mt-auto mb-5">A demonstration of how I can quickly build attractive websites using Bootstrap.</div>
 			<div class="col-0 col-md-1"></div>
 		</div>
 		<div class="row">
@@ -259,7 +260,7 @@
 				<form id="contact-form" name="contact-form" action="php/mailer.php" method="POST">
 					<div class="row">
 						<div class="col-md-6">
-							<label class="font-weight-bold text-uppercase mb-0" for="name">Name</label>
+							<label class="font-weight-bold text-uppercase mb-0" for="name">Name<span class="text-danger">*</span></label>
 							<div class="my-0">
 								<div class="input-group-prepend">
 									<span class="input-group-text"><i class="fa fa-user"></i></span>
@@ -268,7 +269,7 @@
 							</div>
 						</div>
 						<div class="col-md-6">
-							<label class="font-weight-bold text-uppercase mb-0" for="email">Email</label>
+							<label class="font-weight-bold text-uppercase mb-0" for="email">Email<span class="text-danger">*</span></label>
 							<div class="my-0">
 								<div class="input-group-prepend">
 									<span class="input-group-text"><i class="fa fa-envelope"></i></span>
@@ -279,7 +280,7 @@
 					</div>
 					<div class="row">
 						<div class="col-md-12 mt-3">
-							<label class="font-weight-bold text-uppercase mb-0" for="message">Message</label>
+							<label class="font-weight-bold text-uppercase mb-0" for="message">Message<span class="text-danger">*</span></label>
 							<div class="md-form mt-0">
 								<textarea id="message" name="message" rows="2" class="form-control md-text pr-1" placeholder="Your message"></textarea>
 							</div>

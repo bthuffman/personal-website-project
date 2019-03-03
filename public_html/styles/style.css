@@ -23,6 +23,11 @@ nav {
 	color: #41fa53 !important;
 }
 
+/*Compatible button outline for firefox*/
+.btn-primary {
+	border: 1px solid black !important;
+}
+
 .transparent-navigation {
 	opacity: 0.9;
 }
@@ -62,6 +67,7 @@ a {
 	width: 15rem;
 	height: 15rem;
 	image-resolution: 72dpi;
+	border: 1px solid black;
 }
 
 .language-icon {
@@ -72,13 +78,11 @@ a {
 
 /*Portfolio Styles
 ***********************************************************************/
-/*.carousel-control-prev, .carousel-control-prev-icon {*/
-	/*right: 3rem;*/
-/*}*/
+/*Project section of portfolio*/
 
-/*.carousel-control-prev, .carousel-control-next-icon {*/
-	/*left: 0;*/
-/*}*/
+.portfolio-bg {
+	background-color: #00264d;
+}
 
 .web-project {
 	width: 30rem;
@@ -86,6 +90,8 @@ a {
 	image-resolution: 72dpi;
 }
 
+
+/*Job section of portfolio*/
 .carousel-control {
 	width: 40%;
 }
@@ -100,6 +106,14 @@ a {
 	display: flex;
 	image-resolution: 72dpi;
 }
+
+/*.carousel-control-prev, .carousel-control-prev-icon {*/
+/*right: 3rem;*/
+/*}*/
+
+/*.carousel-control-prev, .carousel-control-next-icon {*/
+/*left: 0;*/
+/*}*/
 
 /*Contact Form Styles
 ***********************************************************************/
