@@ -138,7 +138,7 @@
 				<div class="card-block">
 					<img class="img-fluid skills-img rounded-circle d-flex justify-content-center mx-auto mt-3 mb-5" src="images/programming.jpg" alt="Computer programmer image">
 					<div class="card-text m-3 text-center">
-						<h3>Web Development</h3>
+						<h3>Web Developer</h3>
 						<p>Thanks to my recent graduation from the Deep Dive Coding Full Stack Web Development boot camp my knowledge has expanded to include all the programming languages I need to build websites and databases. I've ranked them below from my strongest to weakest.</p>
 					</div>
 				</div>
@@ -165,7 +165,7 @@
 		</div>
 		<div>
 			<a class="link-white col-12 d-flex justify-content-center mx-auto mt-auto mb-5" href="https://bootcamp-coders.cnm.edu/~bhuffman1/bootstrap-challenge-bthuffman/index.html#" target="_blank">
-				<img class="web-project" src="images/art-haus.png" alt="this is ">
+				<img class="web-project" src="images/art-haus.png" alt="this is "/>
 			</a>
 			<h3 class="col-12 d-flex justify-content-center m-auto">arthaus.org</h3>
 			<div class="row col-8 d-flex justify-content-center mx-auto mt-auto mb-5">A website designed to support the local ABQ art community and help users find local art and artists that interest them!</div>
@@ -173,7 +173,7 @@
 		</div>
 		<div>
 			<a class="col-12 d-flex justify-content-center mx-auto mt-auto mb-5" href="https://bootcamp-coders.cnm.edu/~bhuffman1/bootstrap-challenge-bthuffman/index.html#" target="_blank">
-			<img class="web-project" src="images/what-it-means-to-be-british.png" alt="this is ">
+			<img class="web-project" src="images/what-it-means-to-be-british.png" alt="this is "/>
 			</a>
 			<h3 class="col-12 d-flex justify-content-center m-auto"><a class="text-white" href="https://bootcamp-coders.cnm.edu/~bhuffman1/bootstrap-challenge-bthuffman/" target="_blank">What it Means to be British</a></h3>
 			<div class="row col-8 d-flex justify-content-center mx-auto mt-auto mb-5">A demonstration of how I can quickly build attractive websites using Bootstrap.</div>
@@ -181,7 +181,7 @@
 		</div>
 		<div>
 			<a class="col-12 d-flex justify-content-center mx-auto mt-auto mb-5" href="https://bootcamp-coders.cnm.edu/~bhuffman1/bootstrap-challenge-bthuffman/index.html#" target="_blank">
-				<img class="web-project" src="images/pro-dev-site.png" alt="Picture professional development site">
+				<img class="web-project" src="images/pro-dev-site.png" alt="Picture professional development site"/>
 			</a>
 			<h3 class="col-12 d-flex justify-content-center m-auto"><a class="text-white" href="https://bthuffman.github.io/" target="_blank">Professional Development</a></h3>
 			<div class="row col-8 d-flex justify-content-center mx-auto mt-auto mb-5">My professional development site that includes more details about me and my weekly reflections for the Deep Dive Fullstack Web boot camp. </div>
@@ -189,13 +189,13 @@
 		</div>
 		<div>
 			<a class="col-12 d-flex justify-content-center mx-auto mt-auto mb-5" href="" target="">
-				<img class="web-project" src="images/choice-app.jpg" alt="Picture of decision process">
+				<img class="web-project" src="images/choice-app.jpg" alt="Picture of decision process"/>
 			</a>
 			<h3 class="col-12 d-flex justify-content-center m-auto">Choice App</h3>
-			<div class="row col-8 d-flex justify-content-center mx-auto mt-auto mb-5">This site is still in development, but when it is completed I want it to allow users to break down complex problems into a list of priorities, rate them by how they will affect their lives, and then use an algorithm to score their options. Decision making affects everyone so I hope that by it's completion others will benefit from this site. </div>
+			<div class="row col-8 d-flex justify-content-center mx-auto mt-auto mb-5">In development, but once completed it will help users break down complex problems into a list of priorities, rate them by how they will affect their lives, and then use an algorithm to score their options. Inspired by the now privatized ChoiceMap app. Decision making is critical to everyone so it's use case is global!</div>
 			<div class="col-0 col-md-1"></div>
 		</div>
-		<a type="button" class="btn btn-primary ml-auto col-2" href="Brandon-Huffman-Resume.pdf" download>Download Brandon's Resume</a>
+		<a type="button" class="btn btn-primary ml-auto col-12 col-md-4" href="Brandon-Huffman-Resume.pdf" download>Download Brandon's Resume</a>
 	</div>
 	</div>
 	<!--Portfolio: Job Experience-->
@@ -210,57 +210,62 @@
 		</ol>
 		<div class="carousel-inner">
 			<div class="carousel-item active">
-				<div class="text-white">
-					<div class="row mx-auto d-flex justify-content-center text-center col-4 align-items-center mb-4">
-						<img class="carousel-img img-fluid col-12 mx-auto pt-5 mb-3" src="images/html-5.png" alt="Atkinson CPA's">
-						<p class="mt-5 carousel-job-title-text">Description</p>
-						<p>of skills Description of skills Description of skills Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills Description of skills Description of skills Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills.</p>
+				<div class="text-white mt-5">
+					<div class="row mx-auto d-flex justify-content-center text-center col-12 col-md-5 align-items-center mt-5 mb-4">
+						<p class="mb-3 p-0 carousel-job-title-text">Bookkeeper Atkinson CPA's</p>
+						<p>As a bookkeeper for multiple clients I oversaw payroll, processed tax payments and created periodic financial statements based on business transactions and accounts.</p>
 					</div>
 				</div>
 			</div>
 			<div class="carousel-item">
-				<div class="text-white">
-					<div class="row mx-auto d-flex justify-content-center text-center col-4 align-items-center mb-4">
-						<p><span class="carousel-job-title-text">Description</span> <br/>of skills Description of skills Description of skills Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills Description of skills Description of skills Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills.</p>
+				<div class="text-white mt-5">
+					<div class="row mx-auto d-flex justify-content-center text-center ol-12 col-md-5  align-items-center mt-5 mb-4">
+						<p class="mb-3 p-0 carousel-job-title-text">Bookkeeper Duke City Aquatics</p>
+						<p>In charge of business records, compliance and payments. Created their 501(c)(3) DCA Charitable Foundation and brought 5-years of backlogged financials into compliance for corporate tax filing.</p>
 					</div>
 				</div>
 			</div>
 			<div class="carousel-item">
-				<div class="text-white">
-					<div class="row mx-auto d-flex justify-content-center text-center col-4 align-items-center mb-4">
-						<p><span class="carousel-job-title-text">Description</span> <br/>of skills Description of skills Description of skills Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills Description of skills Description of skills Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills.</p>
+				<div class="text-white mt-5">
+					<div class="row mx-auto d-flex justify-content-center text-center col-12 col-md-5  align-items-center mt-5 mb-4">
+						<p class="mb-3 p-0 carousel-job-title-text">Instructor & Clerk Fish Factory Swim School</p>
+						<p>Taught hundreds of children and adults how to swim. Managed lessons weekly and handled front-desk duties and interactions with clients.</p>
 					</div>
 				</div>
 			</div>
 			<div class="carousel-item">
-				<div class="text-white">
-					<div class="row mx-auto d-flex justify-content-center text-center col-4 align-items-center mb-4">
-						<p ><span class="carousel-job-title-text">Description</span> <br/>of skills Description of skills Description of skills Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills Description of skills Description of skills Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills.</p>
+				<div class="text-white mt-5">
+					<div class="row mx-auto d-flex justify-content-center text-center col-12 col-md-5  align-items-center mt-5 mb-4">
+						<p class="mb-3 p-0 carousel-job-title-text">Head Coach Tanoan Country Club Swim Team</p>
+						<p>Prepared training workouts, lead competitions and implemented team strategies for the 12 & Under group. Our group scored so much for the team that we went from 3rd place the year before to 2nd at Championships. </p>
 					</div>
 				</div>
 			</div>
 			<div class="carousel-item">
-				<div class="text-white">
-					<div class="row mx-auto d-flex justify-content-center text-center col-4 align-items-center mb-4">
-						<p><span class="carousel-job-title-text">Description</span> <br/>of skills Description of skills Description of skills Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills Description of skills Description of skills Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills.</p>
+				<div class="text-white mt-5">
+					<div class="row mx-auto d-flex justify-content-center text-center col-12 col-md-5 align-items-center mt-5 mb-4">
+						<p class="mb-3 p-0 carousel-job-title-text">Head Coach West Mesa Piranhas</p>
+						<p>Raised thousands of dollars in fundraising, quintupled team size, reorganized practices to maximize coach to athlete ratios and training. Went from a 19 athlete team scoring 12th at Championships to a 84 athlete team taking 4th. </p>
 					</div>
 				</div>
 			</div>
 			<div class="carousel-item">
-				<div class="text-white">
-					<div class="row mx-auto d-flex justify-content-center text-center col-4 align-items-center mb-4">
-						<p><span class="carousel-job-title-text">Description</span> <br/>of skills Description of skills Description of skills Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills Description of skills Description of skills Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills.</p>
+				<div class="text-white mt-5">
+					<div class="row mx-auto d-flex justify-content-center text-center col-12 col-md-5 align-items-center mt-5 mb-4">
+						<p class="mb-3 p-0 carousel-job-title-text">Head Guard West Mesa Aquatic Center</p>
+						<p>Supervised a staff of 50 plus lifeguards, led emergency training scenarios, maintained pool chemistry and equipment,
+						and certified dozens of lifeguards in American Red Cross 1st Aid and CPR.</p>
 					</div>
 				</div>
 			</div>
 		</div>
 		<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
 			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-			<span class="sr-only">Previous</span>
+			<span class="glyphicon glyphicon-chevron-left">Previous</span>
 		</a>
 		<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
 			<span class="carousel-control-next-icon" aria-hidden="true"></span>
-			<span class="sr-only">Next</span>
+			<span class="glyphicon glyphicon-chevron-right">Next</span>
 		</a>
 	</div>
 	<div id="Contact-Me" class="empty col-12 mt-4 mb-3">invisible</div>
