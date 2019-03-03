@@ -91,8 +91,8 @@
 					<h2 class="text-wrap text-center font-weight-bold">Contact Me</h2>
 				</div>
 				<div class="d-flex justify-content-center">
-					<a type="link" href="https://www.linkedin.com/in/brandon-huffman-33686527/"><i class="fab fa-linkedin mr-2 h1"></i></a>
-					<a type="link" href="https://github.com/bthuffman"><i class="fab fa-github h1 ml-2"></i></a>
+					<a class="link-git-icons" type="link" href="https://www.linkedin.com/in/brandon-huffman-33686527/"><i class="fab fa-linkedin mr-2 h1"></i></a>
+					<a class="link-git-icons" type="link" href="https://github.com/bthuffman"><i class="fab fa-github h1 ml-2"></i></a>
 				</div>
 				<div class="empty col-12 mt-5 mb-3">invisible</div>
 			</div>
@@ -104,12 +104,12 @@
 	<div class="card p-3">
 		<div class="row d-flex text-center justify-content-center">
 			<div class="col-8 mb-4">I'm Brandon Huffman, a Web Developer whose versatile background gives me the skills I need to hit the ground running in the software industry. Whether it be from creating non-profit organizations from the ground up, developing highly competitive athletes, bookkeeping for small businesses or building unique websites and databases, my experiences give me an edge in being adaptable and solving problems. I love working with teams to construct the solutions and software they need to reach their goals and better their lives.</div>
-			<div class="empty col-12 mt-4">invisible</div>
+			<div id="Skills" class="empty col-12 mt-4">invisible</div>
 		</div>
-		<hr class="d-flex justify-content-center mx-auto mt-auto mb-4" width="100px">
+		<hr class="d-flex justify-content-center mx-auto mt-auto mb-4 text-black" width="100px">
 	</div>
 	<!--Skills-->
-	<h2 id="Skills" class="mt-3 mb-4 text-center font-weight-bold">Skills </h2>
+	<h2 class="mt-3 mb-4 text-center font-weight-bold">Skills </h2>
 	<div class="row mx-auto d-flex justify-content-center">
 		<div class="col-10 col-sm-6 col-md-5 col-lg-3">
 			<div class="card">
@@ -153,47 +153,50 @@
 		<img class="language-icon img-fluid  mx-3 mt-3 mb-5" src="images/mysql.png" alt="MySQL Logo">
 		<img class="language-icon img-fluid  mx-3 mt-3 mb-5" src="images/php.png" alt="this is ">
 	</div>
+	<div id="Portfolio" class="empty col-12 mt-4 mb-3">invisible</div>
 	<!--Portfolio-->
-	<div id="Portfolio" class="card p-3 portfolio-bg text-white mt-5">
+	<div class="container">
+	<div class="card p-3 portfolio-bg text-white mt-5">
 		<div class="row align-items-center">
 			<div class="mt-5 mb-5 text-center col-12">
 				<h2 class="font-weight-bold">Portfolio</h2>
 			</div>
 			<div class="col-0 col-md-1"></div>
 		</div>
-		<div class="row">
-			<a class="col-12 d-flex justify-content-center mx-auto mt-auto mb-5" href="https://bootcamp-coders.cnm.edu/~bhuffman1/bootstrap-challenge-bthuffman/index.html#" target="_blank">
+		<div>
+			<a class="link-white col-12 d-flex justify-content-center mx-auto mt-auto mb-5" href="https://bootcamp-coders.cnm.edu/~bhuffman1/bootstrap-challenge-bthuffman/index.html#" target="_blank">
 				<img class="web-project" src="images/art-haus.png" alt="this is ">
 			</a>
-			<h3>arthaus.org</h3>
-			<div class="col-12 d-flex justify-content-center mx-auto mt-auto mb-5">A website designed to support the local ABQ art community and help users find local art and artists that interest them!</div>
+			<h3 class="col-12 d-flex justify-content-center m-auto">arthaus.org</h3>
+			<div class="row col-8 d-flex justify-content-center mx-auto mt-auto mb-5">A website designed to support the local ABQ art community and help users find local art and artists that interest them!</div>
 			<div class="col-0 col-md-1"></div>
 		</div>
-		<div class="row">
+		<div>
 			<a class="col-12 d-flex justify-content-center mx-auto mt-auto mb-5" href="https://bootcamp-coders.cnm.edu/~bhuffman1/bootstrap-challenge-bthuffman/index.html#" target="_blank">
 			<img class="web-project" src="images/what-it-means-to-be-british.png" alt="this is ">
 			</a>
-			<h3><a href="https://bootcamp-coders.cnm.edu/~bhuffman1/bootstrap-challenge-bthuffman/" target="_blank">What it Means to be British</a></h3>
-			<div class="col-12 d-flex justify-content-center mx-auto mt-auto mb-5">A demonstration of how I can quickly build attractive websites using Bootstrap.</div>
+			<h3 class="col-12 d-flex justify-content-center m-auto"><a class="text-white" href="https://bootcamp-coders.cnm.edu/~bhuffman1/bootstrap-challenge-bthuffman/" target="_blank">What it Means to be British</a></h3>
+			<div class="row col-8 d-flex justify-content-center mx-auto mt-auto mb-5">A demonstration of how I can quickly build attractive websites using Bootstrap.</div>
 			<div class="col-0 col-md-1"></div>
 		</div>
-		<div class="row">
+		<div>
 			<a class="col-12 d-flex justify-content-center mx-auto mt-auto mb-5" href="https://bootcamp-coders.cnm.edu/~bhuffman1/bootstrap-challenge-bthuffman/index.html#" target="_blank">
 				<img class="web-project" src="images/pro-dev-site.png" alt="Picture professional development site">
 			</a>
-			<h3><a href="https://bthuffman.github.io/" target="_blank">Professional Development</a></h3>
-			<div class="col-12 d-flex justify-content-center mx-auto mt-auto mb-5">My professional development site that includes more details about me and my weekly reflections for the Deep Dive Fullstack Web boot camp. </div>
+			<h3 class="col-12 d-flex justify-content-center m-auto"><a class="text-white" href="https://bthuffman.github.io/" target="_blank">Professional Development</a></h3>
+			<div class="row col-8 d-flex justify-content-center mx-auto mt-auto mb-5">My professional development site that includes more details about me and my weekly reflections for the Deep Dive Fullstack Web boot camp. </div>
 			<div class="col-0 col-md-1"></div>
 		</div>
-		<div class="row">
+		<div>
 			<a class="col-12 d-flex justify-content-center mx-auto mt-auto mb-5" href="" target="">
-				<img class="web-project" src="images/what-it-means-to-be-british.png" alt="Picture of the What it Means to be British Site">
+				<img class="web-project" src="images/choice-app.jpg" alt="Picture of decision process">
 			</a>
-			<h3>Choice App</h3>
-			<div class="col-12 d-flex justify-content-center mx-auto mt-auto mb-5">This site is still in development, but when it is completed I want it to allow users to break down complex problems into a list of priorities, rate them by how they will affect their lives, and then use an algorithm to score their options. Decision making affects everyone so I hope that by it's completion others will benefit from this site. </div>
+			<h3 class="col-12 d-flex justify-content-center m-auto">Choice App</h3>
+			<div class="row col-8 d-flex justify-content-center mx-auto mt-auto mb-5">This site is still in development, but when it is completed I want it to allow users to break down complex problems into a list of priorities, rate them by how they will affect their lives, and then use an algorithm to score their options. Decision making affects everyone so I hope that by it's completion others will benefit from this site. </div>
 			<div class="col-0 col-md-1"></div>
 		</div>
-		<a type="button" class="btn btn-primary ml-auto col-2" href="Brandon-Huffman-Resume.pdf" download>Download Brandon Huffman's Resume</a>
+		<a type="button" class="btn btn-primary ml-auto col-2" href="Brandon-Huffman-Resume.pdf" download>Download Brandon's Resume</a>
+	</div>
 	</div>
 	<!--Portfolio: Job Experience-->
 	<div id="carouselExampleIndicators" class="carousel slide carousel-background" data-ride="carousel pause-hover">
@@ -209,7 +212,9 @@
 			<div class="carousel-item active">
 				<div class="text-white">
 					<div class="row mx-auto d-flex justify-content-center text-center col-4 align-items-center mb-4">
-						<p><span class="carousel-job-title-text">Description</span> <br/>of skills Description of skills Description of skills Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills Description of skills Description of skills Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills.</p>
+						<img class="carousel-img img-fluid col-12 mx-auto pt-5 mb-3" src="images/html-5.png" alt="Atkinson CPA's">
+						<p class="mt-5 carousel-job-title-text">Description</p>
+						<p>of skills Description of skills Description of skills Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills Description of skills Description of skills Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills.</p>
 					</div>
 				</div>
 			</div>
@@ -228,21 +233,21 @@
 				</div>
 			</div>
 			<div class="carousel-item">
-				<div class=" text-white">
+				<div class="text-white">
+					<div class="row mx-auto d-flex justify-content-center text-center col-4 align-items-center mb-4">
+						<p ><span class="carousel-job-title-text">Description</span> <br/>of skills Description of skills Description of skills Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills Description of skills Description of skills Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills.</p>
+					</div>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<div class="text-white">
 					<div class="row mx-auto d-flex justify-content-center text-center col-4 align-items-center mb-4">
 						<p><span class="carousel-job-title-text">Description</span> <br/>of skills Description of skills Description of skills Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills Description of skills Description of skills Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills.</p>
 					</div>
 				</div>
 			</div>
 			<div class="carousel-item">
-				<div class=" text-white">
-					<div class="row mx-auto d-flex justify-content-center text-center col-4 align-items-center mb-4">
-						<p><span class="carousel-job-title-text">Description</span> <br/>of skills Description of skills Description of skills Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills Description of skills Description of skills Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills.</p>
-					</div>
-				</div>
-			</div>
-			<div class="carousel-item">
-				<div class=" text-white">
+				<div class="text-white">
 					<div class="row mx-auto d-flex justify-content-center text-center col-4 align-items-center mb-4">
 						<p><span class="carousel-job-title-text">Description</span> <br/>of skills Description of skills Description of skills Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills Description of skills Description of skills Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills. Description of skills.</p>
 					</div>
@@ -258,9 +263,10 @@
 			<span class="sr-only">Next</span>
 		</a>
 	</div>
+	<div id="Contact-Me" class="empty col-12 mt-4 mb-3">invisible</div>
 	<!--Contact Me-->
-	<div id="Contact-Me" class="container mt-5 bg-secondary">
-		<h2 class="text-uppercase text-center"> Interested in collaborating? </h2>
+	<div class="container px-5 my-5 bg-success">
+		<h2 class="text-uppercase text-center pt-5"> Interested in collaborating? </h2>
 		<h3 class="text-center">Contact Me</h3>
 		<div class="row">
 			<div class="col-md-12 mb-md-0 mb-5 mt-3">
@@ -289,7 +295,7 @@
 						<div class="col-md-12 mt-3">
 							<label class="font-weight-bold text-uppercase mb-0" for="message">Message<span class="text-danger">*</span></label>
 							<div class="md-form mt-0">
-								<textarea id="message" name="message" rows="2" class="form-control md-text pr-1" placeholder="Your message"></textarea>
+								<textarea id="message" name="message" rows="2" class="form-control md-text pr-1 bg-white" placeholder="Your message"></textarea>
 							</div>
 						</div>
 					</div>
@@ -308,12 +314,13 @@
 			</div>
 		</div>
 	</div>
+	<div class="empty col-12 mt-4 mb-3">invisible</div>
 	<!--Footer-->
-	<div class="footer-copyright text-center py-3 bg-primary text-light">© 2019
+	<div class="footer-copyright text-center mt-5 py-3 bg-primary text-light">© 2019
 		<a class="text-light" href="https://bootcamp-coders/~bhuffman1/"> Brandon Huffman - Web Developer</a>
 		<div class="d-flex justify-content-center">
-			<a type="link" href="https://www.linkedin.com/in/brandon-huffman-33686527/"><i class="fab fa-linkedin mr-2 h1"></i></a>
-			<a type="link" href="https://github.com/bthuffman"><i class="fab fa-github h1 ml-2"></i></a>
+			<a class="text-white" type="link" href="https://www.linkedin.com/in/brandon-huffman-33686527/"><i class="fab fa-linkedin mr-2 h1"></i></a>
+			<a class="text-white" type="link" href="https://github.com/bthuffman"><i class="fab fa-github h1 ml-2"></i></a>
 		</div>
 	</div>
 </body>

@@ -1,12 +1,16 @@
 /*GLOBAL STYLES
 ***********************************************************************/
-/*This targets all sectionS*/
+/*This targets all sections to get rid of this awful box-shadow that cuts through my page elements.*/
 * {
 	box-shadow: none !important;
 }
 /*This makes an exception of the navbar to the rule above*/ /*TODO address this*/
 nav {
 	box-shadow: black !important;
+}
+
+a:hover{
+	color: limegreen !important;
 }
 /*NAVIGATION BAR
 ***********************************************************************/
@@ -34,8 +38,8 @@ nav {
 
 /*Jumbotron Styles
 ***********************************************************************/
-a {
-	color: black;
+.link-git-icons {
+	color: black !important;
 }
 
 .empty {
@@ -96,8 +100,13 @@ a {
 	width: 40%;
 }
 
+.carousel-img {
+	width: 5rem;
+	height: 3rem;
+}
 .carousel-job-title-text {
 	font-size: 3rem;
+	margin-top: 5rem;
 }
 
 .carousel-background {
@@ -107,16 +116,9 @@ a {
 	image-resolution: 72dpi;
 }
 
-/*.carousel-control-prev, .carousel-control-prev-icon {*/
-/*right: 3rem;*/
-/*}*/
-
-/*.carousel-control-prev, .carousel-control-next-icon {*/
-/*left: 0;*/
-/*}*/
-
 /*Contact Form Styles
 ***********************************************************************/
+
 
 /*Footer Styles
 ***********************************************************************/
