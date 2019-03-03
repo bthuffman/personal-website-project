@@ -91,8 +91,8 @@
 					<h2 class="text-wrap text-center font-weight-bold">Contact Me</h2>
 				</div>
 				<div class="d-flex justify-content-center">
-					<a class="link-git-icons" type="link" href="https://www.linkedin.com/in/brandon-huffman-33686527/"><i class="fab fa-linkedin mr-2 h1"></i></a>
-					<a class="link-git-icons" type="link" href="https://github.com/bthuffman"><i class="fab fa-github h1 ml-2"></i></a>
+					<a class="link-git-icons" type="link" href="https://www.linkedin.com/in/brandon-huffman-33686527/" target="_blank"><i class="fab fa-linkedin mr-2 h1"></i></a>
+					<a class="link-git-icons" type="link" href="https://github.com/bthuffman" target="_blank"><i class="fab fa-github h1 ml-2"></i></a>
 				</div>
 				<div class="empty col-12 mt-5 mb-3">invisible</div>
 			</div>
@@ -164,7 +164,7 @@
 			<div class="col-0 col-md-1"></div>
 		</div>
 		<div>
-			<a class="link-white col-12 d-flex justify-content-center mx-auto mt-auto mb-5" href="https://bootcamp-coders.cnm.edu/~bhuffman1/bootstrap-challenge-bthuffman/index.html#" target="_blank">
+			<a class="link-white col-12 d-flex justify-content-center mx-auto mt-auto mb-3" href="https://bootcamp-coders.cnm.edu/~bhuffman1/bootstrap-challenge-bthuffman/index.html#" target="_blank">
 				<img class="web-project" src="images/art-haus.png" alt="this is "/>
 			</a>
 			<h3 class="col-12 d-flex justify-content-center m-auto">arthaus.org</h3>
@@ -172,7 +172,7 @@
 			<div class="col-0 col-md-1"></div>
 		</div>
 		<div>
-			<a class="col-12 d-flex justify-content-center mx-auto mt-auto mb-5" href="https://bootcamp-coders.cnm.edu/~bhuffman1/bootstrap-challenge-bthuffman/index.html#" target="_blank">
+			<a class="col-12 d-flex justify-content-center mx-auto mt-5 mb-4" href="https://bootcamp-coders.cnm.edu/~bhuffman1/bootstrap-challenge-bthuffman/index.html#" target="_blank">
 			<img class="web-project" src="images/what-it-means-to-be-british.png" alt="this is "/>
 			</a>
 			<h3 class="col-12 d-flex justify-content-center m-auto"><a class="text-white" href="https://bootcamp-coders.cnm.edu/~bhuffman1/bootstrap-challenge-bthuffman/" target="_blank">What it Means to be British</a></h3>
@@ -180,7 +180,7 @@
 			<div class="col-0 col-md-1"></div>
 		</div>
 		<div>
-			<a class="col-12 d-flex justify-content-center mx-auto mt-auto mb-5" href="https://bootcamp-coders.cnm.edu/~bhuffman1/bootstrap-challenge-bthuffman/index.html#" target="_blank">
+			<a class="col-12 d-flex justify-content-center mx-auto mt-5 mb-3" href="https://bootcamp-coders.cnm.edu/~bhuffman1/bootstrap-challenge-bthuffman/index.html#" target="_blank">
 				<img class="web-project" src="images/pro-dev-site.png" alt="Picture professional development site"/>
 			</a>
 			<h3 class="col-12 d-flex justify-content-center m-auto"><a class="text-white" href="https://bthuffman.github.io/" target="_blank">Professional Development</a></h3>
@@ -188,7 +188,7 @@
 			<div class="col-0 col-md-1"></div>
 		</div>
 		<div>
-			<a class="col-12 d-flex justify-content-center mx-auto mt-auto mb-5" href="" target="">
+			<a class="col-12 d-flex justify-content-center mx-auto mt-5 mb-3" href="" target="">
 				<img class="web-project" src="images/choice-app.jpg" alt="Picture of decision process"/>
 			</a>
 			<h3 class="col-12 d-flex justify-content-center m-auto">Choice App</h3>
@@ -324,8 +324,8 @@
 	<div class="footer-copyright text-center mt-5 py-3 bg-primary text-light">© 2019
 		<a class="text-light" href="https://bootcamp-coders/~bhuffman1/"> Brandon Huffman - Web Developer</a>
 		<div class="d-flex justify-content-center">
-			<a class="text-white" type="link" href="https://www.linkedin.com/in/brandon-huffman-33686527/"><i class="fab fa-linkedin mr-2 h1"></i></a>
-			<a class="text-white" type="link" href="https://github.com/bthuffman"><i class="fab fa-github h1 ml-2"></i></a>
+			<a class="text-white" type="link" href="https://www.linkedin.com/in/brandon-huffman-33686527/" target="_blank"><i class="fab fa-linkedin mr-2 h1"></i></a>
+			<a class="text-white" type="link" href="https://github.com/bthuffman" target="_blank"><i class="fab fa-github h1 ml-2"></i></a>
 		</div>
 	</div>
 </body>
