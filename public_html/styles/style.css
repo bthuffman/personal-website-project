@@ -43,6 +43,12 @@ a:hover{
 	opacity: 0.9;
 }
 
+/*hamburger button*/
+.navbar-toggler,
+.navbar-toggler-icon
+{
+	background-color: white;
+	}
 /*Jumbotron Styles
 ***********************************************************************/
 /*style to linkedin and github icons*/

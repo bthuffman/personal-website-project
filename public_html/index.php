@@ -304,9 +304,9 @@
 						</div>
 					</div>
 					<!--					THIS RECAPTCHA IS REQUIRED BEFORE THE SUBMIT BUTTON TO WORK-->
-					<div class="g-recaptcha" data-sitekey="6LfVEpQUAAAAALLJc7c9Ab3iM78_MmDDG5sBIm3-"></div>
+					<div class="g-recaptcha px-3" data-sitekey="6LfVEpQUAAAAALLJc7c9Ab3iM78_MmDDG5sBIm3-"></div>
 					<div class="text-center text-md-left mb-5 mt-3">
-						<button type="submit" class="btn btn-primary">Send</button>
+						<button type="submit" class="btn btn-primary ml-3">Send</button>
 					</div>
 					<div class="status"></div>
 				</form>
