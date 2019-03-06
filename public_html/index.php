@@ -57,17 +57,12 @@
 						<li class="nav-item">
 							<a type="button" class="btn btn-primary mx-1" href="#About-Me">About Me</a>
 						</li>
-						<ul class="navbar-nav">
 							<li class="nav-item">
 								<a type="button" class="btn btn-primary mx-1" href="#Skills">Skills</a>
 							</li>
-						</ul>
-						<ul class="navbar-nav">
 							<li class="nav-item">
 								<a type="button" class="btn btn-primary mx-1" href="#Portfolio">Portfolio</a>
 							</li>
-						</ul>
-						<ul class="navbar-nav">
 							<li class="nav-item">
 								<a type="button" class="btn btn-primary mx-1" href="#Contact-Me">Contact Me</a>
 							</li>
