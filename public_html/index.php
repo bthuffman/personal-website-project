@@ -107,7 +107,7 @@
 		<div class="col-10 col-sm-6 col-md-5 col-lg-3">
 			<div class="card">
 				<div class="card-block">
-					<img class="img-fluid skills-img rounded-circle d-flex justify-content-center mx-auto mt-3 mb-5" src="images/detail-oriented.jpg" alt="Magnifying glass image">
+					<img class="img-fluid skills-img rounded-circle d-flex justify-content-center mx-auto mt-3 mb-5" src="images/detail-oriented.jpg" alt="Credit: 1ima.ru - magnifying glass image" title="Credit: 1ima.ru - magnifying glass image"/>
 					<div class="card-text m-3 text-center">
 						<h3>Detail Oriented</h3>
 						<p>From fine tuning swimmers technique, developing detailed training strategies, combing through financial statements, or sifting through 501(c)(3) laws, I am used to diving deep into the details where even the the most minute one can be crucial to success. </p>
@@ -118,7 +118,7 @@
 		<div class="col-10 col-sm-6 col-md-5 col-lg-3">
 			<div class="card border-0">
 				<div class="card-block">
-					<img class="img-fluid skills-img rounded-circle d-flex justify-content-center mx-auto mt-3 mb-5" src="images/analytical.jpg" alt="Data analytics image">
+					<img class="img-fluid skills-img rounded-circle d-flex justify-content-center mx-auto mt-3 mb-5" src="images/analytical.jpg" alt="Credit: CRMneeds.com - data analytics image" title="Credit: CRMneeds.com - data analytics image"/>
 					<div class="card-text m-3 text-center">
 						<h3>Analytical</h3>
 						<p>I've developed strong problem solving skills from forecasting the economy for my bachelors degree, evaluating sports teams strengths and weaknesses in coaching, and finding ways to communicate meaningfully with clients and benefit their business.  </p>
@@ -129,7 +129,7 @@
 		<div class="col-10 col-sm-6 col-md-5 col-lg-3 ">
 			<div class="card border-0">
 				<div class="card-block">
-					<img class="img-fluid skills-img rounded-circle d-flex justify-content-center mx-auto mt-3 mb-5" src="images/programming.jpg" alt="Computer programmer image">
+					<img class="img-fluid skills-img rounded-circle d-flex justify-content-center mx-auto mt-3 mb-5" src="images/programming.jpg" alt="Credit: deskgram.net - computer programing image" title="Credit: deskgram.net - computer programing image"/>
 					<div class="card-text m-3 text-center">
 						<h3>Web Developer</h3>
 						<p>Thanks to my recent graduation from the Deep Dive Coding Full Stack Web Development boot camp my knowledge has expanded to include all the programming languages I need to build websites and databases. I've ranked them below from my strongest to weakest (left to right).</p>
@@ -139,12 +139,13 @@
 		</div>
 	</div>
 	<div class="row d-flex justify-content-center mb-0">
-		<img class="language-icon img-fluid  mx-3 mt-3 mb-5" src="images/html-5.png" alt="HTML5 Logo">
-		<img class="language-icon img-fluid  mx-3 mt-3 mb-5" src="images/css-3.png" alt="CSS Three Logo ">
-		<img class="language-icon img-fluid  mx-3 mt-3 mb-5" src="images/bootstrap.png" alt="Bootstrap 4 Logo">
-		<img class="language-icon img-fluid  mx-3 mt-3 mb-5" src="images/es6.png" alt="ECMA Script 6 Logo">
-		<img class="language-icon img-fluid  mx-3 mt-3 mb-5" src="images/mysql.png" alt="MySQL Logo">
-		<img class="language-icon img-fluid  mx-3 mt-3 mb-5" src="images/php.png" alt="this is ">
+		<img class="language-icon img-fluid  mx-3 mt-3 mb-5" src="images/html-5.png" alt="Credit: pragtob.files.wordpress.com - HTML5 Logo" title="Credit: pragtob.files.wordpress.com - HTML5 Logo"/>
+		<img class="language-icon img-fluid  mx-3 mt-3 mb-5" src="images/css-3.png" alt="Credit: developer.mozilla.org CSS Three Logo" title="Credit: developer.mozilla.org - CSS Three Logo"/>
+		<img class="language-icon img-fluid  mx-3 mt-3 mb-5" src="images/bootstrap.png" alt="Credit: phpdeveloperszone.com - Bootstrap 4 Logo" title="Credit: phpdeveloperszone.com - Bootstrap 4 Logo"/>
+		<img class="language-icon img-fluid  mx-3 mt-3 mb-5" src="images/es6.png" alt="Credit: Zink.com - ECMA Script 6 Logo" title="Credit: Zink.com - ECMA Script 6 Logo"/>
+		<img class="language-icon img-fluid  mx-3 mt-3 mb-5" src="images/mysql.png" alt="Credit: appstore.edgenexus.io - MySQL Logo" title="Credit: appstore.edgenexus.io - MySQL Logo"/>
+		<img class="language-icon img-fluid  mx-3 mt-3 mb-5" src="images/php.png" alt="Credit: blackbean.com.br - PHP Logo" title="Credit: blackbean.com.br - PHP Logo"/>
+		<img class="language-icon img-fluid  mx-3 mt-3 mb-5" src="images/angular.png" alt="Credit: iconscout.com - Angular icon" title="Credit: iconscout.com - Angular icon"/>
 	</div>
 	<div id="Portfolio" class="empty col-12">invisible</div>
 	<!--Portfolio-->
@@ -158,7 +159,7 @@
 		</div>
 		<div>
 			<a class="link-white col-12 d-flex justify-content-center mx-auto mt-auto mb-3" href="https://bootcamp-coders.cnm.edu/~bhuffman1/bootstrap-challenge-bthuffman/index.html#" target="_blank">
-				<img class="web-project" src="images/art-haus.png" alt="this is "/>
+				<img class="web-project" src="images/art-haus.png" alt="Credit: Will Tredway - Corhort 23 of Deep Dive Coding Boot Camp" title="Credit: Will Tredway - Corhort 23 of Deep Dive Coding Boot Camp"/>
 			</a>
 			<h3 class="col-12 d-flex justify-content-center m-auto">arthaus.org</h3>
 			<div class="row col-8 d-flex justify-content-center mx-auto mt-auto mb-5">A website designed to support the local ABQ art community and help users find local art and artists that interest them!</div>
@@ -166,7 +167,7 @@
 		</div>
 		<div>
 			<a class="col-12 d-flex justify-content-center mx-auto mt-5 mb-4" href="https://bootcamp-coders.cnm.edu/~bhuffman1/bootstrap-challenge-bthuffman/index.html#" target="_blank">
-			<img class="web-project" src="images/what-it-means-to-be-british.png" alt="this is "/>
+			<img class="web-project" src="images/what-it-means-to-be-british.png" alt="Picture of Brandon's British Bootsrap landing page" title="Brandon's British Bootsrap landing page"/>
 			</a>
 			<h3 class="col-12 d-flex justify-content-center m-auto"><a class="text-white" href="https://bootcamp-coders.cnm.edu/~bhuffman1/bootstrap-challenge-bthuffman/" target="_blank">What it Means to be British</a></h3>
 			<div class="row col-8 d-flex justify-content-center mx-auto mt-auto mb-5">A demonstration of how I can quickly build attractive websites using Bootstrap.</div>
@@ -174,7 +175,7 @@
 		</div>
 		<div>
 			<a class="col-12 d-flex justify-content-center mx-auto mt-5 mb-3" href="https://bootcamp-coders.cnm.edu/~bhuffman1/bootstrap-challenge-bthuffman/index.html#" target="_blank">
-				<img class="web-project" src="images/pro-dev-site.png" alt="Picture professional development site"/>
+				<img class="web-project" src="images/pro-dev-site.png" alt="Picture of Brandon's professional development site" title="Picture of Brandon's professional development site"/>
 			</a>
 			<h3 class="col-12 d-flex justify-content-center m-auto"><a class="text-white" href="https://bthuffman.github.io/" target="_blank">Professional Development</a></h3>
 			<div class="row col-8 d-flex justify-content-center mx-auto mt-auto mb-5">My professional development site that includes more details about me and my weekly reflections for the Deep Dive Fullstack Web boot camp. </div>
@@ -182,7 +183,7 @@
 		</div>
 		<div>
 			<a class="col-12 d-flex justify-content-center mx-auto mt-5 mb-3" href="" target="">
-				<img class="web-project" src="images/choice-app.jpg" alt="Picture of decision process"/>
+				<img class="web-project" src="images/choice-app.jpg" alt="Credit: skillsyouneed.com - picture of decision process"/>
 			</a>
 			<h3 class="col-12 d-flex justify-content-center m-auto">Choice App</h3>
 			<div class="row col-8 d-flex justify-content-center mx-auto mt-auto mb-5">In development, but once completed it will help users break down complex problems into a list of priorities, rate them by how they will affect their lives, and then use an algorithm to score their options. Inspired by the now privatized ChoiceMap app. Decision making is critical to everyone so it's use case is global!</div>
