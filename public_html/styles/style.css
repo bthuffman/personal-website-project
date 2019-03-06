@@ -12,6 +12,12 @@ nav {
 a:hover{
 	color: limegreen !important;
 }
+
+/*get's rid of the horizontal scroll on both desktops and mobile devices.*/
+.row {
+	margin-right: 0;
+	margin-left: 0;
+}
 /*NAVIGATION BAR
 ***********************************************************************/
 /*.nav-link,*/
