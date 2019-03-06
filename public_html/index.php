@@ -47,7 +47,7 @@
 <body>
 	<!--Navigation Bar-->
 	<div class="first-cover-background">
-		<nav class="navbar navbar-expand-lg navbar-light fixed-top bg-primary transparent-navigation">
+		<nav class="navbar navbar-expand-lg navbar-light fixed-top bg-primary transparent-navigation m-0">
 			<div class="container-fluid mt-1 ">
 				<a class="navbar-brand text-white font-weight-bold">Brandon Huffman</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse_target">
@@ -117,7 +117,7 @@
 					<img class="img-fluid skills-img rounded-circle d-flex justify-content-center mx-auto mt-3 mb-5" src="images/detail-oriented.jpg" alt="Magnifying glass image">
 					<div class="card-text m-3 text-center">
 						<h3>Detail Oriented</h3>
-						<p>From fine tuning swimmers technique, developing detailed training strategies, combing through financial statements, or sifting through 501(c)(3) laws, I am used to diving into the details where even the the most minute one can be crucial to success. </p>
+						<p>From fine tuning swimmers technique, developing detailed training strategies, combing through financial statements, or sifting through 501(c)(3) laws, I am used to diving deep into the details where even the the most minute one can be crucial to success. </p>
 					</div>
 				</div>
 			</div>
@@ -128,7 +128,7 @@
 					<img class="img-fluid skills-img rounded-circle d-flex justify-content-center mx-auto mt-3 mb-5" src="images/analytical.jpg" alt="Data analytics image">
 					<div class="card-text m-3 text-center">
 						<h3>Analytical</h3>
-						<p>I've developed strong problem solving skills from forecasting economic outlooks in school, evaluating sports teams strengths and weaknesses in coaching, and finding ways to communicate meaningfully with clients and benefit their business.  </p>
+						<p>I've developed strong problem solving skills from forecasting the economy for my bachelors degree, evaluating sports teams strengths and weaknesses in coaching, and finding ways to communicate meaningfully with clients and benefit their business.  </p>
 					</div>
 				</div>
 			</div>
@@ -139,7 +139,7 @@
 					<img class="img-fluid skills-img rounded-circle d-flex justify-content-center mx-auto mt-3 mb-5" src="images/programming.jpg" alt="Computer programmer image">
 					<div class="card-text m-3 text-center">
 						<h3>Web Developer</h3>
-						<p>Thanks to my recent graduation from the Deep Dive Coding Full Stack Web Development boot camp my knowledge has expanded to include all the programming languages I need to build websites and databases. I've ranked them below from my strongest to weakest.</p>
+						<p>Thanks to my recent graduation from the Deep Dive Coding Full Stack Web Development boot camp my knowledge has expanded to include all the programming languages I need to build websites and databases. I've ranked them below from my strongest to weakest (left to right).</p>
 					</div>
 				</div>
 			</div>
@@ -200,7 +200,7 @@
 	</div>
 	<div class="empty col-12 mt-4 mb-3">invisible</div>
 	<!--Portfolio: Job Experience-->
-	<div id="carouselExampleIndicators" class="carousel slide carousel-background mt-5" data-ride="carousel pause-hover">
+	<div id="carouselExampleIndicators" class="carousel slide carousel-background mt-5" data-ride="carousel">
 		<ol class="carousel-indicators">
 			<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 			<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
