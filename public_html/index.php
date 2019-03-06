@@ -43,8 +43,12 @@
 		<script defer src="js/form-validate.js"></script>
 		<!-- Google reCAPTCHA -->
 		<script defer src='https://www.google.com/recaptcha/api.js'></script>
+<!--		 My javascript-->
+		<script src="js/script.js"></script>
 	</head>
 <body>
+<!--	TODO Required to put the script here to prevent flickering of the webpage for the fade in effect.-->
+	<script>document.body.className += ' fade-out';</script>
 	<!--Navigation Bar-->
 	<div class="first-cover-background">
 		<nav class="container-fluid navbar navbar-expand-lg navbar-light fixed-top bg-primary transparent-navigation">

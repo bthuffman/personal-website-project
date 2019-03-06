@@ -18,6 +18,22 @@ a:hover{
 	margin-right: 0;
 	margin-left: 0;
 }
+/*The following three rules are for the fade in effect of the webpage loading. */
+body {
+	opacity: 1;
+	transition: 1s opacity;
+}
+
+body.fade-out {
+	opacity: 0;
+	transition: none;
+}
+
+ /*Gives a black background as the page fades in. */
+ {
+	background-color: black;
+}
+
 /*NAVIGATION BAR
 ***********************************************************************/
 /*.nav-link,*/
