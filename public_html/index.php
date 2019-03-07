@@ -4,7 +4,7 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<title>Brandon Huffman Full Stack Web Developer</title>
-<!--		Google Raleway font-->
+		<!--Google Raleway font-->
 		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 		<!-- Font Awesome -->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
@@ -45,7 +45,7 @@
 		<script defer src="js/form-validate.js"></script>
 		<!-- Google reCAPTCHA -->
 		<script defer src='https://www.google.com/recaptcha/api.js'></script>
-<!--		 My javascript-->
+		<!--My Typewriter Javascript Effect-->
 		<script src="js/script.js"></script>
 	</head>
 <body>

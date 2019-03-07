@@ -4,19 +4,19 @@
 * {
 	box-shadow: none !important;
 }
-/*This makes an exception of the navbar to the rule above*/ /*TODO address this*/
+/*This makes an exception of the navbar to the rule above*/
 nav {
-	box-shadow: black !important;
+	box-shadow: 5px 5px 5px black !important;
 }
 
 a:hover{
 	color: limegreen !important;
 }
 
-.btn ,
-.btn-primary {
-	-webkit-appearance: none;
-}
+/*.btn ,*/
+/*.btn-primary {*/
+	/*-webkit-appearance: none;*/
+/*}*/
 /*Page font family*/
 body {
 	font-family: 'Raleway', sans-serif;
