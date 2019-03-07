@@ -13,6 +13,10 @@ a:hover{
 	color: limegreen !important;
 }
 
+.btn ,
+.btn-primary {
+	-webkit-appearance: none;
+}
 /*Page font family*/
 body {
 	font-family: 'Raleway', sans-serif;
@@ -82,7 +86,7 @@ body {
 ***********************************************************************/
 /*Typewriter text*/
 .typewriterText {
-	font-size: 5rem;
+	font-size: 3rem;
 	display: flex;
 	justify-content: center;
 	height: 100%;
@@ -92,9 +96,18 @@ body {
 .text-center {
 	text-align: center !important;
 }
-/* Cursor */
+/* Cursor  with blink animation*/
+@keyframes blink {
+	50% { border-color: white; }
+}
+
 .txt-type > .txt {
-	border-right: 0.2rem solid #777;
+	border-right: 0.2rem solid;
+	animation-name: blink ;
+	animation-duration: .5s ;
+	animation-timing-function: step-end ;
+	animation-iteration-count: infinite ;
+	animation-direction: alternate ;
 }
 
 /*Skills Styles
@@ -130,16 +143,6 @@ body {
 	object-fit: cover;
 }
 
-/*Mobile friendly the portfolio's website pictures*/
-@media screen and (min-width:531px) {
-	.web-project {
-		width: 30rem;
-		height: 15rem;
-		image-resolution: 72dpi;
-		object-fit: cover;
-	}
-}
-
 /*Job section of portfolio*/
 .carousel-control {
 	width: 40%;
@@ -167,3 +170,15 @@ body {
 
 /*Footer Styles
 ***********************************************************************/
+
+/*Media Queries
+***********************************************************************/
+/*Mobile friendly the portfolio's website pictures*/
+@media screen and (min-width:531px) {
+	.web-project {
+		width: 30rem;
+		height: 15rem;
+		image-resolution: 72dpi;
+		object-fit: cover;
+	}
+}

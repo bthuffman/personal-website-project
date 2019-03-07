@@ -101,11 +101,11 @@
 	<!--Tag Line-->
 	<div class="empty col-12 mt-4">invisible</div>
 	<div class="typewriterText container">
-	<span class="txt-type text-center" data-wait="3000" data-words='["Create","Augment","Repeat"]'></span>
+	<span class="txt-type text-center mt-5" data-wait="3000" data-words='["Develop","Deploy","Repeat"]'></span>
 	</div>
 	<div class="card p-3">
 		<div class="row d-flex text-center justify-content-center">
-			<div class="col-8 mb-4">I'm Brandon Huffman, a Web Developer whose versatile background gives me the skills I need to hit the ground running in the software industry. Whether it be from creating non-profit organizations from the ground up, developing highly competitive athletes, bookkeeping for small businesses or building unique websites and databases, my experiences give me an edge in being adaptable and solving problems. I love working with teams to construct the solutions and software they need to reach their goals and better their lives.</div>
+			<div class="col-8 mb-4">I'm Brandon Huffman, a Web Developer whose versatile background gives me the skills I need to hit the ground running in the software industry. My experiences give me an edge in being adaptable and solving problems whether it be from creating non-profit organizations from the ground up, developing highly competitive athletes, bookkeeping for small businesses or building unique websites and databases. I love working with teams to construct the solutions and software they need to reach their goals and better their lives.</div>
 			<div id="Skills" class="empty col-12 mt-4">invisible</div>
 		</div>
 		<hr class="d-flex justify-content-center mx-auto mt-auto mb-4 text-black" width="100px">
@@ -131,7 +131,7 @@
 					<img class="img-fluid skills-img rounded-circle d-flex justify-content-center mx-auto mt-3 mb-5" src="images/analytical.jpg" alt="Credit: CRMneeds.com - data analytics image" title="Credit: CRMneeds.com - data analytics image"/>
 					<div class="card-text m-3 text-center">
 						<h3>Analytical</h3>
-						<p>I've developed strong problem solving skills from forecasting the economy for my bachelors degree, evaluating sports teams strengths and weaknesses in coaching, and finding ways to communicate meaningfully with clients and benefit their business.  </p>
+						<p>I've developed strong problem solving skills from forecasting the economy for my bachelors degree, evaluating sports teams strengths and weaknesses in coaching, and finding ways to communicate meaningfully with clients to benefit their business.  </p>
 					</div>
 				</div>
 			</div>
@@ -172,32 +172,32 @@
 			<a class="link-white col-12 d-flex justify-content-center mx-auto mt-auto mb-3" href="https://bootcamp-coders.cnm.edu/~bhuffman1/bootstrap-challenge-bthuffman/index.html#" target="_blank">
 				<img class="web-project" src="images/art-haus.png" alt="Credit: Will Tredway - Corhort 23 of Deep Dive Coding Boot Camp" title="Credit: Will Tredway - Corhort 23 of Deep Dive Coding Boot Camp"/>
 			</a>
-			<h3 class="col-12 d-flex justify-content-center m-auto">arthaus.org</h3>
-			<div class="row col-8 d-flex justify-content-center mx-auto mt-auto mb-5">A website designed to support the local ABQ art community and help users find local art and artists that interest them!</div>
+			<h3 class="col-12 d-flex justify-content-center m-auto text-center">arthaus.org</h3>
+			<div class="row col-8 d-flex justify-content-center mx-auto mt-auto mb-5 text-center">A website designed to support the local ABQ art community and help users find local art and artists that interest them!</div>
 			<div class="col-0 col-md-1"></div>
 		</div>
 		<div>
 			<a class="col-12 d-flex justify-content-center mx-auto mt-5 mb-4" href="https://bootcamp-coders.cnm.edu/~bhuffman1/bootstrap-challenge-bthuffman/index.html#" target="_blank">
-			<img class="web-project" src="images/what-it-means-to-be-british.png" alt="Picture of Brandon's British Bootsrap landing page" title="Brandon's British Bootsrap landing page"/>
+				<img class="web-project" src="images/what-it-means-to-be-british.png" alt="Picture of Brandon's British Bootsrap landing page" title="Brandon's British Bootsrap landing page"/>
 			</a>
-			<h3 class="col-12 d-flex justify-content-center m-auto"><a class="text-white" href="https://bootcamp-coders.cnm.edu/~bhuffman1/bootstrap-challenge-bthuffman/" target="_blank">What it Means to be British</a></h3>
-			<div class="row col-8 d-flex justify-content-center mx-auto mt-auto mb-5">A demonstration of how I can quickly build attractive websites using Bootstrap.</div>
+			<h3 class="col-12 d-flex justify-content-center m-auto text-center"><a class="text-white" href="https://bootcamp-coders.cnm.edu/~bhuffman1/bootstrap-challenge-bthuffman/" target="_blank">What it Means to be British</a></h3>
+			<div class="row col-8 d-flex justify-content-center mx-auto mt-auto mb-5 text-center">A site including a brief history of the British that showcases how I can quickly build an attractive websites just using Bootstrap.</div>
 			<div class="col-0 col-md-1"></div>
 		</div>
 		<div>
 			<a class="col-12 d-flex justify-content-center mx-auto mt-5 mb-3" href="https://bootcamp-coders.cnm.edu/~bhuffman1/bootstrap-challenge-bthuffman/index.html#" target="_blank">
 				<img class="web-project" src="images/pro-dev-site.png" alt="Picture of Brandon's professional development site" title="Picture of Brandon's professional development site"/>
 			</a>
-			<h3 class="col-12 d-flex justify-content-center m-auto"><a class="text-white" href="https://bthuffman.github.io/" target="_blank">Professional Development</a></h3>
-			<div class="row col-8 d-flex justify-content-center mx-auto mt-auto mb-5">My professional development site that includes more details about me and my weekly reflections for the Deep Dive Fullstack Web boot camp. </div>
+			<h3 class="col-12 d-flex justify-content-center m-auto text-center"><a class="text-white" href="https://bthuffman.github.io/" target="_blank">Professional Development</a></h3>
+			<div class="row col-8 d-flex justify-content-center mx-auto mt-auto mb-5 text-center">My professional development site that includes more details about me and my weekly reflections for the Deep Dive Fullstack Web boot camp. </div>
 			<div class="col-0 col-md-1"></div>
 		</div>
 		<div>
 			<a class="col-12 d-flex justify-content-center mx-auto mt-5 mb-3" href="" target="">
 				<img class="web-project" src="images/choice-app.jpg" alt="Credit: skillsyouneed.com - picture of decision process"/>
 			</a>
-			<h3 class="col-12 d-flex justify-content-center m-auto">Choice App</h3>
-			<div class="row col-8 d-flex justify-content-center mx-auto mt-auto mb-5">In development, but once completed it will help users break down complex problems into a list of priorities, rate them by how they will affect their lives, and then use an algorithm to score their options. Inspired by the now privatized ChoiceMap app. Decision making is critical to everyone so it's use case is global!</div>
+			<h3 class="col-12 d-flex justify-content-center m-auto text-center">Choice App</h3>
+			<div class="row col-8 d-flex justify-content-center mx-auto mt-auto mb-5 text-center">In development, but once completed it will help users break down complex problems into a list of priorities, rate them by how they will affect their lives, and then use an algorithm to score their options. Inspired by the now privatized ChoiceMap app. Decision making is critical to everyone so it's use case is global!</div>
 			<div class="col-0 col-md-1"></div>
 		</div>
 		<a type="button" class="btn btn-primary ml-auto col-12 col-md-4" href="Brandon-Huffman-Resume.pdf" download>Download Brandon's Resume</a>
