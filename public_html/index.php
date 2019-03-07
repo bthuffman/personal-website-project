@@ -101,7 +101,7 @@
 	<!--Tag Line-->
 	<div class="empty col-12 mt-4">invisible</div>
 	<div class="typewriterText container">
-	<span class="txt-type text-center mt-5" data-wait="3000" data-words='["Develop","Deploy","Repeat"]'></span>
+		<span class="txt-type text-center mt-5" data-wait="3000" data-words='["Develop","Deploy","Repeat"]'></span>
 	</div>
 	<div class="card p-3">
 		<div class="row d-flex text-center justify-content-center">

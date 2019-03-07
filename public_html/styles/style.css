@@ -13,10 +13,6 @@ a:hover{
 	color: limegreen !important;
 }
 
-/*.btn ,*/
-/*.btn-primary {*/
-	/*-webkit-appearance: none;*/
-/*}*/
 /*Page font family*/
 body {
 	font-family: 'Raleway', sans-serif;
@@ -28,9 +24,6 @@ body {
 	margin-left: 0;
 }
 
-hr {
-	width: 100px;
-}
 /*NAVIGATION BAR
 ***********************************************************************/
 /*.nav-link,*/
@@ -99,7 +92,7 @@ hr {
 .text-center {
 	text-align: center !important;
 }
-/* Cursor  with blink animation*/
+/* Ads a blink animation to the text cursor (typewriter effect)*/
 @keyframes blink {
 	50% { border-color: white; }
 }
@@ -111,6 +104,11 @@ hr {
 	animation-timing-function: step-end ;
 	animation-iteration-count: infinite ;
 	animation-direction: alternate ;
+}
+
+/*creates horizontal line between Tag Line and Skills section*/
+hr {
+	width: 100px;
 }
 
 /*Skills Styles
@@ -166,13 +164,6 @@ hr {
 	display: flex;
 	image-resolution: 72dpi;
 }
-
-/*Contact Form Styles
-***********************************************************************/
-
-
-/*Footer Styles
-***********************************************************************/
 
 /*Media Queries
 ***********************************************************************/
