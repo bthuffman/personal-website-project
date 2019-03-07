@@ -108,7 +108,7 @@
 			<div class="col-8 mb-4">I'm Brandon Huffman, a Web Developer whose versatile background gives me the skills I need to hit the ground running in the software industry. My experiences give me an edge in being adaptable and solving problems whether it be from creating non-profit organizations from the ground up, developing highly competitive athletes, bookkeeping for small businesses or building unique websites and databases. I love working with teams to construct the solutions and software they need to reach their goals and better their lives.</div>
 			<div id="Skills" class="empty col-12 mt-4">invisible</div>
 		</div>
-		<hr class="d-flex justify-content-center mx-auto mt-auto mb-4 text-black" width="100px">
+		<hr class="d-flex justify-content-center mx-auto mt-auto mb-4 text-black">
 	</div>
 
 	<!--Skills-->
@@ -169,9 +169,9 @@
 			<div class="col-0 col-md-1"></div>
 		</div>
 		<div>
-			<a class="link-white col-12 d-flex justify-content-center mx-auto mt-auto mb-3" href="https://bootcamp-coders.cnm.edu/~bhuffman1/bootstrap-challenge-bthuffman/index.html#" target="_blank">
+			<div class="col-12 d-flex justify-content-center mx-auto mt-auto mb-3">
 				<img class="web-project" src="images/art-haus.png" alt="Credit: Will Tredway - Corhort 23 of Deep Dive Coding Boot Camp" title="Credit: Will Tredway - Corhort 23 of Deep Dive Coding Boot Camp"/>
-			</a>
+			</div>
 			<h3 class="col-12 d-flex justify-content-center m-auto text-center">arthaus.org</h3>
 			<div class="row col-8 d-flex justify-content-center mx-auto mt-auto mb-5 text-center">A website designed to support the local ABQ art community and help users find local art and artists that interest them!</div>
 			<div class="col-0 col-md-1"></div>
@@ -185,7 +185,7 @@
 			<div class="col-0 col-md-1"></div>
 		</div>
 		<div>
-			<a class="col-12 d-flex justify-content-center mx-auto mt-5 mb-3" href="https://bootcamp-coders.cnm.edu/~bhuffman1/bootstrap-challenge-bthuffman/index.html#" target="_blank">
+			<a class="col-12 d-flex justify-content-center mx-auto mt-5 mb-3" href="https://bthuffman.github.io/" target="_blank">
 				<img class="web-project" src="images/pro-dev-site.png" alt="Picture of Brandon's professional development site" title="Picture of Brandon's professional development site"/>
 			</a>
 			<h3 class="col-12 d-flex justify-content-center m-auto text-center"><a class="text-white" href="https://bthuffman.github.io/" target="_blank">Professional Development</a></h3>
@@ -193,14 +193,14 @@
 			<div class="col-0 col-md-1"></div>
 		</div>
 		<div>
-			<a class="col-12 d-flex justify-content-center mx-auto mt-5 mb-3" href="" target="">
+			<div class="col-12 d-flex justify-content-center mx-auto mt-5 mb-3">
 				<img class="web-project" src="images/choice-app.jpg" alt="Credit: skillsyouneed.com - picture of decision process"/>
-			</a>
+			</div>
 			<h3 class="col-12 d-flex justify-content-center m-auto text-center">Choice App</h3>
 			<div class="row col-8 d-flex justify-content-center mx-auto mt-auto mb-5 text-center">In development, but once completed it will help users break down complex problems into a list of priorities, rate them by how they will affect their lives, and then use an algorithm to score their options. Inspired by the now privatized ChoiceMap app. Decision making is critical to everyone so it's use case is global!</div>
 			<div class="col-0 col-md-1"></div>
 		</div>
-		<a type="button" class="btn btn-primary ml-auto col-12 col-md-4" href="Brandon-Huffman-Resume.pdf" download>Download Brandon's Resume</a>
+		<a type="button" class="btn btn-primary ml-auto col-12 col-md-4" href="images/brandon-huffman-resume.pdf" download>Download Brandon's Resume</a>
 	</div>
 	</div>
 	<div class="empty col-12 mt-4 mb-3">invisible</div>
