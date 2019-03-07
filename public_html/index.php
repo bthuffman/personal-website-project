@@ -4,6 +4,8 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<title>Brandon Huffman Full Stack Web Developer</title>
+<!--		Google Raleway font-->
+		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 		<!-- Font Awesome -->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
 		<!-- Bootstrap core CSS-->
@@ -47,8 +49,7 @@
 		<script src="js/script.js"></script>
 	</head>
 <body>
-<!--	TODO Required to put the script here to prevent flickering of the webpage for the fade in effect.-->
-	<script>document.body.className += ' fade-out';</script>
+
 	<!--Navigation Bar-->
 	<div class="first-cover-background">
 		<nav class="container-fluid navbar navbar-expand-lg navbar-light fixed-top bg-primary transparent-navigation">
@@ -73,6 +74,7 @@
 						</ul>
 				</div>
 		</nav>
+
 		<!--Jumbotron-->
 		<div id="About-Me" class="container-fluid non-navbar-section">
 			<div class="jumbotron mt-5 mb-5">
@@ -95,9 +97,12 @@
 			</div>
 		</div>
 	</div>
+
 	<!--Tag Line-->
 	<div class="empty col-12 mt-4">invisible</div>
-	<h2 class="mt-5 mb-4 text-center font-weight-bold">Create. Augment. Repeat </h2>
+	<div class="typewriterText container">
+	<span class="txt-type text-center" data-wait="3000" data-words='["Create","Augment","Repeat"]'></span>
+	</div>
 	<div class="card p-3">
 		<div class="row d-flex text-center justify-content-center">
 			<div class="col-8 mb-4">I'm Brandon Huffman, a Web Developer whose versatile background gives me the skills I need to hit the ground running in the software industry. Whether it be from creating non-profit organizations from the ground up, developing highly competitive athletes, bookkeeping for small businesses or building unique websites and databases, my experiences give me an edge in being adaptable and solving problems. I love working with teams to construct the solutions and software they need to reach their goals and better their lives.</div>
@@ -105,6 +110,7 @@
 		</div>
 		<hr class="d-flex justify-content-center mx-auto mt-auto mb-4 text-black" width="100px">
 	</div>
+
 	<!--Skills-->
 	<h2 class="mt-3 mb-4 text-center font-weight-bold">Skills </h2>
 	<div class="row mx-auto d-flex justify-content-center">
@@ -152,6 +158,7 @@
 		<img class="language-icon img-fluid  mx-3 mt-3 mb-5" src="images/angular.png" alt="Credit: iconscout.com - Angular icon" title="Credit: iconscout.com - Angular icon"/>
 	</div>
 	<div id="Portfolio" class="empty col-12">invisible</div>
+
 	<!--Portfolio-->
 	<div class="container mb-5">
 	<div class="card p-3 portfolio-bg text-white mt-5">
@@ -197,6 +204,7 @@
 	</div>
 	</div>
 	<div class="empty col-12 mt-4 mb-3">invisible</div>
+
 	<!--Portfolio: Job Experience-->
 	<div id="carouselExampleIndicators" class="carousel slide carousel-background mt-5" data-ride="carousel">
 		<ol class="carousel-indicators">
@@ -268,6 +276,7 @@
 		</a>
 	</div>
 	<div id="Contact-Me" class="empty col-12 mt-5 mb-4">invisible</div>
+
 	<!--Contact Me-->
 	<div class="container px-5 my-5 bg-success">
 		<h2 class="text-center pt-5"> Interested in collaborating? </h2>
@@ -319,6 +328,7 @@
 		</div>
 	</div>
 	<div class="empty col-12 mt-4 mb-3">invisible</div>
+
 	<!--Footer-->
 	<div class="footer-copyright text-center mt-5 py-3 bg-primary text-light">© 2019
 		<a class="text-light" href="https://bootcamp-coders/~bhuffman1/"> Brandon Huffman - Web Developer</a>
