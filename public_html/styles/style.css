@@ -4,6 +4,7 @@
 * {
 	box-shadow: none !important;
 }
+
 /*This makes an exception of the navbar to the rule above*/
 nav {
 	box-shadow: 5px 5px 5px black !important;
@@ -24,6 +25,11 @@ body {
 	margin-left: 0;
 }
 
+/*Fixes the weird nav bar buttons on safari*/
+.btn ,
+.btn-primary {
+	-webkit-appearance: none;
+}
 /*NAVIGATION BAR
 ***********************************************************************/
 /*.nav-link,*/
@@ -32,6 +38,7 @@ body {
 {
 	color: white !important;
 }
+
 /*.nav-link:hover,*/
 .btn-primary:hover,
 .navbar-brand:hover
@@ -92,6 +99,7 @@ body {
 .text-center {
 	text-align: center !important;
 }
+
 /* Ads a blink animation to the text cursor (typewriter effect)*/
 @keyframes blink {
 	50% { border-color: white; }
@@ -153,6 +161,7 @@ hr {
 	width: 5rem;
 	height: 3rem;
 }
+
 .carousel-job-title-text {
 	font-size: 3rem;
 }
