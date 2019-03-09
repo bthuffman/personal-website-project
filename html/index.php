@@ -283,7 +283,7 @@
 		<h3 class="text-center">Contact Me</h3>
 		<div class="row">
 			<div class="col-md-12 mb-md-0 mb-5 mt-3">
-				<form id="contact-form" name="contact-form" action="php/mailer.php" method="POST">
+				<form id="contact-form" name="contact-form" action="../php/mailer.php" method="POST">
 					<div class="row">
 						<div class="col-md-6">
 							<label class="font-weight-bold text-uppercase mb-0" for="name">Name<span class="text-danger">*</span></label>
