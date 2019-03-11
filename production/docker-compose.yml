@@ -2,9 +2,9 @@ version: "3"
 
 services:
    backend:
-      build: php
+      build: ./php
    frontend:
-      build: html
+      build: ./html
       depends_on:
          - backend
       volumes:
@@ -16,4 +16,4 @@ services:
 
       ports:
          - 80:80
-         - 443:443
+   - 443:443
