@@ -7,7 +7,7 @@
  * @author Brandon Huffman <bt_huffman@msn.com>
  */
 // require all of the composer dependencies
-require_once(dirname(__DIR__, 2) . "/vendor/autoload.php");
+require_once(dirname(__DIR__, 1) . "/vendor/autoload.php");
 //require the mail-config.php
 require_once("mail-config.php");
 use \SendGrid\Mail;
