@@ -4,16 +4,13 @@ services:
    backend:
       build: ./php
    frontend:
-      build: ./html
-      depends_on:
-         - backend
+      build: ./public_html
+      ports:
+         - "80:80"
+         - "443:443"
       volumes:
          - ./production.conf:/etc/nginx/conf.d/default.conf
-         - ./html:/usr/share/nginx/html
+         - ./public_html:/usr/share/nginx/html
          - ./dh-param/dhparam-2048.pem:/etc/ssl/certs/dhparam-2048.pem
-         - /docker-volumes/etc/letsencrypt/live/brandonhuffman.dev/fullchain.pem:/etc/letsencrypt/live/brandonhuffman.dev/fullchain.pem
-         - /docker-volumes/etc/letsencrypt/live/brandonhuffman.dev/privkey.pem:/etc/letsencrypt/live/brandonhuffman.dev/privkey.pem
-
-      ports:
-         - 80:80
-         - 443:443
+         - /docker-volumes/pwp/etc/letsencrypt/live/brandonhuffman.dev/fullchain.pem:/etc/letsencrypt/live/wwwwbrandonhuffman.dev/fullchain.pem
+         - /docker-volumes/pwp/etc/letsencrypt/live/brandonhuffman.com/privkey.pem:/etc/letsencrypt/live/www.brandonhuffman.dev/privkey.pem
